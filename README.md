@@ -1,6 +1,10 @@
 # DH25_LLM_poemsim
 ## Configuration
 Write your OPENAI api key to openAI_token.txt. Make sure to NEVER push the key to this Repository!
+## Requirements
+python >= 3.12 <br>
+openai==1.54.5 <br>
+pandas==2.2.2 <br>
 ## Usage
 
 The script start_run.py takes a datasets and and a prompt scheme from prompts/ formats
