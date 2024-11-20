@@ -53,4 +53,4 @@ ANSWER: BOTH<br>
 <-- EndOfPrompt1 --><br>
 <-- EndOfPromptFile --><br>
 
-The poems text is filled in automatically. Die Input of {DIMENSION} can be filled by using --replacefields from start_run.py 
+The poems text is filled in automatically. The Input of {DIMENSION} can be filled by using --replacefields from start_run.py 
