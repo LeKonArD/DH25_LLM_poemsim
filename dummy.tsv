@@ -1,0 +1,4 @@
+	annotator	title	base_ID	left_ID	right_ID	Form	Content	Emotion	Style	Overall	triple_ID	Runde
+0	SW	Sehnsucht	l0020119	l0090085	l00200112	right	right	right	right	right	l0090085l0020119l00200112	Runde 1
+1	SW	Schicksalswende	l00140028	l00140156	l00130138	left	left	left	same	left	l00140156l00140028l00130138	Runde 1
+2	SW	Musik bewegt mich, daß ich dein gedenke	l00180091	l0080549	l00140066	same	left	same	same	same	l0080549l00180091l00140066	Runde 1
