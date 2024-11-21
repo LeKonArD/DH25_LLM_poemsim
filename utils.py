@@ -41,3 +41,11 @@ def parseprompt(promptfile, poem_main_id, poem_a_id, poem_b_id, promptnum=1, fie
         prompt = re.sub(re.escape(keyval), fields[keyval], prompt, flags=re.DOTALL)
         
     return prompt
+
+def get_num_chains(promptfile):
+    
+    promptscheme = open(promptfile)
+    
+    num_chains = len([x for x in promptscheme if x.startswith("<-- StartOfPrompt")])-1
+        
+    return num_chains

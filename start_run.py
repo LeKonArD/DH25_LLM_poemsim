@@ -5,7 +5,7 @@ import openai
 import pandas as pd
 
 from pathlib import Path
-from utils import parseprompt
+from utils import parseprompt, get_num_chains
 
 ## globals
 
@@ -29,6 +29,43 @@ class StoreDictKeyPair(argparse.Action):
             
         setattr(namespace, self.dest, my_dict)
 
+def promptOPENAI(coreprompt, sysprompt, model):
+    
+    
+    if sysprompt == "default":
+        
+        chat_completion = client.chat.completions.create(
+        messages=[
+                {
+                    "role": "user",
+                    "content": coreprompt,
+                }
+            ],
+            model=model)
+
+
+        answer = chat_completion.choices[0].message.content
+            
+    else:
+        
+        chat_completion = client.chat.completions.create(
+        messages=[
+                {
+                 "role": "system", 
+                 "content": sysprompt,
+                },
+                {
+                    "role": "user",
+                    "content": coreprompt,
+                },
+            ],
+            model=model)
+
+
+        answer = chat_completion.choices[0].message.content
+    
+    return answer
+        
 parser = argparse.ArgumentParser(description="Takes a dataset, a prompt form prompts/, a modelname, runs the experiment and stores results")
 
 parser.add_argument('-d', '--dataset', type=str, default="testset", choices=["testset","full","dummy"], help="""Dataset. Choose one of testset/full/dummy
@@ -96,64 +133,48 @@ result = []
 
 for index, row in data.iterrows():
     
+    chain_num = get_num_chains(promptfile)
+    answer_logger = []
     
-    coreprompt = parseprompt(promptfile=promptfile, 
-                             poem_main_id=row["base_ID"], 
-                             poem_a_id=row["left_ID"], 
-                             poem_b_id=row["right_ID"], 
-                             fields=repfields)
+    i = 1
     
-    if model in openai_models:
+    while i <= chain_num:
         
+    
+        coreprompt = parseprompt(promptfile=promptfile, 
+                                 poem_main_id=row["base_ID"], 
+                                 poem_a_id=row["left_ID"], 
+                                 poem_b_id=row["right_ID"],
+                                 promptnum=i,
+                                 fields=repfields)
+ 
+        if model in openai_models:
+
+            
+            answer = promptOPENAI(coreprompt, sysprompt, model)
+            
+        repfields["{ANSWER_"+str(i)+"}"] = answer
+        answer_logger.append(answer)
         
-        if sysprompt == "default":
-            chat_completion = client.chat.completions.create(
-            messages=[
-                {
-                    "role": "user",
-                    "content": coreprompt,
-                }
-            ],
-            model=model)
+        i+=1
 
-
-            answer = chat_completion.choices[0].message.content
-            
-        else:
-            {"role": "system", "content": "You are a helpful assistant."},
-
-            chat_completion = client.chat.completions.create(
-            messages=[
-                {
-                 "role": "system", 
-                 "content": sysprompt,
-                },
-                {
-                    "role": "user",
-                    "content": coreprompt,
-                },
-            ],
-            model=model)
-
-
-            answer = chat_completion.choices[0].message.content
-            
-        result.append([
-            row["base_ID"],row["left_ID"], row["right_ID"], row["triple_ID"], answer
+        
+    result.append([
+        row["base_ID"],row["left_ID"], row["right_ID"], row["triple_ID"], answer, answer_logger
         ])
     
     
 # save results to outfile
 
 result = pd.DataFrame(result)
-result.columns = ["base_ID","left_ID","right_ID","triple_ID", "answer"]
+result.columns = ["base_ID","left_ID","right_ID","triple_ID", "answer", "answer_log"]
 result["promptscheme"] = promptfile
 result["model"] = model
 result["flieds"] = repfields
 result["dataset"] = dataset
 result["sysprompt"] = sysprompt
 
-result.to_csv(outfile,sep="\t")
+result.to_csv(outfile, sep="\t")
     
     
     

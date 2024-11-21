@@ -1,0 +1,701 @@
+	base_ID	left_ID	right_ID	triple_ID	answer	promptscheme	model	flieds	dataset	sysprompt
+0	l00180079	l00140119	l00130204	l00140119l00180079l00130204	"ANSWER:
+
+content: POEM_A  
+style: POEM_A  
+form: BOTH  
+emotion: POEM_A  
+overall: POEM_A  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+1	l00140105	l0010038	l0060057	l0010038l00140105l0060057	"ANSWER:
+
+content: POEM_B
+style: BOTH
+form: POEM_B
+emotion: BOTH
+overall: POEM_B"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+2	l0020093	l0010132	l0090065	l0010132l0020093l0090065	"ANSWER:
+
+content: POEM_A  
+style: BOTH  
+form: BOTH  
+emotion: POEM_A  
+overall: POEM_A  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+3	l0030127	l0040304	l0040520	l0040304l0030127l0040520	"ANSWER:
+
+content: POEM_A
+style: POEM_B
+form: BOTH
+emotion: BOTH
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+4	l0010076	l00180047	l00160117	l00180047l0010076l00160117	"ANSWER:
+
+content: POEM_B
+style: BOTH
+form: BOTH
+emotion: BOTH
+overall: BOTH"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+5	l00180017	l00190039	l0080377	l00190039l00180017l0080377	"ANSWER:
+
+content: POEM_A  
+style: POEM_A  
+form: BOTH  
+emotion: POEM_A  
+overall: POEM_A  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+6	l0080344	l00170003	l00100009	l00170003l0080344l00100009	"ANSWER:
+
+content: POEM_A
+style: BOTH
+form: POEM_A
+emotion: POEM_A
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+7	l0080549	l0010012	l0030174	l0010012l0080549l0030174	"ANSWER:
+
+content: POEM_A
+style: BOTH
+form: BOTH
+emotion: POEM_A
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+8	l0080026	l00160152	l0080077	l00160152l0080026l0080077	"ANSWER:
+
+content: POEM_B  
+style: BOTH  
+form: BOTH  
+emotion: POEM_B  
+overall: POEM_B  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+9	l0040336	l00130210	l00200340	l00130210l0040336l00200340	"ANSWER:
+
+content: POEM_B
+style: BOTH
+form: BOTH
+emotion: POEM_B
+overall: POEM_B"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+10	l00130354	l0050031	l00160112	l0050031l00130354l00160112	"ANSWER:
+
+content: BOTH
+style: BOTH
+form: POEM_B
+emotion: POEM_A
+overall: BOTH"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+11	l00130122	l0040509	l0030243	l0040509l00130122l0030243	"ANSWER:
+
+content: BOTH
+style: BOTH
+form: BOTH
+emotion: BOTH
+overall: BOTH"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+12	l00160119	l0090084	l0030052	l0090084l00160119l0030052	"ANSWER:
+
+content: POEM_B  
+style: POEM_A  
+form: BOTH  
+emotion: POEM_B  
+overall: POEM_B  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+13	l0030420	l0060056	l00170194	l0060056l0030420l00170194	"ANSWER:
+
+content: POEM_A  
+style: BOTH  
+form: POEM_B  
+emotion: POEM_A  
+overall: POEM_A  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+14	l0030305	l00160112	l00170003	l00160112l0030305l00170003	"ANSWER:
+
+content: POEM_A  
+style: BOTH  
+form: POEM_A  
+emotion: POEM_A  
+overall: POEM_A  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+15	l00180035	l0030184	l00180166	l0030184l00180035l00180166	"ANSWER:
+
+content: POEM_B  
+style: POEM_A  
+form: BOTH  
+emotion: BOTH  
+overall: BOTH  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+16	l0080132	l0040505	l00130457	l0040505l0080132l00130457	"ANSWER:
+
+content: POEM_B
+style: BOTH
+form: POEM_B
+emotion: POEM_B
+overall: POEM_B"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+17	l00200278	l0080132	l0020167	l0080132l00200278l0020167	"ANSWER:
+
+content: POEM_B  
+style: BOTH  
+form: BOTH  
+emotion: POEM_B  
+overall: POEM_B"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+18	l00130383	l00130059	l00200186	l00130059l00130383l00200186	"ANSWER:
+
+content: POEM_A
+style: POEM_A
+form: BOTH
+emotion: BOTH
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+19	l0010218	l00130378	l0080311	l00130378l0010218l0080311	"ANSWER:
+
+content: POEM_B
+style: POEM_B
+form: BOTH
+emotion: POEM_B
+overall: POEM_B"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+20	l00200088	l00130102	l0080046	l00130102l00200088l0080046	"ANSWER:
+
+content: POEM_A  
+style: POEM_A  
+form: BOTH  
+emotion: BOTH  
+overall: POEM_A  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+21	l0040509	l00130138	l00130070	l00130138l0040509l00130070	"ANSWER:
+
+content: BOTH
+style: POEM_B
+form: BOTH
+emotion: POEM_B
+overall: POEM_B"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+22	l00100088	l0080026	l0050040	l0080026l00100088l0050040	"ANSWER:
+
+content: BOTH  
+style: BOTH  
+form: BOTH  
+emotion: POEM_B  
+overall: BOTH  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+23	l00130210	l00140024	l00140150	l00140024l00130210l00140150	"ANSWER:
+
+content: BOTH  
+style: BOTH  
+form: BOTH  
+emotion: POEM_B  
+overall: BOTH  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+24	l0080055	l0010154	l0090086	l0010154l0080055l0090086	"ANSWER:
+
+content: BOTH  
+style: BOTH  
+form: BOTH  
+emotion: POEM_B  
+overall: BOTH  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+25	l0010193	l0050064	l0030243	l0050064l0010193l0030243	"ANSWER:
+
+content: BOTH  
+style: BOTH  
+form: POEM_A  
+emotion: POEM_B  
+overall: BOTH  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+26	l0080503	l00100009	l0040505	l00100009l0080503l0040505	"ANSWER:
+
+content: POEM_A  
+style: BOTH  
+form: BOTH  
+emotion: BOTH  
+overall: BOTH  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+27	l00130138	l00180069	l0040554	l00180069l00130138l0040554	"ANSWER:
+
+content: POEM_A  
+style: POEM_B  
+form: BOTH  
+emotion: POEM_A  
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+28	l00160041	l0010193	l00160172	l0010193l00160041l00160172	"ANSWER:
+
+content: POEM_A
+style: BOTH
+form: BOTH
+emotion: POEM_A
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+29	l00170019	l0060062	l0080412	l0060062l00170019l0080412	"ANSWER:
+
+content: POEM_A  
+style: BOTH  
+form: BOTH  
+emotion: BOTH  
+overall: BOTH  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+30	l0030218	l00180047	l00130204	l00180047l0030218l00130204	"ANSWER:
+
+content: POEM_B
+style: POEM_B
+form: POEM_B
+emotion: POEM_B
+overall: POEM_B"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+31	l0010056	l00170225	l0010184	l00170225l0010056l0010184	"ANSWER:
+
+content: POEM_B  
+style: BOTH  
+form: POEM_B  
+emotion: BOTH  
+overall: POEM_B  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+32	l0020119	l0090085	l00200112	l0090085l0020119l00200112	"ANSWER:
+
+content: POEM_B
+style: BOTH
+form: BOTH
+emotion: POEM_B
+overall: POEM_B"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+33	l00180091	l0080549	l00140066	l0080549l00180091l00140066	"ANSWER:
+
+content: POEM_A  
+style: BOTH  
+form: POEM_A  
+emotion: POEM_A  
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+34	l00180136	l00200253	l0050040	l00200253l00180136l0050040	"ANSWER:
+
+content: POEM_A  
+style: POEM_A  
+form: BOTH  
+emotion: POEM_A  
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+35	l0010172	l00200026	l00130042	l00200026l0010172l00130042	"ANSWER:
+
+content: POEM_B
+style: BOTH
+form: POEM_B
+emotion: POEM_B
+overall: POEM_B"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+36	l0080132	l0030167	l0080493	l0030167l0080132l0080493	"ANSWER:
+
+content: POEM_B
+style: POEM_A
+form: POEM_B
+emotion: BOTH
+overall: POEM_B"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+37	l00130111	l00130354	l00200301	l00130354l00130111l00200301	"ANSWER:
+
+content: POEM_B
+style: POEM_B
+form: BOTH
+emotion: BOTH
+overall: POEM_B"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+38	l0010300	l0080497	l0080333	l0080497l0010300l0080333	"ANSWER:
+
+content: POEM_B
+style: BOTH
+form: BOTH
+emotion: POEM_B
+overall: POEM_B"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+39	l0010038	l0030373	l00140105	l0030373l0010038l00140105	"ANSWER:
+
+content: POEM_A
+style: POEM_A
+form: BOTH
+emotion: POEM_A
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+40	l00180166	l00160262	l0060019	l00160262l00180166l0060019	"ANSWER:
+
+content: POEM_B
+style: POEM_B
+form: BOTH
+emotion: POEM_B
+overall: POEM_B"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+41	l0010154	l00180168	l00200278	l00180168l0010154l00200278	"ANSWER:
+
+content: POEM_B
+style: BOTH
+form: BOTH
+emotion: POEM_B
+overall: POEM_B"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+42	l00130138	l0040554	l0030431	l0040554l00130138l0030431	"ANSWER:
+
+content: BOTH  
+style: POEM_B  
+form: BOTH  
+emotion: POEM_B  
+overall: POEM_B  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+43	l00130210	l0090086	l00140150	l0090086l00130210l00140150	"ANSWER:
+
+content: POEM_B
+style: POEM_B
+form: BOTH
+emotion: POEM_B
+overall: POEM_B"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+44	l0080412	l00200179	l00130138	l00200179l0080412l00130138	"ANSWER:
+
+content: POEM_A
+style: BOTH
+form: POEM_B
+emotion: POEM_A
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+45	l00190023	l0080311	l00170195	l0080311l00190023l00170195	"ANSWER:
+
+content: POEM_A
+style: POEM_A
+form: BOTH
+emotion: POEM_A
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+46	l0020161	l00180062	l00160041	l00180062l0020161l00160041	"ANSWER:
+
+content: POEM_A
+style: BOTH
+form: POEM_B
+emotion: POEM_A
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+47	l0030084	l0080129	l00200184	l0080129l0030084l00200184	"ANSWER:
+
+content: POEM_B
+style: POEM_B
+form: BOTH
+emotion: POEM_B
+overall: POEM_B"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+48	l00130257	l00130182	l0080543	l00130182l00130257l0080543	"ANSWER:
+
+content: POEM_A  
+style: BOTH  
+form: POEM_A  
+emotion: POEM_A  
+overall: POEM_A  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+49	l00200088	l00170003	l0080361	l00170003l00200088l0080361	"ANSWER:
+
+content: BOTH  
+style: POEM_B  
+form: BOTH  
+emotion: BOTH  
+overall: POEM_B  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+50	l0090086	l0080554	l0060046	l0080554l0090086l0060046	"ANSWER:
+
+content: POEM_B  
+style: POEM_B  
+form: BOTH  
+emotion: POEM_B  
+overall: POEM_B  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+51	l00170200	l00170061	l0080134	l00170061l00170200l0080134	"ANSWER:
+
+content: POEM_B  
+style: POEM_B  
+form: POEM_B  
+emotion: POEM_B  
+overall: POEM_B  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+52	l00140084	l00140078	l00190035	l00140078l00140084l00190035	"ANSWER:
+
+content: POEM_A  
+style: POEM_A  
+form: POEM_A  
+emotion: POEM_A  
+overall: POEM_A  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+53	l0030183	l00140124	l00130451	l00140124l0030183l00130451	"ANSWER:
+
+content: POEM_B
+style: BOTH
+form: POEM_B
+emotion: BOTH
+overall: POEM_B"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+54	l0010018	l0030323	l0050016	l0030323l0010018l0050016	"ANSWER:
+
+content: BOTH
+style: BOTH
+form: BOTH
+emotion: BOTH
+overall: BOTH"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+55	l0080044	l00170112	l0080333	l00170112l0080044l0080333	"ANSWER:
+
+content: POEM_B
+style: BOTH
+form: BOTH
+emotion: BOTH
+overall: BOTH"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+56	l00170161	l0010154	l00130457	l0010154l00170161l00130457	"ANSWER:
+
+content: POEM_A
+style: POEM_A
+form: POEM_A
+emotion: POEM_A
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+57	l0080132	l0020147	l00130383	l0020147l0080132l00130383	"ANSWER:
+
+content: POEM_A  
+style: POEM_A  
+form: BOTH  
+emotion: POEM_A  
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+58	l00140078	l0010261	l00160211	l0010261l00140078l00160211	"ANSWER:
+
+content: POEM_B
+style: BOTH
+form: BOTH
+emotion: POEM_B
+overall: POEM_B"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+59	l0080361	l0040336	l0010239	l0040336l0080361l0010239	"ANSWER:
+
+content: POEM_A
+style: BOTH
+form: BOTH
+emotion: POEM_A
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+60	l00180060	l00200135	l0080412	l00200135l00180060l0080412	"ANSWER:
+
+content: POEM_A  
+style: POEM_A  
+form: POEM_A  
+emotion: BOTH  
+overall: POEM_A  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+61	l0080026	l0060056	l00180026	l0060056l0080026l00180026	"ANSWER:
+
+content: BOTH  
+style: POEM_A  
+form: BOTH  
+emotion: BOTH  
+overall: BOTH  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+62	l0080616	l0010012	l0080361	l0010012l0080616l0080361	"ANSWER:
+
+content: POEM_A  
+style: POEM_A  
+form: BOTH  
+emotion: BOTH  
+overall: POEM_A  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+63	l00140029	l0060082	l0040554	l0060082l00140029l0040554	"ANSWER:
+
+content: POEM_B
+style: BOTH
+form: BOTH
+emotion: BOTH
+overall: BOTH"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+64	l00140150	l00130210	l0080587	l00130210l00140150l0080587	"ANSWER:
+
+content: POEM_A  
+style: BOTH  
+form: BOTH  
+emotion: BOTH  
+overall: POEM_A  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+65	l0030218	l0030433	l00200188	l0030433l0030218l00200188	"ANSWER:
+
+content: BOTH
+style: POEM_A
+form: BOTH
+emotion: POEM_B
+overall: BOTH"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+66	l0080165	l0030066	l00160262	l0030066l0080165l00160262	"ANSWER:
+
+content: POEM_B
+style: BOTH
+form: POEM_B
+emotion: POEM_B
+overall: POEM_B"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+67	l00130102	l00200088	l00200135	l00200088l00130102l00200135	"ANSWER:
+
+content: POEM_A  
+style: BOTH  
+form: BOTH  
+emotion: POEM_A  
+overall: POEM_A  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+68	l0030115	l00170125	l00100088	l00170125l0030115l00100088	"ANSWER:
+
+content: POEM_A
+style: BOTH
+form: BOTH
+emotion: POEM_A
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+69	l0040554	l00130138	l0080055	l00130138l0040554l0080055	"ANSWER:
+
+content: BOTH
+style: POEM_A
+form: BOTH
+emotion: POEM_B
+overall: BOTH"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+70	l00130359	l00130398	l0080305	l00130398l00130359l0080305	"ANSWER:
+
+content: POEM_B  
+style: POEM_B  
+form: POEM_B  
+emotion: POEM_B  
+overall: POEM_B"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+71	l0020147	l00160172	l0030065	l00160172l0020147l0030065	"ANSWER:
+
+content: POEM_A
+style: POEM_A
+form: BOTH
+emotion: POEM_A
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+72	l00130384	l00140198	l0030174	l00140198l00130384l0030174	"ANSWER:
+
+content: POEM_A  
+style: BOTH  
+form: POEM_A  
+emotion: POEM_A  
+overall: POEM_A  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+73	l0060057	l00160004	l00140103	l00160004l0060057l00140103	"ANSWER:
+
+content: POEM_A
+style: POEM_A
+form: BOTH
+emotion: POEM_A
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+74	l00200021	l0010132	l0040216	l0010132l00200021l0040216	"ANSWER:
+
+content: POEM_A  
+style: BOTH  
+form: BOTH  
+emotion: POEM_A  
+overall: POEM_A  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+75	l0040217	l0030031	l0090083	l0030031l0040217l0090083	"ANSWER:
+
+content: BOTH
+style: BOTH
+form: BOTH
+emotion: BOTH
+overall: BOTH"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+76	l00130210	l00140150	l0010202	l00140150l00130210l0010202	"ANSWER:
+
+content: POEM_A
+style: BOTH
+form: POEM_A
+emotion: BOTH
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+77	l0010125	l0010079	l00200301	l0010079l0010125l00200301	"ANSWER:
+
+content: POEM_A
+style: BOTH
+form: BOTH
+emotion: POEM_A
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+78	l0030323	l00200176	l00140156	l00200176l0030323l00140156	"ANSWER:
+
+content: POEM_B
+style: BOTH
+form: BOTH
+emotion: BOTH
+overall: POEM_B"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+79	l0080369	l0060068	l00180012	l0060068l0080369l00180012	"ANSWER:
+
+content: POEM_A  
+style: POEM_A  
+form: BOTH  
+emotion: POEM_A  
+overall: POEM_A  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+80	l0060082	l0030305	l0040053	l0030305l0060082l0040053	"ANSWER:
+
+content: BOTH  
+style: BOTH  
+form: BOTH  
+emotion: BOTH  
+overall: BOTH  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+81	l0030433	l0010238	l0020039	l0010238l0030433l0020039	"ANSWER:
+
+content: POEM_A
+style: BOTH
+form: POEM_A
+emotion: POEM_A
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+82	l00160262	l0020047	l0030112	l0020047l00160262l0030112	"ANSWER:
+
+content: POEM_B
+style: POEM_B
+form: BOTH
+emotion: POEM_B
+overall: POEM_B"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+83	l00100111	l00130162	l00130138	l00130162l00100111l00130138	"ANSWER:
+
+content: POEM_B  
+style: BOTH  
+form: POEM_B  
+emotion: BOTH  
+overall: POEM_B  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+84	l0040336	l0010238	l00170058	l0010238l0040336l00170058	"ANSWER:
+
+content: POEM_B
+style: BOTH
+form: POEM_B
+emotion: BOTH
+overall: POEM_B"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+85	l00180051	l0010042	l0060062	l0010042l00180051l0060062	"ANSWER:
+
+content: POEM_A
+style: POEM_A
+form: BOTH
+emotion: POEM_A
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+86	l0040524	l0080448	l00110081	l0080448l0040524l00110081	"ANSWER:
+
+content: POEM_A  
+style: POEM_A  
+form: BOTH  
+emotion: POEM_A  
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+87	l00130210	l00200254	l00140150	l00200254l00130210l00140150	"ANSWER:
+
+content: POEM_A
+style: BOTH
+form: BOTH
+emotion: POEM_A
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+88	l00200002	l0080493	l00180143	l0080493l00200002l00180143	"ANSWER:
+
+content: POEM_B
+style: POEM_A
+form: POEM_A
+emotion: POEM_B
+overall: BOTH"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+89	l0010239	l00170058	l0080356	l00170058l0010239l0080356	"ANSWER:
+
+content: POEM_A  
+style: POEM_A  
+form: BOTH  
+emotion: POEM_A  
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+90	l00200202	l0080377	l0080208	l0080377l00200202l0080208	"ANSWER:
+
+content: POEM_A  
+style: BOTH  
+form: BOTH  
+emotion: POEM_B  
+overall: BOTH  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+91	l0040216	l00130407	l00140029	l00130407l0040216l00140029	"ANSWER:
+
+content: POEM_A
+style: POEM_A
+form: BOTH
+emotion: POEM_A
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+92	l00160211	l00130451	l00190039	l00130451l00160211l00190039	"ANSWER:
+
+content: POEM_A  
+style: BOTH  
+form: BOTH  
+emotion: BOTH  
+overall: POEM_A  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+93	l00100106	l00200340	l00140177	l00200340l00100106l00140177	"ANSWER:
+
+content: BOTH  
+style: POEM_A  
+form: POEM_B  
+emotion: POEM_B  
+overall: BOTH  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+94	l0010170	l0010217	l00200135	l0010217l0010170l00200135	"ANSWER:
+
+content: POEM_B  
+style: BOTH  
+form: BOTH  
+emotion: POEM_B  
+overall: POEM_B  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+95	l00140028	l00140156	l00130138	l00140156l00140028l00130138	"ANSWER:
+
+content: POEM_A
+style: POEM_A
+form: POEM_A
+emotion: POEM_A
+overall: POEM_A"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+96	l00160192	l0080553	l00160300	l0080553l00160192l00160300	"ANSWER:
+
+content: POEM_B  
+style: BOTH  
+form: BOTH  
+emotion: POEM_A  
+overall: POEM_B  "	prompts/eng_base_multi.txt	gpt-4o		testset	default
+97	l0080578	l00200179	l0070146	l00200179l0080578l0070146	"ANSWER: 
+
+content: POEM_B
+style: BOTH
+form: BOTH
+emotion: POEM_B
+overall: POEM_B"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+98	l0010076	l0050031	l0010186	l0050031l0010076l0010186	"ANSWER:
+
+content: POEM_B
+style: BOTH
+form: BOTH
+emotion: POEM_B
+overall: POEM_B"	prompts/eng_base_multi.txt	gpt-4o		testset	default
+99	l0010082	l00130354	l0030174	l00130354l0010082l0030174	"ANSWER:
+
+content: POEM_B
+style: BOTH
+form: BOTH
+emotion: BOTH
+overall: BOTH"	prompts/eng_base_multi.txt	gpt-4o		testset	default
