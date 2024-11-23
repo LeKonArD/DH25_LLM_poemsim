@@ -13,7 +13,7 @@ POEM_B:
 
 In your judgment, focus on {DIMENSION}. Do not consider any other text dimensions.
 
-Only consider POEM_MAIN to be more similar to POEM_A than POEM_B, or more similar to POEM_B than POEM_A, if the difference in similarity is very large. Otherwise, it is perfectly fine to answer that POEM_MAIN is equally (dis)similar to both POEM_A and POEM_B.
+Only consider POEM_MAIN to be more similar to POEM_A than POEM_B, or more similar to POEM_B than POEM_A, if the difference in similarity is significant. Otherwise, it is perfectly fine to answer that POEM_MAIN is equally (dis)similar to both POEM_A and POEM_B.
 
 Format your answer like this:
 Begin with ‚ANSWER: ‘
