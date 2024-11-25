@@ -1,0 +1,26 @@
+<-- StartOfPromptFile -->
+<-- StartOfPrompt1 -->
+Your Task is to judge the similarity of poems. Consider the following three poems (POEM_MAIN, POEM_A, POEM_B) and judge whether POEM_MAIN is more similar to POEM_A than POEM_B or more similar to POEM_B than POEM_A:
+
+POEM_MAIN:
+{{POEM_MAIN_TEXT}}
+
+POEM_A:
+{{POEM_A_TEXT}}
+
+POEM_B:
+{{POEM_B_TEXT}}
+
+In your judgment, focus on {DIMENSION}. Do not consider any other text dimensions.
+
+Format your answer like this:
+Begin with ‚ANSWER: ‘
+If POEM_MAIN is more similar to POEM_A than POEM_B, write ‘POEM_A’.
+If POEM_MAIN is more similar to POEM_B than POEM_A, write ‚POEM_B‘.
+After ‚ANSWER: ‘, do not write anything else than ‘POEM_A’ or ‘POEM_B’.
+
+For example, your complete answer could look like this:
+
+ANSWER: POEM_A
+<-- EndOfPrompt1 -->
+<-- EndOfPromptFile -->
