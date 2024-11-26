@@ -1,8 +1,8 @@
 # DH25_LLM_poemsim
 ## Configuration
-Create a file .env and configure it like this:
-OPENAI_KEY=InsertYourKeyHere
-ANTHROPIC_KEY=InsertYourKeyHere
+Create a file .env and configure it like this: <br>
+OPENAI_KEY=InsertYourKeyHere <br>
+ANTHROPIC_KEY=InsertYourKeyHere <br>
 
 ## Requirements
 python >= 3.12 <br>
