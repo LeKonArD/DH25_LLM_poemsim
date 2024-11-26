@@ -6,11 +6,13 @@ import pandas as pd
 
 from pathlib import Path
 from utils import parseprompt, get_num_chains
+from dotenv.main import load_dotenv
 
+load_dotenv()
 ## globals
 
 openai_models = ['gpt-4o', 'gpt-4o-mini', 'o1-preview']
-openai_key = open("openAI_token.txt", "r").read()
+
 
 ## parse agruments
 
@@ -124,7 +126,8 @@ if dataset == "full":
 ### login openAI
 
 if model in openai_models:
-
+    
+    openai_key = os.getenv("OPENAI_KEY")
     client = openai.OpenAI(api_key=openai_key)
     
 ### execute prompting

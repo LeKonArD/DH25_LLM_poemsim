@@ -1,6 +1,9 @@
 # DH25_LLM_poemsim
 ## Configuration
-Write your OPENAI api key to openAI_token.txt. Make sure to NEVER push the key to this Repository!
+Create a file .env and configure it like this:
+OPENAI_KEY=InsertYourKeyHere
+ANTHROPIC_KEY=InsertYourKeyHere
+
 ## Requirements
 python >= 3.12 <br>
 openai==1.54.5 <br>
