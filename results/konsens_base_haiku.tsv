@@ -1,0 +1,2202 @@
+	base_ID	left_ID	right_ID	triple_ID	answer	answer_log	promptscheme	model	flieds	dataset	sysprompt
+0	l00170161	l0010154	l00130457	l0010154l00170161l00130457	"I'll evaluate the similarity of the poems across the specified criteria:
+
+Content: POEM_A is most similar to POEM_MAIN. Both poems deal with memories of youth, past love, and nostalgic reminiscence. They share themes of remembering past relationships and preserving memories.
+
+Style: POEM_A is closer to POEM_MAIN. Both use a similar conversational, reflective tone and have a personal, intimate narrative style. They both include repeated exclamations (POEM_MAIN's ""Lilli!"" and POEM_A's repetitive structure).
+
+Form: POEM_A is more similar. Both use rhyming couplets and have a similar rhythmic structure with short, emotionally charged lines.
+
+Emotion: POEM_A matches POEM_MAIN most closely. Both convey a sense of wistful nostalgia, remembering lost love and youthful memories with a tender, melancholic tone.
+
+Overall Similarity: POEM_A is significantly more similar to POEM_MAIN in multiple aspects.
+
+ANSWER:
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['I\'ll evaluate the similarity of the poems across the specified criteria:\n\nContent: POEM_A is most similar to POEM_MAIN. Both poems deal with memories of youth, past love, and nostalgic reminiscence. They share themes of remembering past relationships and preserving memories.\n\nStyle: POEM_A is closer to POEM_MAIN. Both use a similar conversational, reflective tone and have a personal, intimate narrative style. They both include repeated exclamations (POEM_MAIN\'s ""Lilli!"" and POEM_A\'s repetitive structure).\n\nForm: POEM_A is more similar. Both use rhyming couplets and have a similar rhythmic structure with short, emotionally charged lines.\n\nEmotion: POEM_A matches POEM_MAIN most closely. Both convey a sense of wistful nostalgia, remembering lost love and youthful memories with a tender, melancholic tone.\n\nOverall Similarity: POEM_A is significantly more similar to POEM_MAIN in multiple aspects.\n\nANSWER:\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+1	l00130138	l00180069	l0040554	l00180069l00130138l0040554	"I'll analyze each criterion and then provide an overall assessment.
+
+Content: 
+- POEM_MAIN is about art's transformative power, elevating human experience
+- POEM_A is a romantic, emotional poem about love and timelessness
+- POEM_B is a somewhat aggressive, commanding poem about action and freedom
+→ POEM_MAIN is closer to POEM_A's contemplative tone
+
+Style:
+- POEM_MAIN uses elevated, philosophical language
+- POEM_A uses lyrical, emotional language
+- POEM_B uses direct, commanding language
+→ POEM_MAIN aligns more with POEM_A's style
+
+Form:
+- POEM_MAIN uses a consistent rhyme scheme and meter
+- POEM_A has a similar rhyming structure and consistent meter
+- POEM_B has a less consistent form
+→ POEM_MAIN is very similar to POEM_A's form
+
+Emotion:
+- POEM_MAIN expresses idealistic, uplifting emotions
+- POEM_A expresses romantic, dreamy emotions
+- POEM_B expresses aggressive, assertive emotions
+→ POEM_MAIN feels more emotionally aligned with POEM_A
+
+Overall Similarity:
+Considering all factors, POEM_MAIN is significantly more similar to POEM_A.
+
+ANSWER:
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['I\'ll analyze each criterion and then provide an overall assessment.\n\nContent: \n- POEM_MAIN is about art\'s transformative power, elevating human experience\n- POEM_A is a romantic, emotional poem about love and timelessness\n- POEM_B is a somewhat aggressive, commanding poem about action and freedom\n→ POEM_MAIN is closer to POEM_A\'s contemplative tone\n\nStyle:\n- POEM_MAIN uses elevated, philosophical language\n- POEM_A uses lyrical, emotional language\n- POEM_B uses direct, commanding language\n→ POEM_MAIN aligns more with POEM_A\'s style\n\nForm:\n- POEM_MAIN uses a consistent rhyme scheme and meter\n- POEM_A has a similar rhyming structure and consistent meter\n- POEM_B has a less consistent form\n→ POEM_MAIN is very similar to POEM_A\'s form\n\nEmotion:\n- POEM_MAIN expresses idealistic, uplifting emotions\n- POEM_A expresses romantic, dreamy emotions\n- POEM_B expresses aggressive, assertive emotions\n→ POEM_MAIN feels more emotionally aligned with POEM_A\n\nOverall Similarity:\nConsidering all factors, POEM_MAIN is significantly more similar to POEM_A.\n\nANSWER:\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+2	l00130210	l00140024	l00140150	l00140024l00130210l00140150	"I'll carefully analyze the poems and provide a structured comparison:
+
+ANSWER:
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"", 
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}
+
+Reasoning (not part of the answer, but for context):
+
+Content: POEM_MAIN and POEM_A share themes of personal journey, inner exploration, and emotional movement. POEM_B is more melancholic and static.
+
+Style: POEM_MAIN and POEM_B have more similar language complexity, while POEM_A has a more lyrical, metaphorical style.
+
+Form: POEM_MAIN and POEM_A have more structured rhyme schemes and stanza patterns. POEM_B is looser in form.
+
+Emotion: POEM_MAIN and POEM_A express a sense of resilience, potential, and dynamic emotional states. POEM_B conveys a sense of listlessness and resignation.
+
+Overall: POEM_A is more closely aligned with POEM_MAIN in multiple dimensions, particularly in emotional tone and poetic approach."	"['I\'ll carefully analyze the poems and provide a structured comparison:\n\nANSWER:\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"", \n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}\n\nReasoning (not part of the answer, but for context):\n\nContent: POEM_MAIN and POEM_A share themes of personal journey, inner exploration, and emotional movement. POEM_B is more melancholic and static.\n\nStyle: POEM_MAIN and POEM_B have more similar language complexity, while POEM_A has a more lyrical, metaphorical style.\n\nForm: POEM_MAIN and POEM_A have more structured rhyme schemes and stanza patterns. POEM_B is looser in form.\n\nEmotion: POEM_MAIN and POEM_A express a sense of resilience, potential, and dynamic emotional states. POEM_B conveys a sense of listlessness and resignation.\n\nOverall: POEM_A is more closely aligned with POEM_MAIN in multiple dimensions, particularly in emotional tone and poetic approach.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+3	l0010082	l00130354	l0030174	l00130354l0010082l0030174	"I'll analyze the poems and evaluate their similarities based on the specified criteria.
+
+First, let me break down my observations:
+
+POEM_MAIN (by Heine):
+- Theme: Feeling alienated in one's hometown
+- Emotional tone: Melancholy, sense of disconnection
+- Form: Structured quatrains with consistent rhyme
+- Setting: Hometown, cemetery
+- Key elements: Feeling like a stranger, memory, loss
+
+POEM_A (similar style):
+- Theme: Human life compared to flowers
+- Emotional tone: Melancholic, contemplative
+- Form: Structured quatrains with consistent rhyme
+- Setting: Nature, metaphorical
+- Key elements: Transience of life, beauty and mortality
+
+POEM_B:
+- Theme: Love and loneliness
+- Emotional tone: More direct, slightly sardonic
+- Form: Less structured, more conversational
+- Setting: Interpersonal interaction
+- Key elements: Romantic rejection, loneliness
+
+Analyzing the similarities:
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}
+
+The reasoning is that POEM_A shares more structural and thematic similarities with POEM_MAIN: both have a profound sense of melancholy, use structured quatrains, explore themes of transience, memory, and loss, and maintain a reflective emotional tone."	"['I\'ll analyze the poems and evaluate their similarities based on the specified criteria.\n\nFirst, let me break down my observations:\n\nPOEM_MAIN (by Heine):\n- Theme: Feeling alienated in one\'s hometown\n- Emotional tone: Melancholy, sense of disconnection\n- Form: Structured quatrains with consistent rhyme\n- Setting: Hometown, cemetery\n- Key elements: Feeling like a stranger, memory, loss\n\nPOEM_A (similar style):\n- Theme: Human life compared to flowers\n- Emotional tone: Melancholic, contemplative\n- Form: Structured quatrains with consistent rhyme\n- Setting: Nature, metaphorical\n- Key elements: Transience of life, beauty and mortality\n\nPOEM_B:\n- Theme: Love and loneliness\n- Emotional tone: More direct, slightly sardonic\n- Form: Less structured, more conversational\n- Setting: Interpersonal interaction\n- Key elements: Romantic rejection, loneliness\n\nAnalyzing the similarities:\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}\n\nThe reasoning is that POEM_A shares more structural and thematic similarities with POEM_MAIN: both have a profound sense of melancholy, use structured quatrains, explore themes of transience, memory, and loss, and maintain a reflective emotional tone.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+4	l00200135	l0080305	l00200223	l0080305l00200135l00200223	"I'll analyze the similarities between the poems based on the specified criteria:
+
+Content: Both POEM_MAIN and POEM_A explore emotional and metaphysical themes, with a focus on inner feelings and personal reflection. POEM_B is more narrative and external.
+
+Style: POEM_MAIN and POEM_A share a similar lyrical, introspective poetic style with rich imagery. POEM_B has a more direct, storytelling approach.
+
+Form: POEM_MAIN and POEM_A both use similar structured stanzas with consistent rhyme schemes. POEM_B also has a consistent form, but feels less intricate.
+
+Emotion: POEM_MAIN and POEM_A both convey deep, contemplative emotions with a sense of yearning and inner landscape. POEM_B is more observational and less emotionally intense.
+
+Overall Similarity: POEM_MAIN is significantly more similar to POEM_A in multiple aspects.
+
+ANSWER:
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['I\'ll analyze the similarities between the poems based on the specified criteria:\n\nContent: Both POEM_MAIN and POEM_A explore emotional and metaphysical themes, with a focus on inner feelings and personal reflection. POEM_B is more narrative and external.\n\nStyle: POEM_MAIN and POEM_A share a similar lyrical, introspective poetic style with rich imagery. POEM_B has a more direct, storytelling approach.\n\nForm: POEM_MAIN and POEM_A both use similar structured stanzas with consistent rhyme schemes. POEM_B also has a consistent form, but feels less intricate.\n\nEmotion: POEM_MAIN and POEM_A both convey deep, contemplative emotions with a sense of yearning and inner landscape. POEM_B is more observational and less emotionally intense.\n\nOverall Similarity: POEM_MAIN is significantly more similar to POEM_A in multiple aspects.\n\nANSWER:\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+5	l0010172	l00200026	l00130042	l00200026l0010172l00130042	"I'll analyze the poems systematically across the specified criteria:
+
+Content:
+- POEM_MAIN is about separation, loneliness, and a lingering emotional pain
+- POEM_A focuses on nature, burial, and a peaceful connection with landscape
+- POEM_B centers on loss of a child, grief, and memory
+
+Style:
+- POEM_MAIN and POEM_B both use a melancholic, reflective tone
+- POEM_A has a more serene, contemplative style
+
+Form:
+- POEM_MAIN and POEM_B have similar structured rhyme schemes and stanza lengths
+- POEM_A has a different rhyme and stanza structure
+
+Emotion:
+- POEM_MAIN and POEM_B share deep emotional pain and sense of loss
+- POEM_A has a more peaceful, accepting emotional tone
+
+Overall:
+- POEM_MAIN is more closely aligned with POEM_B in multiple dimensions
+
+ANSWER:
+{""content"": ""POEM_B"",
+""style"": ""POEM_B"", 
+""form"": ""POEM_B"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_B""}"	"['I\'ll analyze the poems systematically across the specified criteria:\n\nContent:\n- POEM_MAIN is about separation, loneliness, and a lingering emotional pain\n- POEM_A focuses on nature, burial, and a peaceful connection with landscape\n- POEM_B centers on loss of a child, grief, and memory\n\nStyle:\n- POEM_MAIN and POEM_B both use a melancholic, reflective tone\n- POEM_A has a more serene, contemplative style\n\nForm:\n- POEM_MAIN and POEM_B have similar structured rhyme schemes and stanza lengths\n- POEM_A has a different rhyme and stanza structure\n\nEmotion:\n- POEM_MAIN and POEM_B share deep emotional pain and sense of loss\n- POEM_A has a more peaceful, accepting emotional tone\n\nOverall:\n- POEM_MAIN is more closely aligned with POEM_B in multiple dimensions\n\nANSWER:\n{""content"": ""POEM_B"",\n""style"": ""POEM_B"", \n""form"": ""POEM_B"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+6	l0030323	l00200176	l00140156	l00200176l0030323l00140156	"I'll analyze the similarities systematically:
+
+1. Content:
+- POEM_MAIN (Nietzsche's ""Midnight Song"") speaks deeply about existence, dreams, suffering, and eternity
+- POEM_A is ethereal, spiritual, focusing on beauty, emotions, and divine connection
+- POEM_B is more turbulent, about emotional struggle and potential breakdown
+
+2. Style:
+- POEM_MAIN uses philosophical, introspective language
+- POEM_A has a lyrical, transcendent style
+- POEM_B has a more raw, visceral style
+
+3. Form:
+- POEM_MAIN has structured stanzas with philosophical repetition
+- POEM_A has a consistent rhyme scheme and meter
+- POEM_B has a similar structured rhyme scheme to POEM_A
+
+4. Emotion:
+- POEM_MAIN explores deep existential emotions
+- POEM_A expresses spiritual, uplifting emotions
+- POEM_B conveys intense, turbulent emotions
+
+5. Overall Similarity:
+Considering all factors, POEM_MAIN seems more philosophically aligned with POEM_A's spiritual depth.
+
+ANSWER:
+{""content"": ""POEM_B"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['I\'ll analyze the similarities systematically:\n\n1. Content:\n- POEM_MAIN (Nietzsche\'s ""Midnight Song"") speaks deeply about existence, dreams, suffering, and eternity\n- POEM_A is ethereal, spiritual, focusing on beauty, emotions, and divine connection\n- POEM_B is more turbulent, about emotional struggle and potential breakdown\n\n2. Style:\n- POEM_MAIN uses philosophical, introspective language\n- POEM_A has a lyrical, transcendent style\n- POEM_B has a more raw, visceral style\n\n3. Form:\n- POEM_MAIN has structured stanzas with philosophical repetition\n- POEM_A has a consistent rhyme scheme and meter\n- POEM_B has a similar structured rhyme scheme to POEM_A\n\n4. Emotion:\n- POEM_MAIN explores deep existential emotions\n- POEM_A expresses spiritual, uplifting emotions\n- POEM_B conveys intense, turbulent emotions\n\n5. Overall Similarity:\nConsidering all factors, POEM_MAIN seems more philosophically aligned with POEM_A\'s spiritual depth.\n\nANSWER:\n{""content"": ""POEM_B"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+7	l00200088	l00130102	l0080046	l00130102l00200088l0080046	"I'll analyze the poems based on the specified criteria.
+
+Content: POEM_MAIN and POEM_A share a similar contemplative and poetic tone about nature, hope, and emotional resilience. POEM_B has a more playful, narrative style about love.
+
+Style: POEM_MAIN and POEM_A use more lyrical, reflective language, while POEM_B has a more conversational, direct approach.
+
+Form: All three poems use similar rhyming structures (ABAB), but POEM_MAIN and POEM_A have a more consistent melodic quality.
+
+Emotion: POEM_MAIN and POEM_A both express a sense of comfort, hope, and gentle melancholy. POEM_B is more lighthearted and romantic.
+
+Overall: POEM_MAIN is more structurally and emotionally aligned with POEM_A.
+
+ANSWER:
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"", 
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"", 
+""overall"": ""POEM_A""}"	"['I\'ll analyze the poems based on the specified criteria.\n\nContent: POEM_MAIN and POEM_A share a similar contemplative and poetic tone about nature, hope, and emotional resilience. POEM_B has a more playful, narrative style about love.\n\nStyle: POEM_MAIN and POEM_A use more lyrical, reflective language, while POEM_B has a more conversational, direct approach.\n\nForm: All three poems use similar rhyming structures (ABAB), but POEM_MAIN and POEM_A have a more consistent melodic quality.\n\nEmotion: POEM_MAIN and POEM_A both express a sense of comfort, hope, and gentle melancholy. POEM_B is more lighthearted and romantic.\n\nOverall: POEM_MAIN is more structurally and emotionally aligned with POEM_A.\n\nANSWER:\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"", \n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"", \n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+8	l00200278	l00100009	l0080132	l00100009l00200278l0080132	"I'll analyze the similarities between the poems and provide my assessment:
+
+ANSWER:
+{
+""content"": ""POEM_A"", 
+""style"": ""POEM_B"", 
+""form"": ""POEM_A"", 
+""emotion"": ""POEM_A"", 
+""overall"": ""POEM_A""
+}
+
+Reasoning (not part of the formal answer):
+- Content: POEM_A and POEM_MAIN share themes of nature, transient moments, and quiet reflection
+- Style: Both use similar poetic language and imagery of natural elements
+- Form: POEM_A and POEM_MAIN use similar rhyme schemes and stanza structures
+- Emotion: Both evoke a sense of nostalgia, melancholy, and contemplation
+- Overall similarity leans more towards POEM_A
+
+While POEM_B has some thematic similarities (reflection, personal perspective), POEM_A is structurally and emotionally much closer to the main poem."	"['I\'ll analyze the similarities between the poems and provide my assessment:\n\nANSWER:\n{\n""content"": ""POEM_A"", \n""style"": ""POEM_B"", \n""form"": ""POEM_A"", \n""emotion"": ""POEM_A"", \n""overall"": ""POEM_A""\n}\n\nReasoning (not part of the formal answer):\n- Content: POEM_A and POEM_MAIN share themes of nature, transient moments, and quiet reflection\n- Style: Both use similar poetic language and imagery of natural elements\n- Form: POEM_A and POEM_MAIN use similar rhyme schemes and stanza structures\n- Emotion: Both evoke a sense of nostalgia, melancholy, and contemplation\n- Overall similarity leans more towards POEM_A\n\nWhile POEM_B has some thematic similarities (reflection, personal perspective), POEM_A is structurally and emotionally much closer to the main poem.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+9	l00130384	l0030323	l00160192	l0030323l00130384l00160192	"I'll carefully analyze the similarity across the specified dimensions:
+
+Content: POEM_A shares more philosophical and introspective themes about depth, existence, and emotion, closer to POEM_MAIN's contemplative tone about poetry and authentic expression.
+
+Style: POEM_MAIN and POEM_A both have a more lyrical, reflective poetic style, using metaphorical language and exploring inner emotional landscapes.
+
+Form: Both POEM_MAIN and POEM_A use structured rhyme schemes and consistent metrical patterns, unlike POEM_B's more satirical, irregular structure.
+
+Emotion: POEM_MAIN and POEM_A express deeper emotional introspection, exploring profound inner states, while POEM_B is more sardonic and externally focused.
+
+Overall: The strongest alignment is with POEM_A across multiple dimensions.
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}"	"['I\'ll carefully analyze the similarity across the specified dimensions:\n\nContent: POEM_A shares more philosophical and introspective themes about depth, existence, and emotion, closer to POEM_MAIN\'s contemplative tone about poetry and authentic expression.\n\nStyle: POEM_MAIN and POEM_A both have a more lyrical, reflective poetic style, using metaphorical language and exploring inner emotional landscapes.\n\nForm: Both POEM_MAIN and POEM_A use structured rhyme schemes and consistent metrical patterns, unlike POEM_B\'s more satirical, irregular structure.\n\nEmotion: POEM_MAIN and POEM_A express deeper emotional introspection, exploring profound inner states, while POEM_B is more sardonic and externally focused.\n\nOverall: The strongest alignment is with POEM_A across multiple dimensions.\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+10	l0040524	l0080448	l00110081	l0080448l0040524l00110081	"I'll analyze the poems and provide a detailed comparison across the specified criteria:
+
+Content:
+- POEM_MAIN: Intimate, romantic poem about a moment between two lovers, with themes of shared intimacy, hidden love, and a sense of transcendence
+- POEM_A: Explores the difficulty of expressing deep, ineffable emotions through words
+- POEM_B: Describes a confrontation with nature's power, a struggle against a mountain stream
+
+Style:
+- POEM_MAIN: Lyrical, soft, introspective German romantic style
+- POEM_A: Contemplative, philosophical approach to expressing emotion
+- POEM_B: More direct, action-oriented, with a bold confrontational tone
+
+Form:
+- POEM_MAIN: Structured free verse with emotional flow
+- POEM_A: More traditional rhyming structure
+- POEM_B: Rhythmic stanzas with consistent rhyme scheme
+
+Emotion:
+- POEM_MAIN: Tender, intimate, blending love and a sense of mortality
+- POEM_A: Reflective, melancholic about emotional communication
+- POEM_B: Passionate, challenging, energetic
+
+Overall Similarity:
+Most aligned with POEM_A due to shared introspective emotional depth and exploration of unspoken feelings.
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}"	"['I\'ll analyze the poems and provide a detailed comparison across the specified criteria:\n\nContent:\n- POEM_MAIN: Intimate, romantic poem about a moment between two lovers, with themes of shared intimacy, hidden love, and a sense of transcendence\n- POEM_A: Explores the difficulty of expressing deep, ineffable emotions through words\n- POEM_B: Describes a confrontation with nature\'s power, a struggle against a mountain stream\n\nStyle:\n- POEM_MAIN: Lyrical, soft, introspective German romantic style\n- POEM_A: Contemplative, philosophical approach to expressing emotion\n- POEM_B: More direct, action-oriented, with a bold confrontational tone\n\nForm:\n- POEM_MAIN: Structured free verse with emotional flow\n- POEM_A: More traditional rhyming structure\n- POEM_B: Rhythmic stanzas with consistent rhyme scheme\n\nEmotion:\n- POEM_MAIN: Tender, intimate, blending love and a sense of mortality\n- POEM_A: Reflective, melancholic about emotional communication\n- POEM_B: Passionate, challenging, energetic\n\nOverall Similarity:\nMost aligned with POEM_A due to shared introspective emotional depth and exploration of unspoken feelings.\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+11	l00130354	l0050031	l00160112	l0050031l00130354l00160112	"I'll carefully analyze the poems based on the specified criteria:
+
+ANSWER: 
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}
+
+Reasoning (though not part of the requested output):
+- Content: POEM_MAIN and POEM_A both deal with themes of human fragility, mortality, and a poignant view of life's transience
+- Style: POEM_MAIN and POEM_A share a more contemplative, melancholic tone
+- Form: Both have similar stanzaic structure and rhythmic qualities
+- Emotion: Both evoke a sense of sadness, reflection on human/natural vulnerability
+- Overall: POEM_A is more closely aligned with POEM_MAIN in multiple dimensions
+
+While POEM_B has some thematic overlap (delicacy of life, childhood), POEM_A resonates more closely with the core emotional and conceptual elements of POEM_MAIN."	"['I\'ll carefully analyze the poems based on the specified criteria:\n\nANSWER: \n{\n""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}\n\nReasoning (though not part of the requested output):\n- Content: POEM_MAIN and POEM_A both deal with themes of human fragility, mortality, and a poignant view of life\'s transience\n- Style: POEM_MAIN and POEM_A share a more contemplative, melancholic tone\n- Form: Both have similar stanzaic structure and rhythmic qualities\n- Emotion: Both evoke a sense of sadness, reflection on human/natural vulnerability\n- Overall: POEM_A is more closely aligned with POEM_MAIN in multiple dimensions\n\nWhile POEM_B has some thematic overlap (delicacy of life, childhood), POEM_A resonates more closely with the core emotional and conceptual elements of POEM_MAIN.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+12	l0040336	l0010238	l00170058	l0010238l0040336l00170058	"I'll analyze the similarity of the poems based on the specified criteria:
+
+Content: 
+- POEM_MAIN and POEM_A both have a personal, reflective tone about emotional connection and belonging.
+- POEM_B is more descriptive, focusing on a landscape and atmospheric scene.
+POEM_A seems closer in content.
+
+Style:
+- POEM_MAIN and POEM_B share a more descriptive, contemplative poetic style.
+- POEM_A has a more direct, emotionally declarative style.
+POEM_B seems closer in style.
+
+Form:
+- All three poems use similar German poetic structures with rhyming quatrains.
+- POEM_MAIN and POEM_B have more similar stanza structures.
+POEM_B seems closer in form.
+
+Emotion:
+- POEM_MAIN and POEM_A both express a sense of personal connection and sentiment.
+- POEM_B has a more detached, observational emotional tone.
+POEM_A seems closer emotionally.
+
+Overall Similarity:
+Balancing these factors, POEM_MAIN seems slightly more aligned with POEM_A.
+
+ANSWER:
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"", 
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['I\'ll analyze the similarity of the poems based on the specified criteria:\n\nContent: \n- POEM_MAIN and POEM_A both have a personal, reflective tone about emotional connection and belonging.\n- POEM_B is more descriptive, focusing on a landscape and atmospheric scene.\nPOEM_A seems closer in content.\n\nStyle:\n- POEM_MAIN and POEM_B share a more descriptive, contemplative poetic style.\n- POEM_A has a more direct, emotionally declarative style.\nPOEM_B seems closer in style.\n\nForm:\n- All three poems use similar German poetic structures with rhyming quatrains.\n- POEM_MAIN and POEM_B have more similar stanza structures.\nPOEM_B seems closer in form.\n\nEmotion:\n- POEM_MAIN and POEM_A both express a sense of personal connection and sentiment.\n- POEM_B has a more detached, observational emotional tone.\nPOEM_A seems closer emotionally.\n\nOverall Similarity:\nBalancing these factors, POEM_MAIN seems slightly more aligned with POEM_A.\n\nANSWER:\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"", \n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+13	l00130210	l00200254	l00140150	l00200254l00130210l00140150	"I'll analyze the poems based on the specified criteria:
+
+Content: POEM_MAIN is a poem about emotional resilience and the need for engagement, while POEM_A is more focused on finding solace through a child's perspective. POEM_B is about melancholy and detachment. POEM_MAIN seems closer to POEM_A.
+
+Style: POEM_MAIN and POEM_A both use a more direct, lyrical approach, while POEM_B has a more abstract, stream-of-consciousness style. POEM_MAIN is more aligned with POEM_A.
+
+Form: POEM_MAIN and POEM_A use structured stanzas with a clear rhythmic pattern. POEM_B has a looser, more modern form. POEM_MAIN is more similar to POEM_A.
+
+Emotion: POEM_MAIN expresses a passionate, defiant emotional tone. POEM_A offers a more contemplative, comforting emotional landscape. POEM_B conveys deep melancholy. POEM_MAIN is slightly more aligned with POEM_A.
+
+Overall: Considering all factors, POEM_MAIN is more similar to POEM_A.
+
+ANSWER:
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['I\'ll analyze the poems based on the specified criteria:\n\nContent: POEM_MAIN is a poem about emotional resilience and the need for engagement, while POEM_A is more focused on finding solace through a child\'s perspective. POEM_B is about melancholy and detachment. POEM_MAIN seems closer to POEM_A.\n\nStyle: POEM_MAIN and POEM_A both use a more direct, lyrical approach, while POEM_B has a more abstract, stream-of-consciousness style. POEM_MAIN is more aligned with POEM_A.\n\nForm: POEM_MAIN and POEM_A use structured stanzas with a clear rhythmic pattern. POEM_B has a looser, more modern form. POEM_MAIN is more similar to POEM_A.\n\nEmotion: POEM_MAIN expresses a passionate, defiant emotional tone. POEM_A offers a more contemplative, comforting emotional landscape. POEM_B conveys deep melancholy. POEM_MAIN is slightly more aligned with POEM_A.\n\nOverall: Considering all factors, POEM_MAIN is more similar to POEM_A.\n\nANSWER:\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+14	l0010218	l00130378	l0080311	l00130378l0010218l0080311	"To evaluate the similarity of these poems, I'll analyze them across the specified criteria:
+
+Content:
+- POEM_MAIN is deeply melancholic, reflecting on life's hardships, love, and transient moments
+- POEM_A is philosophical about perception and delusion
+- POEM_B is about enduring suffering and personal growth
+CONTENT: POEM_B (closer thematic depth about life's challenges)
+
+Style:
+- POEM_MAIN uses reflective, introspective language
+- POEM_A has a more direct, aphoristic style
+- POEM_B has a didactic, instructive tone
+STYLE: POEM_A (similar concise, reflective approach)
+
+Form:
+- POEM_MAIN has a complex rhyme scheme and longer stanzas
+- POEM_A has a tight, symmetrical two-stanza structure
+- POEM_B has a similar stanza length and rhyme pattern to POEM_MAIN
+FORM: POEM_B (similar structural complexity)
+
+Emotion:
+- POEM_MAIN expresses profound melancholy and resignation
+- POEM_A feels more intellectual and detached
+- POEM_B shows resilience and philosophical acceptance
+EMOTION: POEM_B (deeper emotional resonance)
+
+Overall:
+Balancing these factors, POEM_B seems more fundamentally similar.
+
+ANSWER:
+{""content"": ""POEM_B"",
+""style"": ""POEM_A"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_B""}"	"['To evaluate the similarity of these poems, I\'ll analyze them across the specified criteria:\n\nContent:\n- POEM_MAIN is deeply melancholic, reflecting on life\'s hardships, love, and transient moments\n- POEM_A is philosophical about perception and delusion\n- POEM_B is about enduring suffering and personal growth\nCONTENT: POEM_B (closer thematic depth about life\'s challenges)\n\nStyle:\n- POEM_MAIN uses reflective, introspective language\n- POEM_A has a more direct, aphoristic style\n- POEM_B has a didactic, instructive tone\nSTYLE: POEM_A (similar concise, reflective approach)\n\nForm:\n- POEM_MAIN has a complex rhyme scheme and longer stanzas\n- POEM_A has a tight, symmetrical two-stanza structure\n- POEM_B has a similar stanza length and rhyme pattern to POEM_MAIN\nFORM: POEM_B (similar structural complexity)\n\nEmotion:\n- POEM_MAIN expresses profound melancholy and resignation\n- POEM_A feels more intellectual and detached\n- POEM_B shows resilience and philosophical acceptance\nEMOTION: POEM_B (deeper emotional resonance)\n\nOverall:\nBalancing these factors, POEM_B seems more fundamentally similar.\n\nANSWER:\n{""content"": ""POEM_B"",\n""style"": ""POEM_A"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+15	l00170019	l0060062	l0080412	l0060062l00170019l0080412	"I'll analyze the poems based on the specified criteria:
+
+Content:
+- POEM_MAIN is melancholic, focusing on loneliness, life's passing, and a sense of aimlessness
+- POEM_A is inspirational, about faith and embracing destiny
+- POEM_B is about devotion and selfless love
+POEM_A has less thematic alignment with POEM_MAIN
+
+Style:
+- POEM_MAIN uses metaphorical language about flowing and emptiness
+- POEM_A uses direct, declarative statements
+- POEM_B uses emotional, personal language
+POEM_B seems closer in lyrical approach
+
+Form:
+- POEM_MAIN uses longer stanzas with a consistent rhyme scheme
+- POEM_A is shorter with a more irregular structure
+- POEM_B matches POEM_MAIN's stanza and rhyme structure more closely
+POEM_B is more similar
+
+Emotion:
+- POEM_MAIN conveys melancholy and resignation
+- POEM_A expresses hope and courage
+- POEM_B reflects deep emotional commitment
+POEM_A differs most emotionally
+
+Overall:
+Considering all factors, POEM_B seems more similar to POEM_MAIN.
+
+ANSWER:
+{""content"": ""POEM_B"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_B""}"	"['I\'ll analyze the poems based on the specified criteria:\n\nContent:\n- POEM_MAIN is melancholic, focusing on loneliness, life\'s passing, and a sense of aimlessness\n- POEM_A is inspirational, about faith and embracing destiny\n- POEM_B is about devotion and selfless love\nPOEM_A has less thematic alignment with POEM_MAIN\n\nStyle:\n- POEM_MAIN uses metaphorical language about flowing and emptiness\n- POEM_A uses direct, declarative statements\n- POEM_B uses emotional, personal language\nPOEM_B seems closer in lyrical approach\n\nForm:\n- POEM_MAIN uses longer stanzas with a consistent rhyme scheme\n- POEM_A is shorter with a more irregular structure\n- POEM_B matches POEM_MAIN\'s stanza and rhyme structure more closely\nPOEM_B is more similar\n\nEmotion:\n- POEM_MAIN conveys melancholy and resignation\n- POEM_A expresses hope and courage\n- POEM_B reflects deep emotional commitment\nPOEM_A differs most emotionally\n\nOverall:\nConsidering all factors, POEM_B seems more similar to POEM_MAIN.\n\nANSWER:\n{""content"": ""POEM_B"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+16	l0020029	l00160240	l0070146	l00160240l0020029l0070146	"I'll analyze the similarity of POEM_MAIN with POEM_A and POEM_B across the specified criteria.
+
+1. Content:
+- POEM_MAIN seems to be about a beautiful, quick woman/server, with playful desire to keep her near
+- POEM_A is melancholic, with themes of isolation, distant memories, and a pale girl beckoning
+- POEM_B is about a philosophical connection between two spirits, facing mortality
+→ Content most similar to POEM_A
+
+2. Style:
+- POEM_MAIN has a light, rhythmic, almost flirtatious tone
+- POEM_A has a contemplative, somber style
+- POEM_B has a serious, metaphysical style
+→ Style most similar to POEM_B
+
+3. Form:
+- All three poems have structured rhyming quatrains
+- POEM_MAIN and POEM_B have similar Germanic poetic structure
+→ Form most similar to POEM_B
+
+4. Emotion:
+- POEM_MAIN conveys playful longing
+- POEM_A conveys sadness and detachment
+- POEM_B conveys philosophical acceptance
+→ Emotion most similar to POEM_A
+
+5. Overall:
+Balancing these factors, the overall similarity leans slightly towards POEM_A.
+
+ANSWER:
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['I\'ll analyze the similarity of POEM_MAIN with POEM_A and POEM_B across the specified criteria.\n\n1. Content:\n- POEM_MAIN seems to be about a beautiful, quick woman/server, with playful desire to keep her near\n- POEM_A is melancholic, with themes of isolation, distant memories, and a pale girl beckoning\n- POEM_B is about a philosophical connection between two spirits, facing mortality\n→ Content most similar to POEM_A\n\n2. Style:\n- POEM_MAIN has a light, rhythmic, almost flirtatious tone\n- POEM_A has a contemplative, somber style\n- POEM_B has a serious, metaphysical style\n→ Style most similar to POEM_B\n\n3. Form:\n- All three poems have structured rhyming quatrains\n- POEM_MAIN and POEM_B have similar Germanic poetic structure\n→ Form most similar to POEM_B\n\n4. Emotion:\n- POEM_MAIN conveys playful longing\n- POEM_A conveys sadness and detachment\n- POEM_B conveys philosophical acceptance\n→ Emotion most similar to POEM_A\n\n5. Overall:\nBalancing these factors, the overall similarity leans slightly towards POEM_A.\n\nANSWER:\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+17	l0010076	l0050031	l0010186	l0050031l0010076l0010186	"I'll analyze the similarity of these poems across the specified criteria:
+
+Content: While POEM_MAIN and POEM_A both have a sense of tranquility and ethereal qualities, they differ in specific themes. POEM_A is about a deceased child, while POEM_MAIN speaks about stillness and delicate happiness.
+
+Style: POEM_B's style seems more rhythmic and direct, whereas POEM_MAIN shares more linguistic nuance with POEM_A's contemplative tone.
+
+Form: Both POEM_MAIN and POEM_A use similar structured rhyme schemes and stanza formations, unlike POEM_B's more irregular structure.
+
+Emotion: POEM_MAIN and POEM_A both convey a sense of delicate, suspended emotion - a quiet, almost mystical feeling. POEM_B has a more melancholic, restless emotional tenor.
+
+Overall: The alignment seems strongest with POEM_A.
+
+ANSWER: {""content"": ""POEM_B"", ""style"": ""POEM_A"", ""form"": ""POEM_A"", ""emotion"": ""POEM_A"", ""overall"": ""POEM_A""}"	"['I\'ll analyze the similarity of these poems across the specified criteria:\n\nContent: While POEM_MAIN and POEM_A both have a sense of tranquility and ethereal qualities, they differ in specific themes. POEM_A is about a deceased child, while POEM_MAIN speaks about stillness and delicate happiness.\n\nStyle: POEM_B\'s style seems more rhythmic and direct, whereas POEM_MAIN shares more linguistic nuance with POEM_A\'s contemplative tone.\n\nForm: Both POEM_MAIN and POEM_A use similar structured rhyme schemes and stanza formations, unlike POEM_B\'s more irregular structure.\n\nEmotion: POEM_MAIN and POEM_A both convey a sense of delicate, suspended emotion - a quiet, almost mystical feeling. POEM_B has a more melancholic, restless emotional tenor.\n\nOverall: The alignment seems strongest with POEM_A.\n\nANSWER: {""content"": ""POEM_B"", ""style"": ""POEM_A"", ""form"": ""POEM_A"", ""emotion"": ""POEM_A"", ""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+18	l0030184	l00160212	l00130384	l00160212l0030184l00130384	"I'll carefully analyze the poems across the specified criteria:
+
+ANSWER:
+{
+""content"": ""POEM_B"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_B""
+}
+
+Rationale:
+- Content: POEM_B is more focused on poetic expression/creativity, which aligns with POEM_MAIN's self-reflective, contemplative tone
+- Style: Both POEM_MAIN and POEM_B use a direct address and have a lyrical, introspective quality
+- Form: They share a similar structured rhyme scheme and stanza layout
+- Emotion: POEM_A shows more philosophical distance, while POEM_MAIN and POEM_B have a more personal, emotive approach
+- Overall: The structural and thematic similarities point more strongly to POEM_B as the closer match
+
+The key similarities are the poetic self-awareness, the rhythmic construction, and the exploratory emotional landscape shared between POEM_MAIN and POEM_B."	"['I\'ll carefully analyze the poems across the specified criteria:\n\nANSWER:\n{\n""content"": ""POEM_B"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_B""\n}\n\nRationale:\n- Content: POEM_B is more focused on poetic expression/creativity, which aligns with POEM_MAIN\'s self-reflective, contemplative tone\n- Style: Both POEM_MAIN and POEM_B use a direct address and have a lyrical, introspective quality\n- Form: They share a similar structured rhyme scheme and stanza layout\n- Emotion: POEM_A shows more philosophical distance, while POEM_MAIN and POEM_B have a more personal, emotive approach\n- Overall: The structural and thematic similarities point more strongly to POEM_B as the closer match\n\nThe key similarities are the poetic self-awareness, the rhythmic construction, and the exploratory emotional landscape shared between POEM_MAIN and POEM_B.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+19	l0030433	l0010238	l0020039	l0010238l0030433l0020039	"I'll carefully analyze the poems by comparing their content, style, form, emotion, and overall similarity.
+
+Comparing POEM_MAIN and POEM_A:
+- Content: Both involve emotional reflection and personal sentiment about human connection
+- Style: Similar introspective tone, use of direct emotional language
+- Form: Different rhyme schemes, but both use structured quatrains
+- Emotion: Similar sense of deep personal feeling and contemplation
+- Overall: Strong alignment in emotional depth and personal reflection
+
+Comparing POEM_MAIN and POEM_B:
+- Content: Both reference natural imagery (rain, birds) and inner emotional landscapes
+- Style: More metaphorical and abstract in POEM_B vs. more direct in POEM_MAIN
+- Form: Different structure, but both use rhythmic poetic forms
+- Emotion: POEM_B more about inner resilience, POEM_MAIN more about melancholy and memory
+- Overall: Some similarities, but less direct alignment
+
+ANSWER:
+{
+""content"": ""POEM_B"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}"	"['I\'ll carefully analyze the poems by comparing their content, style, form, emotion, and overall similarity.\n\nComparing POEM_MAIN and POEM_A:\n- Content: Both involve emotional reflection and personal sentiment about human connection\n- Style: Similar introspective tone, use of direct emotional language\n- Form: Different rhyme schemes, but both use structured quatrains\n- Emotion: Similar sense of deep personal feeling and contemplation\n- Overall: Strong alignment in emotional depth and personal reflection\n\nComparing POEM_MAIN and POEM_B:\n- Content: Both reference natural imagery (rain, birds) and inner emotional landscapes\n- Style: More metaphorical and abstract in POEM_B vs. more direct in POEM_MAIN\n- Form: Different structure, but both use rhythmic poetic forms\n- Emotion: POEM_B more about inner resilience, POEM_MAIN more about melancholy and memory\n- Overall: Some similarities, but less direct alignment\n\nANSWER:\n{\n""content"": ""POEM_B"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+20	l00130210	l0090086	l00140150	l0090086l00130210l00140150	"I'll analyze the poems and provide a detailed comparison:
+
+Content: 
+- POEM_MAIN is about resilience, emotional intensity, and the need for engagement
+- POEM_A focuses on melancholic natural imagery
+- POEM_B explores deep sadness and emotional numbness
+→ More similar to POEM_B
+
+Style:
+- POEM_MAIN uses direct, passionate language
+- POEM_A uses delicate, impressionistic descriptions
+- POEM_B uses more contemplative, abstract language
+→ More similar to POEM_B
+
+Form:
+- POEM_MAIN has a structured rhyming pattern
+- POEM_A has free verse with sparse imagery
+- POEM_B has a more formal poetic structure
+→ More similar to POEM_B
+
+Emotion:
+- POEM_MAIN expresses strong, active emotions
+- POEM_A conveys passive melancholy
+- POEM_B expresses deep, passive sadness
+→ More similar to POEM_B
+
+Overall:
+Considering the thematic and emotional landscape, POEM_MAIN shares more profound similarities with POEM_B.
+
+ANSWER:
+{""content"": ""POEM_B"",
+""style"": ""POEM_B"", 
+""form"": ""POEM_B"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_B""}"	"['I\'ll analyze the poems and provide a detailed comparison:\n\nContent: \n- POEM_MAIN is about resilience, emotional intensity, and the need for engagement\n- POEM_A focuses on melancholic natural imagery\n- POEM_B explores deep sadness and emotional numbness\n→ More similar to POEM_B\n\nStyle:\n- POEM_MAIN uses direct, passionate language\n- POEM_A uses delicate, impressionistic descriptions\n- POEM_B uses more contemplative, abstract language\n→ More similar to POEM_B\n\nForm:\n- POEM_MAIN has a structured rhyming pattern\n- POEM_A has free verse with sparse imagery\n- POEM_B has a more formal poetic structure\n→ More similar to POEM_B\n\nEmotion:\n- POEM_MAIN expresses strong, active emotions\n- POEM_A conveys passive melancholy\n- POEM_B expresses deep, passive sadness\n→ More similar to POEM_B\n\nOverall:\nConsidering the thematic and emotional landscape, POEM_MAIN shares more profound similarities with POEM_B.\n\nANSWER:\n{""content"": ""POEM_B"",\n""style"": ""POEM_B"", \n""form"": ""POEM_B"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+21	l0020147	l00160172	l0030065	l00160172l0020147l0030065	"To determine the similarity, I'll analyze the poems across the specified criteria:
+
+1. Content:
+- POEM_MAIN is about celebrating life, friendship, and enjoying good moments together
+- POEM_A is about human anticipation and the connection between past, present, and future harvests
+- POEM_B is a melancholic landscape description suggesting desolation and emptiness
+
+2. Style:
+- POEM_MAIN uses a lyrical, celebratory tone
+- POEM_A has a contemplative, philosophical style
+- POEM_B has a stark, minimalist poetic approach
+
+3. Form:
+- POEM_MAIN has structured rhyming stanzas
+- POEM_A is more free-form with longer lines
+- POEM_B has a fragmented, irregular structure
+
+4. Emotion:
+- POEM_MAIN expresses joy, optimism, and camaraderie
+- POEM_A feels neutral, reflective
+- POEM_B conveys deep melancholy and despair
+
+5. Overall:
+POEM_A seems closest in its contemplative, philosophical approach about time and human experience.
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}"	"['To determine the similarity, I\'ll analyze the poems across the specified criteria:\n\n1. Content:\n- POEM_MAIN is about celebrating life, friendship, and enjoying good moments together\n- POEM_A is about human anticipation and the connection between past, present, and future harvests\n- POEM_B is a melancholic landscape description suggesting desolation and emptiness\n\n2. Style:\n- POEM_MAIN uses a lyrical, celebratory tone\n- POEM_A has a contemplative, philosophical style\n- POEM_B has a stark, minimalist poetic approach\n\n3. Form:\n- POEM_MAIN has structured rhyming stanzas\n- POEM_A is more free-form with longer lines\n- POEM_B has a fragmented, irregular structure\n\n4. Emotion:\n- POEM_MAIN expresses joy, optimism, and camaraderie\n- POEM_A feels neutral, reflective\n- POEM_B conveys deep melancholy and despair\n\n5. Overall:\nPOEM_A seems closest in its contemplative, philosophical approach about time and human experience.\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+22	l00130383	l00130059	l00200186	l00130059l00130383l00200186	"I'll analyze the similarity of the poems based on the specified criteria:
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_A""
+}
+
+Reasoning breakdown:
+- Content: POEM_MAIN and POEM_A both have a somewhat philosophical, didactic tone about life and social structures.
+- Style: POEM_B's lyrical, soothing style differs more from POEM_MAIN's direct, declarative style.
+- Form: POEM_MAIN and POEM_A use similar structured rhyming quatrains.
+- Emotion: POEM_B is more emotionally soft and comforting, while POEM_MAIN has a more assertive emotional tone.
+- Overall: The structural and thematic similarities between POEM_MAIN and POEM_A are more pronounced.
+
+The poems are by Heinrich Heine, and the structural and thematic connections between them support this comparative analysis."	"['I\'ll analyze the similarity of the poems based on the specified criteria:\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_A""\n}\n\nReasoning breakdown:\n- Content: POEM_MAIN and POEM_A both have a somewhat philosophical, didactic tone about life and social structures.\n- Style: POEM_B\'s lyrical, soothing style differs more from POEM_MAIN\'s direct, declarative style.\n- Form: POEM_MAIN and POEM_A use similar structured rhyming quatrains.\n- Emotion: POEM_B is more emotionally soft and comforting, while POEM_MAIN has a more assertive emotional tone.\n- Overall: The structural and thematic similarities between POEM_MAIN and POEM_A are more pronounced.\n\nThe poems are by Heinrich Heine, and the structural and thematic connections between them support this comparative analysis.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+23	l0090086	l0080554	l0060046	l0080554l0090086l0060046	"I'll carefully analyze the poems across the specified criteria:
+
+Content:
+- POEM_MAIN and POEM_A both evoke natural imagery with soft, contemplative tones
+- POEM_B has a more dynamic, energetic description of nature's processes
+- POEM_MAIN is closer to POEM_A's gentle, introspective style
+
+Style:
+- POEM_MAIN and POEM_B share more abstract, atmospheric language
+- Both use metaphorical and somewhat cryptic descriptions of landscape
+- POEM_A is more direct and romantic in its language
+
+Form:
+- POEM_A uses a more traditional rhyming structure
+- POEM_MAIN and POEM_B have similar free verse approaches
+- Structural similarities lean towards POEM_B
+
+Emotion:
+- POEM_MAIN and POEM_A share a melancholic, subdued emotional register
+- POEM_B feels more forceful and vitalistic
+- Emotional tone is closer to POEM_A
+
+Overall:
+- Considering all aspects, POEM_MAIN seems most aligned with POEM_A's sensibility
+
+ANSWER:
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['I\'ll carefully analyze the poems across the specified criteria:\n\nContent:\n- POEM_MAIN and POEM_A both evoke natural imagery with soft, contemplative tones\n- POEM_B has a more dynamic, energetic description of nature\'s processes\n- POEM_MAIN is closer to POEM_A\'s gentle, introspective style\n\nStyle:\n- POEM_MAIN and POEM_B share more abstract, atmospheric language\n- Both use metaphorical and somewhat cryptic descriptions of landscape\n- POEM_A is more direct and romantic in its language\n\nForm:\n- POEM_A uses a more traditional rhyming structure\n- POEM_MAIN and POEM_B have similar free verse approaches\n- Structural similarities lean towards POEM_B\n\nEmotion:\n- POEM_MAIN and POEM_A share a melancholic, subdued emotional register\n- POEM_B feels more forceful and vitalistic\n- Emotional tone is closer to POEM_A\n\nOverall:\n- Considering all aspects, POEM_MAIN seems most aligned with POEM_A\'s sensibility\n\nANSWER:\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+24	l00160211	l00130451	l00190039	l00130451l00160211l00190039	"I'll analyze the poems based on the specified criteria:
+
+Content: 
+- POEM_MAIN has a theme of suffering, transience, and fleeting dreams
+- POEM_A focuses on natural imagery of a snow avalanche
+- POEM_B has a more contemplative, personal tone about evening and rain
+
+Style:
+- POEM_MAIN uses a melancholic, philosophical tone
+- POEM_A has a more descriptive, nature-focused style
+- POEM_B has a more personal, introspective style
+
+Form:
+- All three poems use similar structured quatrains with rhyming patterns
+- Similar German poetic structure and rhythm
+
+Emotion:
+- POEM_MAIN expresses a sense of sadness and loss
+- POEM_A has a more dynamic emotional range (from dormant to explosive)
+- POEM_B feels more gentle and reflective
+
+Overall Similarity:
+Considering the emotional depth and melancholic tone, POEM_MAIN is more similar to POEM_A.
+
+ANSWER:
+{
+""content"": ""POEM_B"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}"	"['I\'ll analyze the poems based on the specified criteria:\n\nContent: \n- POEM_MAIN has a theme of suffering, transience, and fleeting dreams\n- POEM_A focuses on natural imagery of a snow avalanche\n- POEM_B has a more contemplative, personal tone about evening and rain\n\nStyle:\n- POEM_MAIN uses a melancholic, philosophical tone\n- POEM_A has a more descriptive, nature-focused style\n- POEM_B has a more personal, introspective style\n\nForm:\n- All three poems use similar structured quatrains with rhyming patterns\n- Similar German poetic structure and rhythm\n\nEmotion:\n- POEM_MAIN expresses a sense of sadness and loss\n- POEM_A has a more dynamic emotional range (from dormant to explosive)\n- POEM_B feels more gentle and reflective\n\nOverall Similarity:\nConsidering the emotional depth and melancholic tone, POEM_MAIN is more similar to POEM_A.\n\nANSWER:\n{\n""content"": ""POEM_B"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+25	l0040554	l00130138	l0080055	l00130138l0040554l0080055	"I'll analyze the similarity across different dimensions and provide a structured evaluation:
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"", 
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_A""
+}
+
+Reasoning (though not part of the output):
+- Content: POEM_A shares more intellectual, elevated language with POEM_MAIN
+- Style: POEM_B is more conversational, POEM_MAIN has a direct, commanding tone
+- Form: POEM_A has similar structured rhyming scheme and elevated poetic structure
+- Emotion: POEM_B captures more emotional nuance, but POEM_MAIN is more intense
+- Overall: The intellectual style and structural similarity make POEM_A slightly more aligned
+
+The poems are in German, and the analysis considers linguistic and poetic nuances consistent with the evaluation criteria."	"['I\'ll analyze the similarity across different dimensions and provide a structured evaluation:\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"", \n""emotion"": ""POEM_B"",\n""overall"": ""POEM_A""\n}\n\nReasoning (though not part of the output):\n- Content: POEM_A shares more intellectual, elevated language with POEM_MAIN\n- Style: POEM_B is more conversational, POEM_MAIN has a direct, commanding tone\n- Form: POEM_A has similar structured rhyming scheme and elevated poetic structure\n- Emotion: POEM_B captures more emotional nuance, but POEM_MAIN is more intense\n- Overall: The intellectual style and structural similarity make POEM_A slightly more aligned\n\nThe poems are in German, and the analysis considers linguistic and poetic nuances consistent with the evaluation criteria.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+26	l0040304	l0080227	l00130361	l0080227l0040304l00130361	"I'll analyze the similarities between POEM_MAIN and POEM_A and POEM_B across the specified criteria:
+
+ANSWER: 
+{
+""content"": ""POEM_B"", 
+""style"": ""POEM_B"", 
+""form"": ""POEM_B"", 
+""emotion"": ""POEM_B"", 
+""overall"": ""POEM_B""
+}
+
+Reasoning:
+- Content: POEM_MAIN and POEM_B both deeply explore themes of pain, aging, and emotional struggle. POEM_A is more philosophical and abstract.
+- Style: Both POEM_MAIN and POEM_B use a reflective, introspective tone with a melancholic undertone. POEM_A lacks this emotional depth.
+- Form: POEM_MAIN and POEM_B use similar structured stanzas with consistent rhyme schemes. POEM_A is very brief and structurally different.
+- Emotion: POEM_MAIN and POEM_B share a sense of existential pain, loss, and contemplation of life's challenges. 
+- Overall: POEM_B is substantially more similar to POEM_MAIN in multiple dimensions, particularly in emotional resonance and thematic exploration."	"['I\'ll analyze the similarities between POEM_MAIN and POEM_A and POEM_B across the specified criteria:\n\nANSWER: \n{\n""content"": ""POEM_B"", \n""style"": ""POEM_B"", \n""form"": ""POEM_B"", \n""emotion"": ""POEM_B"", \n""overall"": ""POEM_B""\n}\n\nReasoning:\n- Content: POEM_MAIN and POEM_B both deeply explore themes of pain, aging, and emotional struggle. POEM_A is more philosophical and abstract.\n- Style: Both POEM_MAIN and POEM_B use a reflective, introspective tone with a melancholic undertone. POEM_A lacks this emotional depth.\n- Form: POEM_MAIN and POEM_B use similar structured stanzas with consistent rhyme schemes. POEM_A is very brief and structurally different.\n- Emotion: POEM_MAIN and POEM_B share a sense of existential pain, loss, and contemplation of life\'s challenges. \n- Overall: POEM_B is substantially more similar to POEM_MAIN in multiple dimensions, particularly in emotional resonance and thematic exploration.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+27	l0040053	l0060082	l00130449	l0060082l0040053l00130449	"I'll carefully analyze the similarity of the poems across the specified criteria:
+
+Content:
+- POEM_MAIN: Melancholic wandering, longing, emotional journey, desire for a peaceful place
+- POEM_A: Philosophical reflection on human existence, transience, acceptance
+- POEM_B: Nature-focused, dramatic portrayal of wind/storm
+POEM_A seems closer in introspective, existential mood
+
+Style:
+- POEM_MAIN: Lyrical, personal, emotional
+- POEM_A: Contemplative, philosophical
+- POEM_B: Dramatic, grand, external perspective
+POEM_A is stylistically more aligned
+
+Form:
+- POEM_MAIN: Structured stanzas, repeating lines
+- POEM_A: Similar stanza structure, repetitive elements
+- POEM_B: Different rhythmic structure
+POEM_A is more similar in form
+
+Emotion:
+- POEM_MAIN: Melancholy, yearning
+- POEM_A: Philosophical acceptance, calm reflection
+- POEM_B: Dramatic, powerful
+POEM_A matches emotional tone more closely
+
+Overall:
+Considering all dimensions, POEM_A is more similar to POEM_MAIN.
+
+ANSWER:
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['I\'ll carefully analyze the similarity of the poems across the specified criteria:\n\nContent:\n- POEM_MAIN: Melancholic wandering, longing, emotional journey, desire for a peaceful place\n- POEM_A: Philosophical reflection on human existence, transience, acceptance\n- POEM_B: Nature-focused, dramatic portrayal of wind/storm\nPOEM_A seems closer in introspective, existential mood\n\nStyle:\n- POEM_MAIN: Lyrical, personal, emotional\n- POEM_A: Contemplative, philosophical\n- POEM_B: Dramatic, grand, external perspective\nPOEM_A is stylistically more aligned\n\nForm:\n- POEM_MAIN: Structured stanzas, repeating lines\n- POEM_A: Similar stanza structure, repetitive elements\n- POEM_B: Different rhythmic structure\nPOEM_A is more similar in form\n\nEmotion:\n- POEM_MAIN: Melancholy, yearning\n- POEM_A: Philosophical acceptance, calm reflection\n- POEM_B: Dramatic, powerful\nPOEM_A matches emotional tone more closely\n\nOverall:\nConsidering all dimensions, POEM_A is more similar to POEM_MAIN.\n\nANSWER:\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+28	l0030183	l00140124	l00130451	l00140124l0030183l00130451	"I'll analyze the similarity across the specified dimensions:
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}
+
+Reasoning (though not part of the required output):
+- Content: POEM_A shares the nature/landscape theme with POEM_MAIN, with a sense of movement and transformation
+- Style: POEM_B has more descriptive natural imagery matching POEM_MAIN
+- Form: POEM_B has a more structured poetic form similar to POEM_MAIN
+- Emotion: POEM_A has a more reflective, contemplative tone closer to POEM_MAIN
+- Overall: POEM_A feels more aligned in its narrative arc and emotional landscape
+
+The JSON response provides the required structured output indicating which poem (A or B) is more similar to the main poem across different poetic dimensions."	"['I\'ll analyze the similarity across the specified dimensions:\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}\n\nReasoning (though not part of the required output):\n- Content: POEM_A shares the nature/landscape theme with POEM_MAIN, with a sense of movement and transformation\n- Style: POEM_B has more descriptive natural imagery matching POEM_MAIN\n- Form: POEM_B has a more structured poetic form similar to POEM_MAIN\n- Emotion: POEM_A has a more reflective, contemplative tone closer to POEM_MAIN\n- Overall: POEM_A feels more aligned in its narrative arc and emotional landscape\n\nThe JSON response provides the required structured output indicating which poem (A or B) is more similar to the main poem across different poetic dimensions.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+29	l00100088	l0080026	l0050040	l0080026l00100088l0050040	"I'll analyze these poems based on the specified criteria:
+
+ANSWER: 
+{""content"": ""POEM_B"", 
+""style"": ""POEM_A"", 
+""form"": ""POEM_A"", 
+""emotion"": ""POEM_B"", 
+""overall"": ""POEM_A""}
+
+Rationale for evaluation (though not part of the required output):
+- Content: POEM_MAIN deals with death and a dark, fatalistic encounter, which is more distinct from POEM_A's gentle lullaby but somewhat closer to POEM_B's romantic interaction.
+- Style: Both POEM_MAIN and POEM_A have more traditional German poetic structures with similar rhythmic patterns.
+- Form: POEM_MAIN and POEM_A share similar stanza structures (three quatrains) and rhyme schemes.
+- Emotion: POEM_MAIN's dark tone is less aligned with POEM_A's tender mood, but less aligned with POEM_B's playful romance.
+- Overall: Structural and stylistic similarities make POEM_A slightly closer to POEM_MAIN.
+
+The key deciding factors are the formal poetic structure and the more traditional lyrical approach shared between POEM_MAIN and POEM_A."	"['I\'ll analyze these poems based on the specified criteria:\n\nANSWER: \n{""content"": ""POEM_B"", \n""style"": ""POEM_A"", \n""form"": ""POEM_A"", \n""emotion"": ""POEM_B"", \n""overall"": ""POEM_A""}\n\nRationale for evaluation (though not part of the required output):\n- Content: POEM_MAIN deals with death and a dark, fatalistic encounter, which is more distinct from POEM_A\'s gentle lullaby but somewhat closer to POEM_B\'s romantic interaction.\n- Style: Both POEM_MAIN and POEM_A have more traditional German poetic structures with similar rhythmic patterns.\n- Form: POEM_MAIN and POEM_A share similar stanza structures (three quatrains) and rhyme schemes.\n- Emotion: POEM_MAIN\'s dark tone is less aligned with POEM_A\'s tender mood, but less aligned with POEM_B\'s playful romance.\n- Overall: Structural and stylistic similarities make POEM_A slightly closer to POEM_MAIN.\n\nThe key deciding factors are the formal poetic structure and the more traditional lyrical approach shared between POEM_MAIN and POEM_A.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+30	l0040509	l0060062	l0080369	l0060062l0040509l0080369	"I'll analyze the similarity based on the specified criteria:
+
+CONTENT:
+- POEM_MAIN and POEM_A have less thematic connection
+- POEM_MAIN and POEM_B both have strong emotional/romantic themes about night and feelings
+- POEM_B matches closer in emotional narrative
+
+STYLE:
+- POEM_MAIN and POEM_A use different poetic rhythms
+- POEM_MAIN and POEM_B share more similar lyrical, emotionally expressive styles
+- POEM_B feels more stylistically aligned
+
+FORM:
+- POEM_MAIN and POEM_A have different structured verse patterns
+- POEM_MAIN and POEM_B have more similar structured, rhyming quatrains
+- POEM_B matches closer in form
+
+EMOTION:
+- POEM_MAIN and POEM_A express different emotional tones
+- POEM_MAIN and POEM_B both convey melancholic, romantic emotions
+- POEM_B resonates more emotionally
+
+OVERALL:
+Considering all criteria, POEM_MAIN appears more similar to POEM_B.
+
+ANSWER:
+{
+""content"": ""POEM_B"",
+""style"": ""POEM_B"", 
+""form"": ""POEM_B"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_B""
+}"	"['I\'ll analyze the similarity based on the specified criteria:\n\nCONTENT:\n- POEM_MAIN and POEM_A have less thematic connection\n- POEM_MAIN and POEM_B both have strong emotional/romantic themes about night and feelings\n- POEM_B matches closer in emotional narrative\n\nSTYLE:\n- POEM_MAIN and POEM_A use different poetic rhythms\n- POEM_MAIN and POEM_B share more similar lyrical, emotionally expressive styles\n- POEM_B feels more stylistically aligned\n\nFORM:\n- POEM_MAIN and POEM_A have different structured verse patterns\n- POEM_MAIN and POEM_B have more similar structured, rhyming quatrains\n- POEM_B matches closer in form\n\nEMOTION:\n- POEM_MAIN and POEM_A express different emotional tones\n- POEM_MAIN and POEM_B both convey melancholic, romantic emotions\n- POEM_B resonates more emotionally\n\nOVERALL:\nConsidering all criteria, POEM_MAIN appears more similar to POEM_B.\n\nANSWER:\n{\n""content"": ""POEM_B"",\n""style"": ""POEM_B"", \n""form"": ""POEM_B"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_B""\n}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+31	l0020093	l0010132	l00180012	l0010132l0020093l00180012	"I'll evaluate the similarities between the poems based on the specified criteria:
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}
+
+Reasoning (not part of the answer):
+- Content: POEM_A shares more thematic similarities with POEM_MAIN, focusing on emotional depth, reflection, and inner contemplation
+- Style: POEM_B has a more dramatic, intense style
+- Form: Both POEM_MAIN and POEM_A are more traditional in rhyme and meter
+- Emotion: POEM_A resonates most closely with POEM_MAIN's contemplative and consoling emotional tone
+- Overall: POEM_A is more closely aligned with POEM_MAIN in multiple aspects
+
+Both poems are in German, by romantic/classical poets, and explore themes of inner emotional experience, but POEM_A most closely matches POEM_MAIN's spirit and approach."	"['I\'ll evaluate the similarities between the poems based on the specified criteria:\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}\n\nReasoning (not part of the answer):\n- Content: POEM_A shares more thematic similarities with POEM_MAIN, focusing on emotional depth, reflection, and inner contemplation\n- Style: POEM_B has a more dramatic, intense style\n- Form: Both POEM_MAIN and POEM_A are more traditional in rhyme and meter\n- Emotion: POEM_A resonates most closely with POEM_MAIN\'s contemplative and consoling emotional tone\n- Overall: POEM_A is more closely aligned with POEM_MAIN in multiple aspects\n\nBoth poems are in German, by romantic/classical poets, and explore themes of inner emotional experience, but POEM_A most closely matches POEM_MAIN\'s spirit and approach.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+32	l00140083	l00130042	l0030323	l00130042l00140083l0030323	"I'll analyze the similarities systematically:
+
+CONTENT: 
+- POEM_MAIN (Mörike's poem) is deeply emotional, focused on intimate family moment, moonlight, child sleeping
+- POEM_A (Lenau's poem) relates to loss of a child, memory, grief
+- POEM_B (Nietzsche's poem) is philosophical, metaphysical reflection on existence
+➜ More aligned with POEM_A's emotional, personal perspective
+
+STYLE:
+- POEM_MAIN uses gentle, lyrical German romantic language
+- POEM_A uses similar romantic period language and structure
+- POEM_B has more abstract, declarative philosophical tone
+➜ More aligned with POEM_A
+
+FORM:
+- POEM_MAIN has balanced stanzas, rhyming structure
+- POEM_A has similar stanza structure and rhyme scheme
+- POEM_B has more irregular form
+➜ More aligned with POEM_A
+
+EMOTION:
+- POEM_MAIN conveys tender, gentle emotional atmosphere
+- POEM_A expresses deep personal grief and loss
+- POEM_B is more intellectual, philosophical emotion
+➜ More aligned with POEM_A
+
+OVERALL:
+Clearly more similar to POEM_A in multiple dimensions.
+
+ANSWER:
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"", 
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['I\'ll analyze the similarities systematically:\n\nCONTENT: \n- POEM_MAIN (Mörike\'s poem) is deeply emotional, focused on intimate family moment, moonlight, child sleeping\n- POEM_A (Lenau\'s poem) relates to loss of a child, memory, grief\n- POEM_B (Nietzsche\'s poem) is philosophical, metaphysical reflection on existence\n➜ More aligned with POEM_A\'s emotional, personal perspective\n\nSTYLE:\n- POEM_MAIN uses gentle, lyrical German romantic language\n- POEM_A uses similar romantic period language and structure\n- POEM_B has more abstract, declarative philosophical tone\n➜ More aligned with POEM_A\n\nFORM:\n- POEM_MAIN has balanced stanzas, rhyming structure\n- POEM_A has similar stanza structure and rhyme scheme\n- POEM_B has more irregular form\n➜ More aligned with POEM_A\n\nEMOTION:\n- POEM_MAIN conveys tender, gentle emotional atmosphere\n- POEM_A expresses deep personal grief and loss\n- POEM_B is more intellectual, philosophical emotion\n➜ More aligned with POEM_A\n\nOVERALL:\nClearly more similar to POEM_A in multiple dimensions.\n\nANSWER:\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"", \n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+33	l00140119	l00140141	l00130375	l00140141l00140119l00130375	"I'll analyze the similarities between the poems and provide a detailed evaluation:
+
+ANSWER: 
+{""content"": ""POEM_B"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_B"", 
+""overall"": ""POEM_A""}
+
+Reasoning breakdown:
+- Content: POEM_B shares more thematic similarities with POEM_MAIN, touching on philosophical/spiritual concepts
+- Style: POEM_A's more formal, structured poetic language is closer to POEM_MAIN's style
+- Form: POEM_A has a more similar structured form (6-line sonnet-like structure vs POEM_B's more free form)
+- Emotion: POEM_B has a more contemplative, philosophical emotional tone matching POEM_MAIN
+- Overall: Slight lean towards POEM_A due to structural and stylistic similarities
+
+Key observations:
+- POEM_MAIN is in German, philosophical/mystical
+- Uses complex imagery about unseen streams/forces
+- Reflects on human spirit and cosmic connections
+- Has a structured, somewhat repetitive form
+- Themes of hidden knowledge and transcendent understanding
+
+The evaluation balances the nuanced similarities across different poetic dimensions."	"['I\'ll analyze the similarities between the poems and provide a detailed evaluation:\n\nANSWER: \n{""content"": ""POEM_B"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_B"", \n""overall"": ""POEM_A""}\n\nReasoning breakdown:\n- Content: POEM_B shares more thematic similarities with POEM_MAIN, touching on philosophical/spiritual concepts\n- Style: POEM_A\'s more formal, structured poetic language is closer to POEM_MAIN\'s style\n- Form: POEM_A has a more similar structured form (6-line sonnet-like structure vs POEM_B\'s more free form)\n- Emotion: POEM_B has a more contemplative, philosophical emotional tone matching POEM_MAIN\n- Overall: Slight lean towards POEM_A due to structural and stylistic similarities\n\nKey observations:\n- POEM_MAIN is in German, philosophical/mystical\n- Uses complex imagery about unseen streams/forces\n- Reflects on human spirit and cosmic connections\n- Has a structured, somewhat repetitive form\n- Themes of hidden knowledge and transcendent understanding\n\nThe evaluation balances the nuanced similarities across different poetic dimensions.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+34	l0080497	l00200064	l00200002	l00200064l0080497l00200002	"I'll carefully analyze the criteria for comparison between POEM_MAIN and the two other poems.
+
+POEM_MAIN is a poem about a dusty Bible, forgotten in an old chest but then discovered and used as a footstool by a daughter. It has religious undertones and a reflective tone.
+
+POEM_A is a more passionate poem about listening and emotional connection, focusing on voice and intimate communication.
+
+POEM_B is a hopeful, spiritual poem about faith, light emerging from darkness, and redemption.
+
+Analyzing the criteria:
+
+1. Content: More similar to POEM_B (religious/spiritual theme)
+2. Style: More similar to POEM_B (contemplative, structured)
+3. Form: More similar to POEM_B (similar rhyme scheme and stanza structure)
+4. Emotion: More similar to POEM_B (reflective, spiritual sentiment)
+5. Overall: More similar to POEM_B
+
+ANSWER:
+{
+""content"": ""POEM_B"",
+""style"": ""POEM_B"", 
+""form"": ""POEM_B"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_B""
+}"	"['I\'ll carefully analyze the criteria for comparison between POEM_MAIN and the two other poems.\n\nPOEM_MAIN is a poem about a dusty Bible, forgotten in an old chest but then discovered and used as a footstool by a daughter. It has religious undertones and a reflective tone.\n\nPOEM_A is a more passionate poem about listening and emotional connection, focusing on voice and intimate communication.\n\nPOEM_B is a hopeful, spiritual poem about faith, light emerging from darkness, and redemption.\n\nAnalyzing the criteria:\n\n1. Content: More similar to POEM_B (religious/spiritual theme)\n2. Style: More similar to POEM_B (contemplative, structured)\n3. Form: More similar to POEM_B (similar rhyme scheme and stanza structure)\n4. Emotion: More similar to POEM_B (reflective, spiritual sentiment)\n5. Overall: More similar to POEM_B\n\nANSWER:\n{\n""content"": ""POEM_B"",\n""style"": ""POEM_B"", \n""form"": ""POEM_B"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_B""\n}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+35	l0060068	l0030031	l0080448	l0030031l0060068l0080448	"I'll analyze the poems systematically across the specified criteria:
+
+Content:
+- POEM_MAIN is deeply melancholic, dealing with unfulfilled life, inner turmoil, and emotional pain
+- POEM_A focuses on unrequited love, emotional disconnection
+- POEM_B explores ineffable emotional experiences, communication challenges
+→ Content similarity suggests POEM_A
+
+Style:
+- POEM_MAIN uses rich, metaphorical language with intense emotional imagery
+- POEM_A has a similar lyrical, introspective German romantic style
+- POEM_B is more abstract and philosophical
+→ Style similarity suggests POEM_A
+
+Form:
+- All three poems use similar German poetic structure (quatrains with rhyme schemes)
+- Slight edge to POEM_B in precise structural alignment
+→ Form similarity suggests POEM_B
+
+Emotion:
+- POEM_MAIN expresses deep existential sadness
+- POEM_A conveys a similar sense of emotional pain and inner suffering
+- POEM_B is more contemplative
+→ Emotional similarity suggests POEM_A
+
+Overall:
+Weighing all factors, POEM_A seems more closely aligned with POEM_MAIN.
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}"	"['I\'ll analyze the poems systematically across the specified criteria:\n\nContent:\n- POEM_MAIN is deeply melancholic, dealing with unfulfilled life, inner turmoil, and emotional pain\n- POEM_A focuses on unrequited love, emotional disconnection\n- POEM_B explores ineffable emotional experiences, communication challenges\n→ Content similarity suggests POEM_A\n\nStyle:\n- POEM_MAIN uses rich, metaphorical language with intense emotional imagery\n- POEM_A has a similar lyrical, introspective German romantic style\n- POEM_B is more abstract and philosophical\n→ Style similarity suggests POEM_A\n\nForm:\n- All three poems use similar German poetic structure (quatrains with rhyme schemes)\n- Slight edge to POEM_B in precise structural alignment\n→ Form similarity suggests POEM_B\n\nEmotion:\n- POEM_MAIN expresses deep existential sadness\n- POEM_A conveys a similar sense of emotional pain and inner suffering\n- POEM_B is more contemplative\n→ Emotional similarity suggests POEM_A\n\nOverall:\nWeighing all factors, POEM_A seems more closely aligned with POEM_MAIN.\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+36	l0030243	l00180017	l00130329	l00180017l0030243l00130329	"I'll analyze the similarity of the poems based on the specified criteria:
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}
+
+Reasoning (not part of the answer):
+- Content: Both POEM_MAIN and POEM_A deal with themes of transient happiness, memory, and longing
+- Style: Both use a lyrical, contemplative German poetic style with similar rhythmic structures
+- Form: Both have structured stanzas with a consistent rhyme scheme
+- Emotion: Both express a melancholic, reflective mood about fleeting moments and unresolved desires
+- Overall Similarity: POEM_A is clearly more similar to POEM_MAIN in multiple aspects compared to the more direct, declarative POEM_B
+
+The analysis shows that POEM_A is consistently more similar to POEM_MAIN across all evaluated criteria."	"['I\'ll analyze the similarity of the poems based on the specified criteria:\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}\n\nReasoning (not part of the answer):\n- Content: Both POEM_MAIN and POEM_A deal with themes of transient happiness, memory, and longing\n- Style: Both use a lyrical, contemplative German poetic style with similar rhythmic structures\n- Form: Both have structured stanzas with a consistent rhyme scheme\n- Emotion: Both express a melancholic, reflective mood about fleeting moments and unresolved desires\n- Overall Similarity: POEM_A is clearly more similar to POEM_MAIN in multiple aspects compared to the more direct, declarative POEM_B\n\nThe analysis shows that POEM_A is consistently more similar to POEM_MAIN across all evaluated criteria.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+37	l00140122	l00160042	l00200195	l00160042l00140122l00200195	"I'll analyze the similarities based on the given criteria:
+
+ANSWER:
+{""content"": ""POEM_B"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_A""}
+
+Reasoning (not part of the requested output):
+- Content: More aligned with POEM_B due to the introspective, melancholic tone and hidden emotional depth
+- Style: More similar to POEM_A with its structured rhyme scheme and lyrical quality
+- Form: Similar to POEM_A with consistent meter and rhyming structure 
+- Emotion: Closer to POEM_B with its subdued, complex emotional undertones
+- Overall: Slightly more similar to POEM_A due to structural and stylistic elements
+
+The main poem explores themes of an unexpected guest, emotional guardedness, and a sense of preservation, which has elements resonating with both poems, but structurally and tonally leans closer to POEM_A."	"['I\'ll analyze the similarities based on the given criteria:\n\nANSWER:\n{""content"": ""POEM_B"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_A""}\n\nReasoning (not part of the requested output):\n- Content: More aligned with POEM_B due to the introspective, melancholic tone and hidden emotional depth\n- Style: More similar to POEM_A with its structured rhyme scheme and lyrical quality\n- Form: Similar to POEM_A with consistent meter and rhyming structure \n- Emotion: Closer to POEM_B with its subdued, complex emotional undertones\n- Overall: Slightly more similar to POEM_A due to structural and stylistic elements\n\nThe main poem explores themes of an unexpected guest, emotional guardedness, and a sense of preservation, which has elements resonating with both poems, but structurally and tonally leans closer to POEM_A.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+38	l0080055	l0010079	l00130444	l0010079l0080055l00130444	"I'll analyze the poems systematically based on the specified criteria:
+
+1. Content: 
+- POEM_MAIN is about love across different life stages (first and last love)
+- POEM_A is also about love, with romantic nostalgic themes
+- POEM_B is more philosophical about life cycles and universal movement
+
+2. Style:
+- POEM_MAIN and POEM_A are both lyrical and emotional
+- POEM_B is more abstract and philosophical
+
+3. Form:
+- POEM_MAIN and POEM_A use similar stanza structures and rhythmic patterns
+- POEM_B has a different, more structured form
+
+4. Emotion:
+- POEM_MAIN and POEM_A share romantic, nostalgic emotional tones
+- POEM_B is more contemplative and detached
+
+5. Overall Similarity:
+- The themes, style, and emotional resonance are much closer between POEM_MAIN and POEM_A
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_A"", 
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}"	"['I\'ll analyze the poems systematically based on the specified criteria:\n\n1. Content: \n- POEM_MAIN is about love across different life stages (first and last love)\n- POEM_A is also about love, with romantic nostalgic themes\n- POEM_B is more philosophical about life cycles and universal movement\n\n2. Style:\n- POEM_MAIN and POEM_A are both lyrical and emotional\n- POEM_B is more abstract and philosophical\n\n3. Form:\n- POEM_MAIN and POEM_A use similar stanza structures and rhythmic patterns\n- POEM_B has a different, more structured form\n\n4. Emotion:\n- POEM_MAIN and POEM_A share romantic, nostalgic emotional tones\n- POEM_B is more contemplative and detached\n\n5. Overall Similarity:\n- The themes, style, and emotional resonance are much closer between POEM_MAIN and POEM_A\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_A"", \n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+39	l0080361	l0080077	l0010300	l0080077l0080361l0010300	"Let me carefully analyze the poems across the specified criteria:
+
+1. Content:
+- POEM_MAIN discusses a memory's lasting light/trace left by a significant presence
+- POEM_A reflects on youth, memory, and resilience
+- POEM_B contemplates past moments and their enduring significance
+
+POEM_A seems more thematically aligned with POEM_MAIN.
+
+2. Style:
+- Both use reflective, contemplative language
+- Similar romantic/nostalgic tone
+- POEM_A matches POEM_MAIN's introspective style more closely
+
+3. Form:
+- Both use quatrain structures
+- Similar rhythmic patterns
+- POEM_A's structure is more similar to POEM_MAIN
+
+4. Emotion:
+- POEM_MAIN expresses a gentle, enduring emotional memory
+- POEM_A captures a similar sense of remembered moments and emotional resilience
+- Very close emotional resonance
+
+5. Overall Similarity:
+Considering all factors, POEM_A appears more similar to POEM_MAIN.
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_A"", 
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}"	"['Let me carefully analyze the poems across the specified criteria:\n\n1. Content:\n- POEM_MAIN discusses a memory\'s lasting light/trace left by a significant presence\n- POEM_A reflects on youth, memory, and resilience\n- POEM_B contemplates past moments and their enduring significance\n\nPOEM_A seems more thematically aligned with POEM_MAIN.\n\n2. Style:\n- Both use reflective, contemplative language\n- Similar romantic/nostalgic tone\n- POEM_A matches POEM_MAIN\'s introspective style more closely\n\n3. Form:\n- Both use quatrain structures\n- Similar rhythmic patterns\n- POEM_A\'s structure is more similar to POEM_MAIN\n\n4. Emotion:\n- POEM_MAIN expresses a gentle, enduring emotional memory\n- POEM_A captures a similar sense of remembered moments and emotional resilience\n- Very close emotional resonance\n\n5. Overall Similarity:\nConsidering all factors, POEM_A appears more similar to POEM_MAIN.\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_A"", \n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+40	l00140105	l0030305	l00170225	l0030305l00140105l00170225	"I'll analyze the similarity based on the specified criteria:
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}
+
+Reasoning (though not requested):
+- Content: POEM_MAIN and POEM_A both have contemplative, nature-oriented themes with a philosophical tone. They describe landscape and stillness.
+- Style: Both POEM_MAIN and POEM_A have a lyrical, reflective poetic style with rich imagery.
+- Form: POEM_B is closer in form (shorter lines, more rhythmic), but POEM_A matches POEM_MAIN's more structured approach.
+- Emotion: POEM_A shares a similar meditative, calm emotional landscape with POEM_MAIN.
+- Overall: POEM_A is substantially more similar to POEM_MAIN across multiple dimensions.
+
+The German language poems express different perspectives on nature, stillness, and movement, with POEM_A most closely mirroring POEM_MAIN's contemplative approach."	"['I\'ll analyze the similarity based on the specified criteria:\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}\n\nReasoning (though not requested):\n- Content: POEM_MAIN and POEM_A both have contemplative, nature-oriented themes with a philosophical tone. They describe landscape and stillness.\n- Style: Both POEM_MAIN and POEM_A have a lyrical, reflective poetic style with rich imagery.\n- Form: POEM_B is closer in form (shorter lines, more rhythmic), but POEM_A matches POEM_MAIN\'s more structured approach.\n- Emotion: POEM_A shares a similar meditative, calm emotional landscape with POEM_MAIN.\n- Overall: POEM_A is substantially more similar to POEM_MAIN across multiple dimensions.\n\nThe German language poems express different perspectives on nature, stillness, and movement, with POEM_A most closely mirroring POEM_MAIN\'s contemplative approach.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+41	l0080026	l00180026	l00130111	l00180026l0080026l00130111	"I'll carefully analyze the poems and assess their similarities.
+
+POEM_MAIN (by Goethe) is a tender, intimate poem about a mother lulling her child to sleep, focusing on maternal love, childhood, and peaceful moments. Its emotional tone is warm, gentle, and nurturing.
+
+POEM_A is a more emotionally complex poem about separation, longing, and unspoken feelings between two people, with an introspective and slightly melancholic tone.
+
+POEM_B is a very short, satirical/humorous poem about gender dynamics in the afterlife.
+
+Evaluating the criteria:
+
+Content: POEM_A is more narrative and emotionally nuanced, while POEM_MAIN is more descriptive. POEM_B is completely different.
+Style: POEM_MAIN and POEM_A are both lyrical, while POEM_B is not.
+Form: POEM_MAIN and POEM_A use similar stanza/rhyme structures, POEM_B does not.
+Emotion: POEM_A shares a deeper emotional complexity closer to POEM_MAIN's underlying sentiment of intimate human connection.
+Overall: POEM_A is substantially more similar to POEM_MAIN.
+
+ANSWER:
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['I\'ll carefully analyze the poems and assess their similarities.\n\nPOEM_MAIN (by Goethe) is a tender, intimate poem about a mother lulling her child to sleep, focusing on maternal love, childhood, and peaceful moments. Its emotional tone is warm, gentle, and nurturing.\n\nPOEM_A is a more emotionally complex poem about separation, longing, and unspoken feelings between two people, with an introspective and slightly melancholic tone.\n\nPOEM_B is a very short, satirical/humorous poem about gender dynamics in the afterlife.\n\nEvaluating the criteria:\n\nContent: POEM_A is more narrative and emotionally nuanced, while POEM_MAIN is more descriptive. POEM_B is completely different.\nStyle: POEM_MAIN and POEM_A are both lyrical, while POEM_B is not.\nForm: POEM_MAIN and POEM_A use similar stanza/rhyme structures, POEM_B does not.\nEmotion: POEM_A shares a deeper emotional complexity closer to POEM_MAIN\'s underlying sentiment of intimate human connection.\nOverall: POEM_A is substantially more similar to POEM_MAIN.\n\nANSWER:\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+42	l0030167	l0010173	l00160240	l0010173l0030167l00160240	"I'll analyze the poems systematically across the specified criteria:
+
+Content: 
+- POEM_MAIN seems to be about transcendence, moving from earthly suffering to a peaceful, spiritual state
+- POEM_A is about longing, nature, and unfulfilled love
+- POEM_B is about melancholy, isolation, and a sense of impending transition
+
+Style:
+- POEM_MAIN uses natural imagery and metaphor
+- POEM_A has a more narrative, descriptive style
+- POEM_B has a more abstract, contemplative style
+
+Form:
+- All three poems use similar Germanic poetic structures with rhyming couplets
+- POEM_MAIN and POEM_B seem more stylistically aligned in structure
+
+Emotion:
+- POEM_MAIN conveys a sense of peaceful resolution
+- POEM_A expresses longing and melancholy
+- POEM_B suggests deep sadness and alienation
+
+Overall Similarity:
+- POEM_MAIN shares more emotional and stylistic qualities with POEM_B
+
+ANSWER:
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_B""}"	"['I\'ll analyze the poems systematically across the specified criteria:\n\nContent: \n- POEM_MAIN seems to be about transcendence, moving from earthly suffering to a peaceful, spiritual state\n- POEM_A is about longing, nature, and unfulfilled love\n- POEM_B is about melancholy, isolation, and a sense of impending transition\n\nStyle:\n- POEM_MAIN uses natural imagery and metaphor\n- POEM_A has a more narrative, descriptive style\n- POEM_B has a more abstract, contemplative style\n\nForm:\n- All three poems use similar Germanic poetic structures with rhyming couplets\n- POEM_MAIN and POEM_B seem more stylistically aligned in structure\n\nEmotion:\n- POEM_MAIN conveys a sense of peaceful resolution\n- POEM_A expresses longing and melancholy\n- POEM_B suggests deep sadness and alienation\n\nOverall Similarity:\n- POEM_MAIN shares more emotional and stylistic qualities with POEM_B\n\nANSWER:\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+43	l0010125	l0080554	l0010038	l0080554l0010125l0010038	"I'll evaluate the similarity based on the specified criteria:
+
+ANSWER:
+{
+""content"": ""POEM_A"", 
+""style"": ""POEM_B"", 
+""form"": ""POEM_A"", 
+""emotion"": ""POEM_A"", 
+""overall"": ""POEM_A""
+}
+
+Reasoning:
+- Content: POEM_MAIN and POEM_A share themes of hidden/secret love, romantic longing, and dreams
+- Style: POEM_A is more lyrical and uses similar poetic language
+- Form: Both POEM_MAIN and POEM_A use consistent stanza structures and rhyming patterns
+- Emotion: Both convey a sense of yearning, romantic desire, and intimate emotional landscape
+- Overall: The emotional tone and romantic themes align more closely with POEM_A
+
+The key differences with POEM_B are its more stark, minimalist tone about displacement and lack of belonging, which contrasts with the romantic, dreamy quality of POEM_MAIN."	"['I\'ll evaluate the similarity based on the specified criteria:\n\nANSWER:\n{\n""content"": ""POEM_A"", \n""style"": ""POEM_B"", \n""form"": ""POEM_A"", \n""emotion"": ""POEM_A"", \n""overall"": ""POEM_A""\n}\n\nReasoning:\n- Content: POEM_MAIN and POEM_A share themes of hidden/secret love, romantic longing, and dreams\n- Style: POEM_A is more lyrical and uses similar poetic language\n- Form: Both POEM_MAIN and POEM_A use consistent stanza structures and rhyming patterns\n- Emotion: Both convey a sense of yearning, romantic desire, and intimate emotional landscape\n- Overall: The emotional tone and romantic themes align more closely with POEM_A\n\nThe key differences with POEM_B are its more stark, minimalist tone about displacement and lack of belonging, which contrasts with the romantic, dreamy quality of POEM_MAIN.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+44	l0080543	l0040304	l00180143	l0040304l0080543l00180143	"I'll analyze the similarity based on the given criteria:
+
+ANSWER: 
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}
+
+Reasoning:
+- Content: POEM_MAIN and POEM_A both deeply explore love, emotional connection, and intimate personal experience
+- Style: More Germanic/romantic lyrical approach similar to POEM_A
+- Form: Both POEM_MAIN and POEM_A have similar stanza structures and rhyming patterns
+- Emotion: Both express profound emotional vulnerability and introspective feelings about love
+- Overall: Stronger alignment with POEM_A in multiple dimensions
+
+The key similarities between POEM_MAIN and POEM_A include:
+- Themes of love and intimate connection
+- Emotional depth and personal reflection
+- Structured poetic form with consistent rhyme scheme
+- Sense of emotional intensity and personal vulnerability
+
+POEM_B, while beautifully composed, has a more abstract, metaphysical nature that differs significantly from POEM_MAIN's direct emotional expression."	"['I\'ll analyze the similarity based on the given criteria:\n\nANSWER: \n{\n""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}\n\nReasoning:\n- Content: POEM_MAIN and POEM_A both deeply explore love, emotional connection, and intimate personal experience\n- Style: More Germanic/romantic lyrical approach similar to POEM_A\n- Form: Both POEM_MAIN and POEM_A have similar stanza structures and rhyming patterns\n- Emotion: Both express profound emotional vulnerability and introspective feelings about love\n- Overall: Stronger alignment with POEM_A in multiple dimensions\n\nThe key similarities between POEM_MAIN and POEM_A include:\n- Themes of love and intimate connection\n- Emotional depth and personal reflection\n- Structured poetic form with consistent rhyme scheme\n- Sense of emotional intensity and personal vulnerability\n\nPOEM_B, while beautifully composed, has a more abstract, metaphysical nature that differs significantly from POEM_MAIN\'s direct emotional expression.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+45	l0080356	l0010261	l0080377	l0010261l0080356l0080377	"I'll analyze the poems based on the specified criteria and provide a structured response.
+
+Content: The main poem is about overcoming suffering and maintaining strength in difficult times. POEM_A is more nature-focused with a metaphorical wish for personal transformation, making it less similar in content to the main poem. POEM_B has a more philosophical and aspirational tone about pursuing truth, beauty, and goodness.
+
+Style: Both POEM_A and POEM_B use a more lyrical, contemplative style. The main poem has a more direct, motivational tone. POEM_B seems closer in style to the main poem.
+
+Form: All three poems use similar German poetic structures with rhyming couplets and consistent meter. They are quite similar in form.
+
+Emotion: The main poem expresses determination and resilience. POEM_A conveys a sense of longing and hope. POEM_B expresses a passionate commitment to ideals. POEM_A's emotional tone is slightly less intense.
+
+Overall: Considering all factors, the main poem seems more aligned with POEM_B.
+
+ANSWER:
+{
+""content"": ""POEM_B"",
+""style"": ""POEM_B"", 
+""form"": ""POEM_A"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_B""
+}"	"['I\'ll analyze the poems based on the specified criteria and provide a structured response.\n\nContent: The main poem is about overcoming suffering and maintaining strength in difficult times. POEM_A is more nature-focused with a metaphorical wish for personal transformation, making it less similar in content to the main poem. POEM_B has a more philosophical and aspirational tone about pursuing truth, beauty, and goodness.\n\nStyle: Both POEM_A and POEM_B use a more lyrical, contemplative style. The main poem has a more direct, motivational tone. POEM_B seems closer in style to the main poem.\n\nForm: All three poems use similar German poetic structures with rhyming couplets and consistent meter. They are quite similar in form.\n\nEmotion: The main poem expresses determination and resilience. POEM_A conveys a sense of longing and hope. POEM_B expresses a passionate commitment to ideals. POEM_A\'s emotional tone is slightly less intense.\n\nOverall: Considering all factors, the main poem seems more aligned with POEM_B.\n\nANSWER:\n{\n""content"": ""POEM_B"",\n""style"": ""POEM_B"", \n""form"": ""POEM_A"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_B""\n}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+46	l0080616	l0060046	l00130398	l0060046l0080616l00130398	"I'll analyze the similarities based on the given criteria:
+
+ANSWER:
+{
+""content"": ""POEM_A"", 
+""style"": ""POEM_A"", 
+""form"": ""POEM_B"", 
+""emotion"": ""POEM_A"", 
+""overall"": ""POEM_A""
+}
+
+Reasoning breakdown:
+1. Content: Both POEM_MAIN and POEM_A have a nature-focused, contemplative theme about perceiving divine presence in the natural world. They both describe observing and connecting with something greater through natural elements (stars, streams, trees, birds).
+
+2. Style: Both poems use rich, poetic language and imagery. POEM_A shares POEM_MAIN's lyrical approach of describing spiritual or metaphysical concepts through natural imagery.
+
+3. Form: Structurally different. POEM_MAIN is more traditional with consistent rhyming, while POEM_A has a more modern, free-verse structure.
+
+4. Emotion: Both convey a sense of reverence, wonder, and spiritual connection. They express a deep emotional response to nature and a sense of transcendence.
+
+5. Overall: POEM_A is more similar in content, style, and emotional tone, despite having a different formal structure."	"['I\'ll analyze the similarities based on the given criteria:\n\nANSWER:\n{\n""content"": ""POEM_A"", \n""style"": ""POEM_A"", \n""form"": ""POEM_B"", \n""emotion"": ""POEM_A"", \n""overall"": ""POEM_A""\n}\n\nReasoning breakdown:\n1. Content: Both POEM_MAIN and POEM_A have a nature-focused, contemplative theme about perceiving divine presence in the natural world. They both describe observing and connecting with something greater through natural elements (stars, streams, trees, birds).\n\n2. Style: Both poems use rich, poetic language and imagery. POEM_A shares POEM_MAIN\'s lyrical approach of describing spiritual or metaphysical concepts through natural imagery.\n\n3. Form: Structurally different. POEM_MAIN is more traditional with consistent rhyming, while POEM_A has a more modern, free-verse structure.\n\n4. Emotion: Both convey a sense of reverence, wonder, and spiritual connection. They express a deep emotional response to nature and a sense of transcendence.\n\n5. Overall: POEM_A is more similar in content, style, and emotional tone, despite having a different formal structure.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+47	l0090083	l00130449	l0080466	l00130449l0090083l0080466	"I'll analyze the poems based on the specified criteria:
+
+ANSWER:
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}
+
+Reasoning breakdown:
+- Content: POEM_MAIN and POEM_A share more naturalistic imagery (nature references like harps, forests, night) compared to POEM_B's more philosophical tone
+- Style: Both POEM_MAIN and POEM_A use rich, poetic language with vivid sensory descriptions
+- Form: POEM_B is more similar in brevity, while POEM_MAIN and POEM_A have more complex stanzas
+- Emotion: POEM_MAIN and POEM_A evoke a more passionate, dramatic emotional landscape
+- Overall: POEM_A shares more similarities with POEM_MAIN across multiple dimensions
+
+The analysis suggests POEM_A is more closely aligned with POEM_MAIN in most aspects of poetic composition."	"['I\'ll analyze the poems based on the specified criteria:\n\nANSWER:\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}\n\nReasoning breakdown:\n- Content: POEM_MAIN and POEM_A share more naturalistic imagery (nature references like harps, forests, night) compared to POEM_B\'s more philosophical tone\n- Style: Both POEM_MAIN and POEM_A use rich, poetic language with vivid sensory descriptions\n- Form: POEM_B is more similar in brevity, while POEM_MAIN and POEM_A have more complex stanzas\n- Emotion: POEM_MAIN and POEM_A evoke a more passionate, dramatic emotional landscape\n- Overall: POEM_A shares more similarities with POEM_MAIN across multiple dimensions\n\nThe analysis suggests POEM_A is more closely aligned with POEM_MAIN in most aspects of poetic composition.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+48	l0030183	l0040217	l0080227	l0040217l0030183l0080227	"I'll analyze the similarity of the poems based on the specified criteria:
+
+Content: POEM_MAIN and POEM_A both describe a natural landscape scene with references to forests, movement, and a sense of transition (time of day). They share a more evocative, descriptive approach. POEM_B is more philosophical and abstract.
+
+Style: POEM_MAIN and POEM_A have a more lyrical, nature-focused poetic style with vivid imagery. POEM_B has a more intellectual, philosophical tone.
+
+Form: POEM_MAIN and POEM_A use similar stanza structures with consistent rhythmic patterns. POEM_B has a different, more prose-like form.
+
+Emotion: POEM_MAIN and POEM_A evoke a similar sense of quiet, contemplative wonder about nature and its subtle movements. POEM_B feels more cerebral and detached.
+
+Overall Similarity: POEM_MAIN is clearly more similar to POEM_A in multiple dimensions.
+
+ANSWER:
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['I\'ll analyze the similarity of the poems based on the specified criteria:\n\nContent: POEM_MAIN and POEM_A both describe a natural landscape scene with references to forests, movement, and a sense of transition (time of day). They share a more evocative, descriptive approach. POEM_B is more philosophical and abstract.\n\nStyle: POEM_MAIN and POEM_A have a more lyrical, nature-focused poetic style with vivid imagery. POEM_B has a more intellectual, philosophical tone.\n\nForm: POEM_MAIN and POEM_A use similar stanza structures with consistent rhythmic patterns. POEM_B has a different, more prose-like form.\n\nEmotion: POEM_MAIN and POEM_A evoke a similar sense of quiet, contemplative wonder about nature and its subtle movements. POEM_B feels more cerebral and detached.\n\nOverall Similarity: POEM_MAIN is clearly more similar to POEM_A in multiple dimensions.\n\nANSWER:\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+49	l00140124	l00130062	l00180069	l00130062l00140124l00180069	"I'll analyze the poems based on the specified criteria:
+
+Content:
+- POEM_MAIN discusses solitude, connection to people, and a bittersweet parting with an underlying sense of hope
+- POEM_A is a critique of societal superficiality and religious hypocrisy
+- POEM_B is a romantic, joyful poem about love and transcendent emotional experience
+
+Style:
+- POEM_MAIN has a contemplative, introspective tone
+- POEM_A has a critical, satirical tone
+- POEM_B has a lyrical, passionate tone
+
+Form:
+- POEM_MAIN has free verse with uneven line lengths
+- POEM_A has structured rhyming stanzas
+- POEM_B has a more structured rhyming pattern
+
+Emotion:
+- POEM_MAIN conveys melancholy with a hint of warmth
+- POEM_A expresses frustration and criticism
+- POEM_B radiates pure joy and emotional rapture
+
+Overall Similarity:
+Given these analyses, POEM_MAIN seems most emotionally and stylistically aligned with POEM_A.
+
+ANSWER:
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"", 
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['I\'ll analyze the poems based on the specified criteria:\n\nContent:\n- POEM_MAIN discusses solitude, connection to people, and a bittersweet parting with an underlying sense of hope\n- POEM_A is a critique of societal superficiality and religious hypocrisy\n- POEM_B is a romantic, joyful poem about love and transcendent emotional experience\n\nStyle:\n- POEM_MAIN has a contemplative, introspective tone\n- POEM_A has a critical, satirical tone\n- POEM_B has a lyrical, passionate tone\n\nForm:\n- POEM_MAIN has free verse with uneven line lengths\n- POEM_A has structured rhyming stanzas\n- POEM_B has a more structured rhyming pattern\n\nEmotion:\n- POEM_MAIN conveys melancholy with a hint of warmth\n- POEM_A expresses frustration and criticism\n- POEM_B radiates pure joy and emotional rapture\n\nOverall Similarity:\nGiven these analyses, POEM_MAIN seems most emotionally and stylistically aligned with POEM_A.\n\nANSWER:\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"", \n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+50	l0010273	l00170195	l00180127	l00170195l0010273l00180127	"I'll evaluate the similarity of the poems based on the specified criteria:
+
+ANSWER:
+{
+""content"": ""POEM_B"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_B""
+}
+
+Rationale for each category:
+
+Content: POEM_B matches POEM_MAIN's contemplative tone about life, time, and potential. Both poems reflect on broader existential themes.
+
+Style: POEM_B shares a similar reflective, philosophical style with POEM_MAIN, using metaphorical language about life and time.
+
+Form: POEM_A is closer in terms of formal structure, with similar rhyme scheme and stanza organization.
+
+Emotion: POEM_A better captures the wistful, hopeful yet melancholic emotional landscape of POEM_MAIN.
+
+Overall: POEM_B is slightly more similar due to shared philosophical content and contemplative mood, despite POEM_A having more structural similarities.
+
+The analysis suggests POEM_B has a slightly stronger overall alignment with POEM_MAIN."	"['I\'ll evaluate the similarity of the poems based on the specified criteria:\n\nANSWER:\n{\n""content"": ""POEM_B"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_B""\n}\n\nRationale for each category:\n\nContent: POEM_B matches POEM_MAIN\'s contemplative tone about life, time, and potential. Both poems reflect on broader existential themes.\n\nStyle: POEM_B shares a similar reflective, philosophical style with POEM_MAIN, using metaphorical language about life and time.\n\nForm: POEM_A is closer in terms of formal structure, with similar rhyme scheme and stanza organization.\n\nEmotion: POEM_A better captures the wistful, hopeful yet melancholic emotional landscape of POEM_MAIN.\n\nOverall: POEM_B is slightly more similar due to shared philosophical content and contemplative mood, despite POEM_A having more structural similarities.\n\nThe analysis suggests POEM_B has a slightly stronger overall alignment with POEM_MAIN.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+51	l0060057	l0060056	l00140066	l0060056l0060057l00140066	"I'll analyze these poems based on the specified criteria:
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_A""
+}
+
+Rationale:
+- Content: POEM_MAIN and POEM_A share similar natural imagery (night, sky, light, movement), while POEM_B is more introspective and abstract.
+- Style: Both POEM_MAIN and POEM_A use rich, poetic language with natural metaphors and sensory descriptions.
+- Form: POEM_MAIN and POEM_A use similar structured verse with consistent rhyme schemes and rhythmic patterns.
+- Emotion: POEM_MAIN and POEM_B share a sense of introspection, but POEM_A better captures the dreamy, contemplative mood.
+- Overall: POEM_A is significantly more similar to POEM_MAIN in multiple aspects, making it the closer match.
+
+These are German poems, and the analysis considers their original language nuances and poetic characteristics."	"['I\'ll analyze these poems based on the specified criteria:\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_A""\n}\n\nRationale:\n- Content: POEM_MAIN and POEM_A share similar natural imagery (night, sky, light, movement), while POEM_B is more introspective and abstract.\n- Style: Both POEM_MAIN and POEM_A use rich, poetic language with natural metaphors and sensory descriptions.\n- Form: POEM_MAIN and POEM_A use similar structured verse with consistent rhyme schemes and rhythmic patterns.\n- Emotion: POEM_MAIN and POEM_B share a sense of introspection, but POEM_A better captures the dreamy, contemplative mood.\n- Overall: POEM_A is significantly more similar to POEM_MAIN in multiple aspects, making it the closer match.\n\nThese are German poems, and the analysis considers their original language nuances and poetic characteristics.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+52	l0090084	l00130348	l0030431	l00130348l0090084l0030431	"I'll analyze the poems systematically across the specified criteria:
+
+Content:
+- POEM_MAIN has a vivid, impressionistic nature imagery with color and sensory details
+- POEM_A is more abstract/political, lacking sensory landscape
+- POEM_B has nature imagery similar to POEM_MAIN (birds, landscape, time/light)
+→ More aligned with POEM_B
+
+Style:
+- POEM_MAIN uses fragmented, poetic phrases with strong visual/sensory language
+- POEM_A uses declarative statement style
+- POEM_B uses similar fragmented, evocative language 
+→ More aligned with POEM_B
+
+Form:
+- POEM_MAIN uses free verse with short, impressionistic lines
+- POEM_A is very structured, almost aphoristic
+- POEM_B uses similar free verse structure with short lines
+→ More aligned with POEM_B
+
+Emotion:
+- POEM_MAIN feels contemplative, slightly melancholic
+- POEM_A feels didactic/critical
+- POEM_B feels introspective, similar emotional tone
+→ More aligned with POEM_B
+
+Overall:
+- Strongest similarities in imagery, structure, and emotional landscape
+→ More aligned with POEM_B
+
+ANSWER:
+{
+""content"": ""POEM_B"",
+""style"": ""POEM_B"", 
+""form"": ""POEM_B"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_B""
+}"	"['I\'ll analyze the poems systematically across the specified criteria:\n\nContent:\n- POEM_MAIN has a vivid, impressionistic nature imagery with color and sensory details\n- POEM_A is more abstract/political, lacking sensory landscape\n- POEM_B has nature imagery similar to POEM_MAIN (birds, landscape, time/light)\n→ More aligned with POEM_B\n\nStyle:\n- POEM_MAIN uses fragmented, poetic phrases with strong visual/sensory language\n- POEM_A uses declarative statement style\n- POEM_B uses similar fragmented, evocative language \n→ More aligned with POEM_B\n\nForm:\n- POEM_MAIN uses free verse with short, impressionistic lines\n- POEM_A is very structured, almost aphoristic\n- POEM_B uses similar free verse structure with short lines\n→ More aligned with POEM_B\n\nEmotion:\n- POEM_MAIN feels contemplative, slightly melancholic\n- POEM_A feels didactic/critical\n- POEM_B feels introspective, similar emotional tone\n→ More aligned with POEM_B\n\nOverall:\n- Strongest similarities in imagery, structure, and emotional landscape\n→ More aligned with POEM_B\n\nANSWER:\n{\n""content"": ""POEM_B"",\n""style"": ""POEM_B"", \n""form"": ""POEM_B"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_B""\n}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+53	l0020034	l00130056	l0010018	l00130056l0020034l0010018	"I'll evaluate the poems systematically across the specified criteria.
+
+Content: POEM_MAIN is a lyrical, romantic poem about nature, youth, and passing time. POEM_A is a short, militaristic poem about heroism. POEM_B is a playful, conversational poem about a mouse. The content similarity suggests POEM_B is least aligned.
+
+Style: POEM_MAIN uses a contemplative, poetic language with metaphors. POEM_A has a stark, declarative style. POEM_B has a lighthearted, conversational tone. POEM_A seems closer to POEM_MAIN's style.
+
+Form: POEM_MAIN has a structured rhyme scheme and meter. POEM_A is very short and less structured. POEM_B has a more irregular, playful form. POEM_A is more structurally similar.
+
+Emotion: POEM_MAIN expresses nostalgia and reflection. POEM_A conveys heroic passion. POEM_B is whimsical and childlike. POEM_A's emotional intensity is closer to POEM_MAIN.
+
+Overall: While not perfectly aligned, POEM_A seems more similar across most dimensions.
+
+ANSWER: {""content"": ""POEM_A"", ""style"": ""POEM_A"", ""form"": ""POEM_A"", ""emotion"": ""POEM_A"", ""overall"": ""POEM_A""}"	"['I\'ll evaluate the poems systematically across the specified criteria.\n\nContent: POEM_MAIN is a lyrical, romantic poem about nature, youth, and passing time. POEM_A is a short, militaristic poem about heroism. POEM_B is a playful, conversational poem about a mouse. The content similarity suggests POEM_B is least aligned.\n\nStyle: POEM_MAIN uses a contemplative, poetic language with metaphors. POEM_A has a stark, declarative style. POEM_B has a lighthearted, conversational tone. POEM_A seems closer to POEM_MAIN\'s style.\n\nForm: POEM_MAIN has a structured rhyme scheme and meter. POEM_A is very short and less structured. POEM_B has a more irregular, playful form. POEM_A is more structurally similar.\n\nEmotion: POEM_MAIN expresses nostalgia and reflection. POEM_A conveys heroic passion. POEM_B is whimsical and childlike. POEM_A\'s emotional intensity is closer to POEM_MAIN.\n\nOverall: While not perfectly aligned, POEM_A seems more similar across most dimensions.\n\nANSWER: {""content"": ""POEM_A"", ""style"": ""POEM_A"", ""form"": ""POEM_A"", ""emotion"": ""POEM_A"", ""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+54	l00130451	l00110081	l00100008	l00110081l00130451l00100008	"ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}
+
+Reasoning (not part of the output):
+- Content: POEM_MAIN and POEM_A both describe a dynamic natural scene (mountain/stream), with dramatic movement and transformation
+- Style: More poetic and action-oriented language similarities with POEM_A
+- Form: Similar stanza structure (4-line stanzas) and rhyme scheme with POEM_A
+- Emotion: Both POEM_MAIN and POEM_A convey a sense of powerful natural energy and movement
+- Overall: While both poems differ, POEM_A shares more core characteristics with POEM_MAIN
+
+The key matching aspects between POEM_MAIN and POEM_A include:
+- Natural landscape theme
+- Sense of motion/dynamism
+- Similar rhythmic and structural elements
+- Emotional intensity derived from natural imagery"	"['ANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}\n\nReasoning (not part of the output):\n- Content: POEM_MAIN and POEM_A both describe a dynamic natural scene (mountain/stream), with dramatic movement and transformation\n- Style: More poetic and action-oriented language similarities with POEM_A\n- Form: Similar stanza structure (4-line stanzas) and rhyme scheme with POEM_A\n- Emotion: Both POEM_MAIN and POEM_A convey a sense of powerful natural energy and movement\n- Overall: While both poems differ, POEM_A shares more core characteristics with POEM_MAIN\n\nThe key matching aspects between POEM_MAIN and POEM_A include:\n- Natural landscape theme\n- Sense of motion/dynamism\n- Similar rhythmic and structural elements\n- Emotional intensity derived from natural imagery']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+55	l0010038	l0030227	l0090065	l0030227l0010038l0090065	"I'll analyze the poems and provide an evaluation of similarity across the specified criteria.
+
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}
+
+Reasoning:
+- Content: POEM_MAIN and POEM_A share a theme of isolation, displacement, and detachment from societal norms
+- Style: Both use introspective, melancholic tone with a philosophical undercurrent
+- Form: Similar structured stanzas with consistent rhyme scheme
+- Emotion: Both express a sense of rootlessness and acceptance of one's marginal status
+- Overall similarity: The existential contemplation and sense of being unanchored is much closer between POEM_MAIN and POEM_A compared to the more combative and defiant tone of POEM_B
+
+ANSWER: {""content"": ""POEM_A"", ""style"": ""POEM_A"", ""form"": ""POEM_A"", ""emotion"": ""POEM_A"", ""overall"": ""POEM_A""}"	"['I\'ll analyze the poems and provide an evaluation of similarity across the specified criteria.\n\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}\n\nReasoning:\n- Content: POEM_MAIN and POEM_A share a theme of isolation, displacement, and detachment from societal norms\n- Style: Both use introspective, melancholic tone with a philosophical undercurrent\n- Form: Similar structured stanzas with consistent rhyme scheme\n- Emotion: Both express a sense of rootlessness and acceptance of one\'s marginal status\n- Overall similarity: The existential contemplation and sense of being unanchored is much closer between POEM_MAIN and POEM_A compared to the more combative and defiant tone of POEM_B\n\nANSWER: {""content"": ""POEM_A"", ""style"": ""POEM_A"", ""form"": ""POEM_A"", ""emotion"": ""POEM_A"", ""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+56	l0040509	l0010076	l0060019	l0010076l0040509l0060019	"I'll analyze the poems based on the specified criteria:
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_A""
+}
+
+Reasoning for the evaluation:
+
+1. Content: 
+- POEM_MAIN and POEM_A share a sense of stillness, quietude, and a delicate, almost mystical atmosphere
+- POEM_B has a darker, more existential tone
+
+2. Style:
+- POEM_MAIN and POEM_A both use repetitive structures and have a lyrical, gentle rhythm
+- POEM_B has a more fragmented, philosophical style
+
+3. Form:
+- POEM_MAIN and POEM_A have similar structured stanzas with consistent rhyme schemes
+- POEM_B has a less rigid structure
+
+4. Emotion:
+- POEM_MAIN is tender and intimate
+- POEM_B is melancholic and contemplative
+- POEM_A shares the soft, delicate emotional tone of POEM_MAIN
+
+5. Overall:
+- POEM_A most closely matches POEM_MAIN in multiple dimensions, particularly in style and form"	"['I\'ll analyze the poems based on the specified criteria:\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_A""\n}\n\nReasoning for the evaluation:\n\n1. Content: \n- POEM_MAIN and POEM_A share a sense of stillness, quietude, and a delicate, almost mystical atmosphere\n- POEM_B has a darker, more existential tone\n\n2. Style:\n- POEM_MAIN and POEM_A both use repetitive structures and have a lyrical, gentle rhythm\n- POEM_B has a more fragmented, philosophical style\n\n3. Form:\n- POEM_MAIN and POEM_A have similar structured stanzas with consistent rhyme schemes\n- POEM_B has a less rigid structure\n\n4. Emotion:\n- POEM_MAIN is tender and intimate\n- POEM_B is melancholic and contemplative\n- POEM_A shares the soft, delicate emotional tone of POEM_MAIN\n\n5. Overall:\n- POEM_A most closely matches POEM_MAIN in multiple dimensions, particularly in style and form']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+57	l0060082	l00170003	l00140029	l00170003l0060082l00140029	"I'll analyze the poems based on the specified criteria:
+
+Content: POEM_A shares more philosophical and existential themes similar to POEM_MAIN, exploring human existence and relationship with a higher power.
+
+Style: Both POEM_MAIN and POEM_A have a contemplative, introspective tone and use more formal, elevated language.
+
+Form: POEM_MAIN and POEM_A have similar structured stanzas with a reflective quality, unlike POEM_B's more narrative, action-oriented structure.
+
+Emotion: POEM_A and POEM_MAIN both express a sense of existential reflection, questioning life's meaning, with a more melancholic yet accepting emotional tone.
+
+Overall Similarity: POEM_A is significantly more similar to POEM_MAIN in multiple dimensions.
+
+ANSWER: 
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"", 
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"", 
+""overall"": ""POEM_A""}"	"['I\'ll analyze the poems based on the specified criteria:\n\nContent: POEM_A shares more philosophical and existential themes similar to POEM_MAIN, exploring human existence and relationship with a higher power.\n\nStyle: Both POEM_MAIN and POEM_A have a contemplative, introspective tone and use more formal, elevated language.\n\nForm: POEM_MAIN and POEM_A have similar structured stanzas with a reflective quality, unlike POEM_B\'s more narrative, action-oriented structure.\n\nEmotion: POEM_A and POEM_MAIN both express a sense of existential reflection, questioning life\'s meaning, with a more melancholic yet accepting emotional tone.\n\nOverall Similarity: POEM_A is significantly more similar to POEM_MAIN in multiple dimensions.\n\nANSWER: \n{""content"": ""POEM_A"",\n""style"": ""POEM_A"", \n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"", \n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+58	l00130384	l0010170	l00200340	l0010170l00130384l00200340	"I'll carefully analyze the similarities across different dimensions:
+
+Content:
+- POEM_MAIN is about the art of poetry, creating authentic poetry from the heart
+- POEM_A focuses on inner emotional clouds/sorrows contrasted with external brightness
+- POEM_B is a metaphorical narrative about a falling star and personal despair
+→ Content-wise, POEM_A is slightly closer
+
+Style:
+- POEM_MAIN has a didactic, advisory tone about poetic creation
+- POEM_A has a contemplative, questioning style
+- POEM_B has a dramatic, narrative style
+→ POEM_B is stylistically more different
+
+Form:
+- POEM_MAIN has consistent rhyming and meter
+- POEM_A has a similar structured rhyme scheme
+- POEM_B has a more complex rhyming pattern
+→ POEM_A is more similar in form
+
+Emotion:
+- POEM_MAIN expresses passionate sincerity about artistic expression
+- POEM_A conveys melancholy and introspection
+- POEM_B expresses deep existential despair
+→ POEM_A's emotional tone is closer
+
+Overall:
+More elements point to POEM_A being more similar
+
+ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"", 
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['I\'ll carefully analyze the similarities across different dimensions:\n\nContent:\n- POEM_MAIN is about the art of poetry, creating authentic poetry from the heart\n- POEM_A focuses on inner emotional clouds/sorrows contrasted with external brightness\n- POEM_B is a metaphorical narrative about a falling star and personal despair\n→ Content-wise, POEM_A is slightly closer\n\nStyle:\n- POEM_MAIN has a didactic, advisory tone about poetic creation\n- POEM_A has a contemplative, questioning style\n- POEM_B has a dramatic, narrative style\n→ POEM_B is stylistically more different\n\nForm:\n- POEM_MAIN has consistent rhyming and meter\n- POEM_A has a similar structured rhyme scheme\n- POEM_B has a more complex rhyming pattern\n→ POEM_A is more similar in form\n\nEmotion:\n- POEM_MAIN expresses passionate sincerity about artistic expression\n- POEM_A conveys melancholy and introspection\n- POEM_B expresses deep existential despair\n→ POEM_A\'s emotional tone is closer\n\nOverall:\nMore elements point to POEM_A being more similar\n\nANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"", \n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+59	l00160240	l0010261	l0080251	l0010261l00160240l0080251	"I'll analyze the poems based on the specified criteria:
+
+ANSWER:
+
+{""content"": ""POEM_B"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}
+
+Rationale:
+- Content: POEM_MAIN and POEM_B share some thematic elements of longing and emotional intensity, but POEM_A's reflective, contemplative tone is closer to POEM_MAIN's mood.
+- Style: POEM_A matches POEM_MAIN's more introspective and philosophical poetic style.
+- Form: Both POEM_MAIN and POEM_A use a similar structured rhyme scheme and stanza length.
+- Emotion: POEM_A captures the melancholic, reflective emotional landscape of POEM_MAIN, contrasting with POEM_B's more passionate tone.
+- Overall: POEM_A is more closely aligned with POEM_MAIN in multiple aspects, making it the more similar poem."	"['I\'ll analyze the poems based on the specified criteria:\n\nANSWER:\n\n{""content"": ""POEM_B"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}\n\nRationale:\n- Content: POEM_MAIN and POEM_B share some thematic elements of longing and emotional intensity, but POEM_A\'s reflective, contemplative tone is closer to POEM_MAIN\'s mood.\n- Style: POEM_A matches POEM_MAIN\'s more introspective and philosophical poetic style.\n- Form: Both POEM_MAIN and POEM_A use a similar structured rhyme scheme and stanza length.\n- Emotion: POEM_A captures the melancholic, reflective emotional landscape of POEM_MAIN, contrasting with POEM_B\'s more passionate tone.\n- Overall: POEM_A is more closely aligned with POEM_MAIN in multiple aspects, making it the more similar poem.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+60	l0080046	l0010079	l0080344	l0010079l0080046l0080344	"I'll analyze the similarities between the poems based on the specified criteria:
+
+Content:
+- POEM_MAIN is a light-hearted love poem about spontaneously visiting a lover
+- POEM_A is a nostalgic love poem reminiscing about past moments in May
+- POEM_B is a philosophical poem about nature, generations, and spiritual understanding
+→ POEM_MAIN is more similar to POEM_A's content
+
+Style:
+- POEM_MAIN uses a conversational, playful tone
+- POEM_A has a similar conversational, intimate tone
+- POEM_B has a more serious, contemplative style
+→ POEM_MAIN is more similar to POEM_A's style
+
+Form:
+- POEM_MAIN uses quatrains with an ABAB rhyme scheme
+- POEM_A also uses quatrains with an ABAB rhyme scheme
+- POEM_B has a different rhyming pattern
+→ POEM_MAIN is more similar to POEM_A's form
+
+Emotion:
+- POEM_MAIN expresses playful, passionate love
+- POEM_A expresses nostalgic, tender love
+- POEM_B expresses philosophical reflection
+→ POEM_MAIN is more similar to POEM_A's emotion
+
+Overall:
+Considering all criteria, POEM_MAIN is more aligned with POEM_A
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}"	"['I\'ll analyze the similarities between the poems based on the specified criteria:\n\nContent:\n- POEM_MAIN is a light-hearted love poem about spontaneously visiting a lover\n- POEM_A is a nostalgic love poem reminiscing about past moments in May\n- POEM_B is a philosophical poem about nature, generations, and spiritual understanding\n→ POEM_MAIN is more similar to POEM_A\'s content\n\nStyle:\n- POEM_MAIN uses a conversational, playful tone\n- POEM_A has a similar conversational, intimate tone\n- POEM_B has a more serious, contemplative style\n→ POEM_MAIN is more similar to POEM_A\'s style\n\nForm:\n- POEM_MAIN uses quatrains with an ABAB rhyme scheme\n- POEM_A also uses quatrains with an ABAB rhyme scheme\n- POEM_B has a different rhyming pattern\n→ POEM_MAIN is more similar to POEM_A\'s form\n\nEmotion:\n- POEM_MAIN expresses playful, passionate love\n- POEM_A expresses nostalgic, tender love\n- POEM_B expresses philosophical reflection\n→ POEM_MAIN is more similar to POEM_A\'s emotion\n\nOverall:\nConsidering all criteria, POEM_MAIN is more aligned with POEM_A\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+61	l00170125	l00180060	l0030305	l00180060l00170125l0030305	"Let me analyze the poems carefully according to the specified criteria:
+
+Content: Both POEM_MAIN and POEM_A have a contemplative, ethereal quality. They focus on stillness, quiet moments, and a sense of gentle transcendence. POEM_B is more concrete, with specific landscape imagery.
+
+Style: POEM_MAIN and POEM_A share a more abstract, poetic language with metaphysical undertones. POEM_B uses more direct, naturalistic descriptive language.
+
+Form: POEM_MAIN and POEM_A both use a structured, rhythmic form with consistent stanza structures. POEM_B has a more varied, loose structure.
+
+Emotion: POEM_MAIN and POEM_A convey a sense of serene melancholy, a quiet introspection. POEM_B has a more nostalgic, observational emotional tone.
+
+Overall: POEM_A seems more closely aligned with POEM_MAIN in multiple aspects.
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}"	"['Let me analyze the poems carefully according to the specified criteria:\n\nContent: Both POEM_MAIN and POEM_A have a contemplative, ethereal quality. They focus on stillness, quiet moments, and a sense of gentle transcendence. POEM_B is more concrete, with specific landscape imagery.\n\nStyle: POEM_MAIN and POEM_A share a more abstract, poetic language with metaphysical undertones. POEM_B uses more direct, naturalistic descriptive language.\n\nForm: POEM_MAIN and POEM_A both use a structured, rhythmic form with consistent stanza structures. POEM_B has a more varied, loose structure.\n\nEmotion: POEM_MAIN and POEM_A convey a sense of serene melancholy, a quiet introspection. POEM_B has a more nostalgic, observational emotional tone.\n\nOverall: POEM_A seems more closely aligned with POEM_MAIN in multiple aspects.\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+62	l00200135	l00140198	l0010170	l00140198l00200135l0010170	"Let's analyze the similarity of these poems systematically:
+
+Content:
+- POEM_MAIN is about night, existential feelings, and the transition to sleep
+- POEM_A seems contemplative about inner visions/experiences
+- POEM_B focuses on inner emotional landscape and contrasts of light/darkness
+- More thematic alignment with POEM_A's introspective nature
+
+Style:
+- POEM_MAIN has a complex, metaphorical German Romantic style
+- POEM_A shares similar contemplative, philosophical tone
+- POEM_B has a more structured, observational style
+- Better match with POEM_A's poetic approach
+
+Form:
+- POEM_MAIN has strict rhyme and meter (German sonnet-like structure)
+- POEM_B has a more rigid rhyme scheme
+- POEM_A is more free-form
+- Closer to POEM_B's structured form
+
+Emotion:
+- POEM_MAIN expresses existential tension, overwhelming feelings
+- POEM_A reflects inner struggle and creative limitation
+- More emotionally resonant with POEM_A's introspective sentiment
+
+Overall:
+- Strongest connections to POEM_A in content and emotional landscape
+
+ANSWER: {""content"": ""POEM_A"", ""style"": ""POEM_A"", ""form"": ""POEM_B"", ""emotion"": ""POEM_A"", ""overall"": ""POEM_A""}"	"['Let\'s analyze the similarity of these poems systematically:\n\nContent:\n- POEM_MAIN is about night, existential feelings, and the transition to sleep\n- POEM_A seems contemplative about inner visions/experiences\n- POEM_B focuses on inner emotional landscape and contrasts of light/darkness\n- More thematic alignment with POEM_A\'s introspective nature\n\nStyle:\n- POEM_MAIN has a complex, metaphorical German Romantic style\n- POEM_A shares similar contemplative, philosophical tone\n- POEM_B has a more structured, observational style\n- Better match with POEM_A\'s poetic approach\n\nForm:\n- POEM_MAIN has strict rhyme and meter (German sonnet-like structure)\n- POEM_B has a more rigid rhyme scheme\n- POEM_A is more free-form\n- Closer to POEM_B\'s structured form\n\nEmotion:\n- POEM_MAIN expresses existential tension, overwhelming feelings\n- POEM_A reflects inner struggle and creative limitation\n- More emotionally resonant with POEM_A\'s introspective sentiment\n\nOverall:\n- Strongest connections to POEM_A in content and emotional landscape\n\nANSWER: {""content"": ""POEM_A"", ""style"": ""POEM_A"", ""form"": ""POEM_B"", ""emotion"": ""POEM_A"", ""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+63	l00130042	l00160300	l0030167	l00160300l00130042l0030167	"I'll analyze the poems for similarity across different dimensions and provide the requested evaluation.
+
+Content:
+- POEM_MAIN is about loss, memory, and grief (a deceased child), reflecting on past and present
+- POEM_A involves a more abstract, metaphorical discussion about conflict and art
+- POEM_B focuses on personal transformation, spiritual transcendence, and emotional release
+
+Style:
+- POEM_MAIN uses narrative and reflective tone
+- POEM_A uses witty, satirical language
+- POEM_B has a lyrical, introspective style
+
+Form:
+- POEM_MAIN has structured stanzas with consistent rhyme scheme
+- POEM_A has a similar structured form with rhyming couplets
+- POEM_B has a more fluid, free-flowing structure
+
+Emotion:
+- POEM_MAIN is deeply melancholic and sorrowful
+- POEM_A is more intellectual and detached
+- POEM_B is contemplative and ultimately hopeful
+
+Overall Similarity:
+Considering these dimensions, POEM_MAIN seems more stylistically and emotionally aligned with POEM_A.
+
+ANSWER:
+{""content"": ""POEM_B"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_A""}"	"['I\'ll analyze the poems for similarity across different dimensions and provide the requested evaluation.\n\nContent:\n- POEM_MAIN is about loss, memory, and grief (a deceased child), reflecting on past and present\n- POEM_A involves a more abstract, metaphorical discussion about conflict and art\n- POEM_B focuses on personal transformation, spiritual transcendence, and emotional release\n\nStyle:\n- POEM_MAIN uses narrative and reflective tone\n- POEM_A uses witty, satirical language\n- POEM_B has a lyrical, introspective style\n\nForm:\n- POEM_MAIN has structured stanzas with consistent rhyme scheme\n- POEM_A has a similar structured form with rhyming couplets\n- POEM_B has a more fluid, free-flowing structure\n\nEmotion:\n- POEM_MAIN is deeply melancholic and sorrowful\n- POEM_A is more intellectual and detached\n- POEM_B is contemplative and ultimately hopeful\n\nOverall Similarity:\nConsidering these dimensions, POEM_MAIN seems more stylistically and emotionally aligned with POEM_A.\n\nANSWER:\n{""content"": ""POEM_B"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+64	l00130111	l00130138	l00160282	l00130138l00130111l00160282	"I'll analyze the poems systematically across the specified criteria:
+
+Content: POEM_A appears more similar, as both use elevated, philosophical language and touch on transformative themes.
+
+Style: POEM_A matches better, with similar German poetic diction and complex sentence structures.
+
+Form: POEM_A is more aligned, using structured rhyming verses (similar seven-line structure with consistent rhyme scheme).
+
+Emotion: POEM_B might seem more aligned with its personal, intimate tone, but POEM_A's philosophical elevation better matches POEM_MAIN's abstract conceptual approach.
+
+Overall Similarity: POEM_A appears significantly more similar in multiple dimensions.
+
+ANSWER:
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['I\'ll analyze the poems systematically across the specified criteria:\n\nContent: POEM_A appears more similar, as both use elevated, philosophical language and touch on transformative themes.\n\nStyle: POEM_A matches better, with similar German poetic diction and complex sentence structures.\n\nForm: POEM_A is more aligned, using structured rhyming verses (similar seven-line structure with consistent rhyme scheme).\n\nEmotion: POEM_B might seem more aligned with its personal, intimate tone, but POEM_A\'s philosophical elevation better matches POEM_MAIN\'s abstract conceptual approach.\n\nOverall Similarity: POEM_A appears significantly more similar in multiple dimensions.\n\nANSWER:\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+65	l0080077	l00180012	l00160004	l00180012l0080077l00160004	"I'll analyze the poems systematically across the specified criteria:
+
+Content:
+- POEM_MAIN is about youth, memory, and resilience
+- POEM_A is about loss, death, and grief
+- POEM_B is about peaceful contemplation and tranquility
+More aligned with POEM_B due to peaceful tone and contemplative nature
+
+Style:
+- POEM_MAIN uses romantic, nostalgic language
+- POEM_A has a more somber, dramatic style
+- POEM_B has a serene, meditative style
+More aligned with POEM_B
+
+Form:
+- All three poems are in German
+- POEM_MAIN and POEM_B use similar stanza structures
+- POEM_A has a different rhyme and stanza layout
+More aligned with POEM_B
+
+Emotion:
+- POEM_MAIN expresses hope and resilience
+- POEM_A conveys deep sorrow
+- POEM_B suggests peaceful acceptance
+More aligned with POEM_A in emotional depth
+
+Overall Similarity:
+Weighing all factors, slight edge to POEM_B due to content, style, and form similarities
+
+ANSWER:
+{""content"": ""POEM_B"",
+""style"": ""POEM_B"", 
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_B""}"	"['I\'ll analyze the poems systematically across the specified criteria:\n\nContent:\n- POEM_MAIN is about youth, memory, and resilience\n- POEM_A is about loss, death, and grief\n- POEM_B is about peaceful contemplation and tranquility\nMore aligned with POEM_B due to peaceful tone and contemplative nature\n\nStyle:\n- POEM_MAIN uses romantic, nostalgic language\n- POEM_A has a more somber, dramatic style\n- POEM_B has a serene, meditative style\nMore aligned with POEM_B\n\nForm:\n- All three poems are in German\n- POEM_MAIN and POEM_B use similar stanza structures\n- POEM_A has a different rhyme and stanza layout\nMore aligned with POEM_B\n\nEmotion:\n- POEM_MAIN expresses hope and resilience\n- POEM_A conveys deep sorrow\n- POEM_B suggests peaceful acceptance\nMore aligned with POEM_A in emotional depth\n\nOverall Similarity:\nWeighing all factors, slight edge to POEM_B due to content, style, and form similarities\n\nANSWER:\n{""content"": ""POEM_B"",\n""style"": ""POEM_B"", \n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+66	l00200064	l0010056	l00160117	l0010056l00200064l00160117	"I'll compare the poems systematically across the specified criteria:
+
+Content: Both POEM_A and MAIN seem more romantically and emotionally charged, focusing on intimate feelings and personal connections. POEM_B has a more philosophical, detached tone. So, POEM_A is more similar in content.
+
+Style: POEM_MAIN and POEM_A share a similar lyrical, emotional German poetic style with romantic imagery. POEM_B has a more contemplative, metaphorical style. So, POEM_A is more similar in style.
+
+Form: All three poems use similar structured rhyming schemes with quatrains, but POEM_MAIN and POEM_A have more similar rhythmic patterns. So, POEM_A is more similar in form.
+
+Emotion: POEM_MAIN and POEM_A both convey a sense of passionate, intimate feeling, with personal emotional depth. POEM_B feels more resigned and philosophical. So, POEM_A is more similar emotionally.
+
+Overall: Given the strong similarities across multiple dimensions, POEM_A is clearly more aligned with POEM_MAIN.
+
+ANSWER:
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"", 
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['I\'ll compare the poems systematically across the specified criteria:\n\nContent: Both POEM_A and MAIN seem more romantically and emotionally charged, focusing on intimate feelings and personal connections. POEM_B has a more philosophical, detached tone. So, POEM_A is more similar in content.\n\nStyle: POEM_MAIN and POEM_A share a similar lyrical, emotional German poetic style with romantic imagery. POEM_B has a more contemplative, metaphorical style. So, POEM_A is more similar in style.\n\nForm: All three poems use similar structured rhyming schemes with quatrains, but POEM_MAIN and POEM_A have more similar rhythmic patterns. So, POEM_A is more similar in form.\n\nEmotion: POEM_MAIN and POEM_A both convey a sense of passionate, intimate feeling, with personal emotional depth. POEM_B feels more resigned and philosophical. So, POEM_A is more similar emotionally.\n\nOverall: Given the strong similarities across multiple dimensions, POEM_A is clearly more aligned with POEM_MAIN.\n\nANSWER:\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"", \n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+67	l00160212	l00190023	l0030184	l00190023l00160212l0030184	"I'll analyze the poems based on the specified criteria:
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}
+
+Reasoning breakdown:
+- Content: POEM_A is more thematically aligned with POEM_MAIN, exploring existential ironies and philosophical contradictions (e.g., perspectives on divine order vs. reality)
+- Style: POEM_B has a more direct lyrical approach, while POEM_MAIN and POEM_A share a more sardonic, philosophical tone
+- Form: Both POEM_MAIN and POEM_A use complex rhyme structures and stanzaic forms with similar rhythmic qualities
+- Emotion: POEM_A matches POEM_MAIN's underlying sense of ironic disillusionment and dark philosophical commentary
+- Overall: POEM_A demonstrates the closest alignment across multiple dimensions with POEM_MAIN's poetic characteristics
+
+The choice of POEM_A reflects the deeper thematic and stylistic resonances between those two poems."	"['I\'ll analyze the poems based on the specified criteria:\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}\n\nReasoning breakdown:\n- Content: POEM_A is more thematically aligned with POEM_MAIN, exploring existential ironies and philosophical contradictions (e.g., perspectives on divine order vs. reality)\n- Style: POEM_B has a more direct lyrical approach, while POEM_MAIN and POEM_A share a more sardonic, philosophical tone\n- Form: Both POEM_MAIN and POEM_A use complex rhyme structures and stanzaic forms with similar rhythmic qualities\n- Emotion: POEM_A matches POEM_MAIN\'s underlying sense of ironic disillusionment and dark philosophical commentary\n- Overall: POEM_A demonstrates the closest alignment across multiple dimensions with POEM_MAIN\'s poetic characteristics\n\nThe choice of POEM_A reflects the deeper thematic and stylistic resonances between those two poems.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+68	l00180136	l0050040	l0020047	l0050040l00180136l0020047	"I'll carefully analyze the similarity of the poems across the specified criteria.
+
+ANSWER:
+{
+""content"": ""POEM_B"",
+""style"": ""POEM_B"", 
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_B""
+}
+
+Reasoning (not part of the output):
+- Content: POEM_MAIN and POEM_B both have nature-oriented imagery and contemplative themes about space and landscape
+- Style: Both POEM_MAIN and POEM_B have a more formal, lyrical German poetic style
+- Form: Both use similar structured stanzas with consistent rhyme and meter
+- Emotion: More nuanced, but POEM_A's intimate, personal emotion differs from the contemplative tone of POEM_MAIN
+- Overall: The structural and thematic similarities point more strongly to POEM_B
+
+The key differentiators are the natural imagery, contemplative tone, and structured poetic form shared between POEM_MAIN and POEM_B."	"['I\'ll carefully analyze the similarity of the poems across the specified criteria.\n\nANSWER:\n{\n""content"": ""POEM_B"",\n""style"": ""POEM_B"", \n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_B""\n}\n\nReasoning (not part of the output):\n- Content: POEM_MAIN and POEM_B both have nature-oriented imagery and contemplative themes about space and landscape\n- Style: Both POEM_MAIN and POEM_B have a more formal, lyrical German poetic style\n- Form: Both use similar structured stanzas with consistent rhyme and meter\n- Emotion: More nuanced, but POEM_A\'s intimate, personal emotion differs from the contemplative tone of POEM_MAIN\n- Overall: The structural and thematic similarities point more strongly to POEM_B\n\nThe key differentiators are the natural imagery, contemplative tone, and structured poetic form shared between POEM_MAIN and POEM_B.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+69	l0080165	l0010208	l00140150	l0010208l0080165l00140150	"I'll analyze the similarities across the criteria:
+
+Content:
+- POEM_MAIN and POEM_A both describe emotions related to personal relationships and feelings
+- POEM_B is more abstract and melancholic, focusing on general emotional states
+
+Style:
+- POEM_MAIN and POEM_B share a more introspective, contemplative tone
+- POEM_A has a more direct, narrative style
+
+Form:
+- POEM_MAIN and POEM_A have similar structured rhyming patterns
+- POEM_B has a more free-form structure
+
+Emotion:
+- POEM_MAIN and POEM_A both express personal romantic/emotional struggle
+- POEM_B conveys a deeper sense of existential melancholy
+
+Overall:
+Considering these factors, the poems are most similar in content, form, and emotion when comparing POEM_MAIN to POEM_A.
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}"	"['I\'ll analyze the similarities across the criteria:\n\nContent:\n- POEM_MAIN and POEM_A both describe emotions related to personal relationships and feelings\n- POEM_B is more abstract and melancholic, focusing on general emotional states\n\nStyle:\n- POEM_MAIN and POEM_B share a more introspective, contemplative tone\n- POEM_A has a more direct, narrative style\n\nForm:\n- POEM_MAIN and POEM_A have similar structured rhyming patterns\n- POEM_B has a more free-form structure\n\nEmotion:\n- POEM_MAIN and POEM_A both express personal romantic/emotional struggle\n- POEM_B conveys a deeper sense of existential melancholy\n\nOverall:\nConsidering these factors, the poems are most similar in content, form, and emotion when comparing POEM_MAIN to POEM_A.\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+70	l0020029	l0080208	l00160240	l0080208l0020029l00160240	"I'll carefully analyze the similarities between the poems:
+
+Criteria breakdown:
+
+1. Content:
+- POEM_MAIN: A playful, sensual poem about a woman/server/figure that the speaker desires
+- POEM_A: A romantic poem about nature, nightingales, roses, and love
+- POEM_B: A melancholic, introspective poem about isolation and longing
+
+2. Style:
+- POEM_MAIN: Lively, energetic language with direct address
+- POEM_A: Lyrical, nature-focused with gentle imagery
+- POEM_B: Contemplative, ethereal tone
+
+3. Form:
+- All three are German poems with similar stanza structures (3 stanzas)
+- POEM_MAIN and POEM_A have more regular rhyme schemes
+- POEM_B has a slightly more fragmented structure
+
+4. Emotion:
+- POEM_MAIN: Excitement, desire
+- POEM_A: Romantic longing
+- POEM_B: Melancholy, isolation
+
+5. Overall:
+More thematically aligned with POEM_A in its romantic and lyrical qualities.
+
+ANSWER:
+{""content"": ""POEM_B"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['I\'ll carefully analyze the similarities between the poems:\n\nCriteria breakdown:\n\n1. Content:\n- POEM_MAIN: A playful, sensual poem about a woman/server/figure that the speaker desires\n- POEM_A: A romantic poem about nature, nightingales, roses, and love\n- POEM_B: A melancholic, introspective poem about isolation and longing\n\n2. Style:\n- POEM_MAIN: Lively, energetic language with direct address\n- POEM_A: Lyrical, nature-focused with gentle imagery\n- POEM_B: Contemplative, ethereal tone\n\n3. Form:\n- All three are German poems with similar stanza structures (3 stanzas)\n- POEM_MAIN and POEM_A have more regular rhyme schemes\n- POEM_B has a slightly more fragmented structure\n\n4. Emotion:\n- POEM_MAIN: Excitement, desire\n- POEM_A: Romantic longing\n- POEM_B: Melancholy, isolation\n\n5. Overall:\nMore thematically aligned with POEM_A in its romantic and lyrical qualities.\n\nANSWER:\n{""content"": ""POEM_B"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+71	l0010186	l00130451	l00130354	l00130451l0010186l00130354	"I'll analyze the three poems and evaluate their similarities across different aspects.
+
+ANSWER:
+
+{
+""content"": ""POEM_B"",
+""style"": ""POEM_A"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_B""
+}
+
+Reasoning (not part of the answer):
+- Content: POEM_MAIN and POEM_B both have themes of expectation, loss, and the transient nature of life/beauty
+- Style: POEM_A has a more descriptive, nature-focused style, while POEM_MAIN and POEM_B have more metaphorical, emotional approaches
+- Form: POEM_MAIN and POEM_B have similar rhyme schemes and stanza structures
+- Emotion: Both POEM_MAIN and POEM_B convey a sense of melancholy and unfulfilled longing
+- Overall, POEM_B seems more closely aligned with POEM_MAIN in multiple aspects
+
+The JSON answer reflects these observations, slightly favoring POEM_B as more similar to POEM_MAIN."	"['I\'ll analyze the three poems and evaluate their similarities across different aspects.\n\nANSWER:\n\n{\n""content"": ""POEM_B"",\n""style"": ""POEM_A"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_B""\n}\n\nReasoning (not part of the answer):\n- Content: POEM_MAIN and POEM_B both have themes of expectation, loss, and the transient nature of life/beauty\n- Style: POEM_A has a more descriptive, nature-focused style, while POEM_MAIN and POEM_B have more metaphorical, emotional approaches\n- Form: POEM_MAIN and POEM_B have similar rhyme schemes and stanza structures\n- Emotion: Both POEM_MAIN and POEM_B convey a sense of melancholy and unfulfilled longing\n- Overall, POEM_B seems more closely aligned with POEM_MAIN in multiple aspects\n\nThe JSON answer reflects these observations, slightly favoring POEM_B as more similar to POEM_MAIN.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+72	l00130257	l00130375	l00130182	l00130375l00130257l00130182	"I'll analyze the similarities between the poems and provide an evaluation based on the specified criteria.
+
+ANSWER:
+{
+""content"": ""POEM_B"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_B""
+}
+
+Reasoning:
+
+1. Content:
+- POEM_MAIN and POEM_B share themes of elevation, aspiration, and transcendence
+- Both poems use metaphors of height and nature (lark/sky in POEM_MAIN, tree/nature in POEM_B)
+- Both suggest a spiritual or philosophical elevation beyond physical constraints
+
+2. Style:
+- Both use poetic language with metaphysical undertones
+- Both employ natural imagery to convey abstract concepts
+- Rhythmic, lyrical construction with similar Germanic poetic tradition
+
+3. Form:
+- Similar stanza structures (multiple stanzas)
+- Consistent rhyme schemes
+- Similar metrical patterns with regular rhythmic flow
+
+4. Emotion:
+- Both express a sense of upward striving
+- Convey feelings of hope, aspiration, and transcendence
+- Portray a sense of freedom and spiritual elevation
+
+5. Overall Similarity:
+- POEM_B is significantly more aligned with POEM_MAIN compared to POEM_A
+- Shares deeper thematic and stylistic connections"	"['I\'ll analyze the similarities between the poems and provide an evaluation based on the specified criteria.\n\nANSWER:\n{\n""content"": ""POEM_B"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_B""\n}\n\nReasoning:\n\n1. Content:\n- POEM_MAIN and POEM_B share themes of elevation, aspiration, and transcendence\n- Both poems use metaphors of height and nature (lark/sky in POEM_MAIN, tree/nature in POEM_B)\n- Both suggest a spiritual or philosophical elevation beyond physical constraints\n\n2. Style:\n- Both use poetic language with metaphysical undertones\n- Both employ natural imagery to convey abstract concepts\n- Rhythmic, lyrical construction with similar Germanic poetic tradition\n\n3. Form:\n- Similar stanza structures (multiple stanzas)\n- Consistent rhyme schemes\n- Similar metrical patterns with regular rhythmic flow\n\n4. Emotion:\n- Both express a sense of upward striving\n- Convey feelings of hope, aspiration, and transcendence\n- Portray a sense of freedom and spiritual elevation\n\n5. Overall Similarity:\n- POEM_B is significantly more aligned with POEM_MAIN compared to POEM_A\n- Shares deeper thematic and stylistic connections']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+73	l0080251	l0020029	l00160113	l0020029l0080251l00160113	"I'll analyze the poems for similarity across the specified dimensions and provide a structured response.
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_A"", 
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}
+
+Reasoning breakdown:
+- Content: POEM_MAIN and POEM_A both have romantic/passionate undertones and a playful tone
+- Style: Both use similar lyrical language and romantic imagery
+- Form: POEM_B matches POEM_MAIN's structured stanzas and rhyming pattern more closely
+- Emotion: POEM_A shares the passionate, lighthearted emotional quality of POEM_MAIN
+- Overall: POEM_A appears more closely aligned with POEM_MAIN in most dimensions
+
+The poems are all by Heinrich Heine, which provides context for their stylistic similarities, but the comparative analysis focuses on the specific dimensional assessments requested."	"['I\'ll analyze the poems for similarity across the specified dimensions and provide a structured response.\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_A"", \n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}\n\nReasoning breakdown:\n- Content: POEM_MAIN and POEM_A both have romantic/passionate undertones and a playful tone\n- Style: Both use similar lyrical language and romantic imagery\n- Form: POEM_B matches POEM_MAIN\'s structured stanzas and rhyming pattern more closely\n- Emotion: POEM_A shares the passionate, lighthearted emotional quality of POEM_MAIN\n- Overall: POEM_A appears more closely aligned with POEM_MAIN in most dimensions\n\nThe poems are all by Heinrich Heine, which provides context for their stylistic similarities, but the comparative analysis focuses on the specific dimensional assessments requested.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+74	l0080578	l00200179	l00130182	l00200179l0080578l00130182	"I'll systematically compare the poems and evaluate their similarities across different aspects:
+
+ANSWER:
+{""content"": ""POEM_B"", 
+""style"": ""POEM_A"", 
+""form"": ""POEM_B"", 
+""emotion"": ""POEM_A"", 
+""overall"": ""POEM_A""}
+
+Reasoning breakdown:
+- Content: POEM_B is more metaphorical and nature-focused, while POEM_MAIN deals with inner emotional/spiritual struggle
+- Style: POEM_A has a more intimate, personal lyrical style closer to POEM_MAIN
+- Form: POEM_B matches POEM_MAIN's structured stanzas and rhyme scheme 
+- Emotion: POEM_A shares POEM_MAIN's sense of inner conflict, regret, and nostalgic longing
+- Overall: Slightly more aligned with POEM_A due to emotional resonance and lyrical intimacy
+
+The evaluation considers the nuanced similarities in poetic expression, emotional depth, and structural characteristics across the three poems."	"['I\'ll systematically compare the poems and evaluate their similarities across different aspects:\n\nANSWER:\n{""content"": ""POEM_B"", \n""style"": ""POEM_A"", \n""form"": ""POEM_B"", \n""emotion"": ""POEM_A"", \n""overall"": ""POEM_A""}\n\nReasoning breakdown:\n- Content: POEM_B is more metaphorical and nature-focused, while POEM_MAIN deals with inner emotional/spiritual struggle\n- Style: POEM_A has a more intimate, personal lyrical style closer to POEM_MAIN\n- Form: POEM_B matches POEM_MAIN\'s structured stanzas and rhyme scheme \n- Emotion: POEM_A shares POEM_MAIN\'s sense of inner conflict, regret, and nostalgic longing\n- Overall: Slightly more aligned with POEM_A due to emotional resonance and lyrical intimacy\n\nThe evaluation considers the nuanced similarities in poetic expression, emotional depth, and structural characteristics across the three poems.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+75	l0030184	l00140028	l00160212	l00140028l0030184l00160212	"I'll analyze the poems using the specified criteria:
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"", 
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}
+
+Rationale for the analysis:
+1. Content: Both POEM_MAIN and POEM_A share themes of unrequited love, longing, and emotional distance. They both express a sense of one-sided connection or feeling.
+
+2. Style: Both poems have a similar lyrical, introspective German Romantic style with complex emotional expression and a melancholic tone.
+
+3. Form: Both use similar structured rhyming patterns (ABBA ABBA) and have two quatrains with a consistent metrical approach.
+
+4. Emotion: Both poems convey a deep sense of emotional yearning, isolation, and unreciprocated feelings.
+
+5. Overall: POEM_A is significantly more similar to POEM_MAIN in its language, emotional landscape, and structural characteristics compared to the more philosophical and ironic POEM_B.
+
+The analysis strongly suggests that POEM_MAIN is more closely aligned with POEM_A across all evaluated dimensions."	"['I\'ll analyze the poems using the specified criteria:\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"", \n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}\n\nRationale for the analysis:\n1. Content: Both POEM_MAIN and POEM_A share themes of unrequited love, longing, and emotional distance. They both express a sense of one-sided connection or feeling.\n\n2. Style: Both poems have a similar lyrical, introspective German Romantic style with complex emotional expression and a melancholic tone.\n\n3. Form: Both use similar structured rhyming patterns (ABBA ABBA) and have two quatrains with a consistent metrical approach.\n\n4. Emotion: Both poems convey a deep sense of emotional yearning, isolation, and unreciprocated feelings.\n\n5. Overall: POEM_A is significantly more similar to POEM_MAIN in its language, emotional landscape, and structural characteristics compared to the more philosophical and ironic POEM_B.\n\nThe analysis strongly suggests that POEM_MAIN is more closely aligned with POEM_A across all evaluated dimensions.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+76	l0010208	l0080165	l00130378	l0080165l0010208l00130378	"I'll analyze the poems in detail:
+
+POEM_MAIN is a German poem with several key characteristics:
+- Emotional complexity (pride, admiration, longing)
+- Romantic/heroic theme
+- A sense of unrequited or impossible desire
+- Structured in short stanzas
+- A tone of bittersweet reflection
+
+POEM_A similarities:
+- Similar romantic sentiment
+- Emotional narrative of unrequited feelings
+- Short stanza structure
+- Lyrical German style
+- Theme of unattainable desire
+
+POEM_B similarities:
+- German language
+- Philosophical tone
+- Reflective nature
+- Different structural and emotional approach
+
+Detailed breakdown:
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_A"", 
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"", 
+""overall"": ""POEM_A""
+}
+
+The analysis shows POEM_MAIN is significantly more similar to POEM_A in multiple dimensions, particularly in content, emotional landscape, and poetic structure."	"['I\'ll analyze the poems in detail:\n\nPOEM_MAIN is a German poem with several key characteristics:\n- Emotional complexity (pride, admiration, longing)\n- Romantic/heroic theme\n- A sense of unrequited or impossible desire\n- Structured in short stanzas\n- A tone of bittersweet reflection\n\nPOEM_A similarities:\n- Similar romantic sentiment\n- Emotional narrative of unrequited feelings\n- Short stanza structure\n- Lyrical German style\n- Theme of unattainable desire\n\nPOEM_B similarities:\n- German language\n- Philosophical tone\n- Reflective nature\n- Different structural and emotional approach\n\nDetailed breakdown:\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_A"", \n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"", \n""overall"": ""POEM_A""\n}\n\nThe analysis shows POEM_MAIN is significantly more similar to POEM_A in multiple dimensions, particularly in content, emotional landscape, and poetic structure.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+77	l00130329	l00180143	l0080361	l00180143l00130329l0080361	"I'll analyze the poems carefully across the specified criteria:
+
+Content: Both POEM_MAIN and POEM_A use philosophical/existential themes, exploring deeper meanings. POEM_B is more romantic/personal. POEM_A seems closer.
+
+Style: POEM_MAIN and POEM_A use more abstract, symbolic language. POEM_B is more literal. POEM_A aligns better stylistically.
+
+Form: All three poems have similar structured stanzas with rhyming patterns. They're quite comparable, but POEM_A is slightly more similar.
+
+Emotion: POEM_MAIN and POEM_A share a sense of philosophical struggle and reflection. POEM_B is more romantic/personal. POEM_A matches emotionally.
+
+Overall: The closest match is clearly POEM_A.
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}"	"['I\'ll analyze the poems carefully across the specified criteria:\n\nContent: Both POEM_MAIN and POEM_A use philosophical/existential themes, exploring deeper meanings. POEM_B is more romantic/personal. POEM_A seems closer.\n\nStyle: POEM_MAIN and POEM_A use more abstract, symbolic language. POEM_B is more literal. POEM_A aligns better stylistically.\n\nForm: All three poems have similar structured stanzas with rhyming patterns. They\'re quite comparable, but POEM_A is slightly more similar.\n\nEmotion: POEM_MAIN and POEM_A share a sense of philosophical struggle and reflection. POEM_B is more romantic/personal. POEM_A matches emotionally.\n\nOverall: The closest match is clearly POEM_A.\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+78	l00170030	l0080419	l0030080	l0080419l00170030l0030080	"I'll analyze the similarity of the poems based on the specified criteria:
+
+1. Content: 
+- POEM_MAIN is about wandering through meadows, picking flowers, and bringing them to someone
+- POEM_A is about exploring the meaning of love through metaphorical questions
+- POEM_B is about autumn, fading flowers, and a memory of a departed loved one
+
+2. Style: 
+- POEM_MAIN and POEM_A both have a lyrical, romantic tone
+- POEM_B has a more melancholic, somber style
+
+3. Form: 
+- POEM_MAIN and POEM_A have similar stanza structures with five lines
+- POEM_B has a different stanza structure
+
+4. Emotion:
+- POEM_MAIN conveys joy, wonder, and innocence
+- POEM_A expresses curiosity about love
+- POEM_B conveys sadness and loss
+
+5. Overall Similarity:
+POEM_MAIN seems more aligned with POEM_A in terms of style, emotion, and form.
+
+ANSWER: 
+{
+""content"": ""POEM_B"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}"	"['I\'ll analyze the similarity of the poems based on the specified criteria:\n\n1. Content: \n- POEM_MAIN is about wandering through meadows, picking flowers, and bringing them to someone\n- POEM_A is about exploring the meaning of love through metaphorical questions\n- POEM_B is about autumn, fading flowers, and a memory of a departed loved one\n\n2. Style: \n- POEM_MAIN and POEM_A both have a lyrical, romantic tone\n- POEM_B has a more melancholic, somber style\n\n3. Form: \n- POEM_MAIN and POEM_A have similar stanza structures with five lines\n- POEM_B has a different stanza structure\n\n4. Emotion:\n- POEM_MAIN conveys joy, wonder, and innocence\n- POEM_A expresses curiosity about love\n- POEM_B conveys sadness and loss\n\n5. Overall Similarity:\nPOEM_MAIN seems more aligned with POEM_A in terms of style, emotion, and form.\n\nANSWER: \n{\n""content"": ""POEM_B"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+79	l0040579	l00100094	l00170065	l00100094l0040579l00170065	"I'll analyze the poems systematically based on the specified criteria:
+
+Content: POEM_A shares more thematic similarities with POEM_MAIN, particularly around love, relationships, and betrayal/loss.
+Style: POEM_B is closer in poetic style with its more contemplative, softer tone.
+Form: POEM_B is structurally more similar with consistent verse lengths and rhythm.
+Emotion: POEM_A captures a similar emotional intensity and romantic tension as POEM_MAIN.
+Overall: POEM_A has a stronger alignment with POEM_MAIN.
+
+Therefore, my answer is:
+
+ANSWER:
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['I\'ll analyze the poems systematically based on the specified criteria:\n\nContent: POEM_A shares more thematic similarities with POEM_MAIN, particularly around love, relationships, and betrayal/loss.\nStyle: POEM_B is closer in poetic style with its more contemplative, softer tone.\nForm: POEM_B is structurally more similar with consistent verse lengths and rhythm.\nEmotion: POEM_A captures a similar emotional intensity and romantic tension as POEM_MAIN.\nOverall: POEM_A has a stronger alignment with POEM_MAIN.\n\nTherefore, my answer is:\n\nANSWER:\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+80	l00270241	l0090070	l00270469	l0090070l00270241l00270469	"I'll analyze the poems based on the specified criteria and provide a structured evaluation:
+
+ANSWER:
+{
+""content"": ""POEM_B"",
+""style"": ""POEM_A"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_B""
+}
+
+Reasoning (not part of the output):
+- Content: POEM_B and POEM_MAIN both deal with subtle, melancholic human experiences involving transience and inner emotional landscapes
+- Style: Closer to POEM_B with its structured rhyme scheme and contemplative tone
+- Form: POEM_B matches POEM_MAIN's structured rhyming quatrains
+- Emotion: Both POEM_MAIN and POEM_B express a sense of ephemeral existence and quiet resignation
+- Overall similarity leans more towards POEM_B due to stronger thematic and structural alignment
+
+The key similarities are the contemplative mood, structured poetic form, and themes of transience and emotional subtlety, which are more pronounced in POEM_B compared to the more descriptive POEM_A."	"['I\'ll analyze the poems based on the specified criteria and provide a structured evaluation:\n\nANSWER:\n{\n""content"": ""POEM_B"",\n""style"": ""POEM_A"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_B""\n}\n\nReasoning (not part of the output):\n- Content: POEM_B and POEM_MAIN both deal with subtle, melancholic human experiences involving transience and inner emotional landscapes\n- Style: Closer to POEM_B with its structured rhyme scheme and contemplative tone\n- Form: POEM_B matches POEM_MAIN\'s structured rhyming quatrains\n- Emotion: Both POEM_MAIN and POEM_B express a sense of ephemeral existence and quiet resignation\n- Overall similarity leans more towards POEM_B due to stronger thematic and structural alignment\n\nThe key similarities are the contemplative mood, structured poetic form, and themes of transience and emotional subtlety, which are more pronounced in POEM_B compared to the more descriptive POEM_A.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+81	l0040512	l00270401	l0080405	l00270401l0040512l0080405	"I'll analyze the similarity of these poems across the specified criteria:
+
+ANSWER:
+{
+""content"": ""POEM_B"",
+""style"": ""POEM_A"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}
+
+Rationale for evaluation:
+
+Content:
+- POEM_MAIN and POEM_B both have a contemplative nature about time and impermanence
+- POEM_A more philosophically explores transience and perception of reality
+
+Style:
+- POEM_A shares more poetic metaphysical qualities with POEM_MAIN
+- Similar contemplative, abstract approach to describing existence
+
+Form:
+- POEM_B matches POEM_MAIN's structure more closely (4-line stanzas, similar rhyme scheme)
+- Similar Germanic poetic construction
+
+Emotion:
+- POEM_A captures a similar melancholic, reflective tone to POEM_MAIN
+- Both explore themes of memory, transience, and subtle existential questioning
+
+Overall:
+- Despite structural similarities with POEM_B, the philosophical and emotional depth aligns more closely with POEM_A
+
+The nuanced themes of perception, memory, and the ephemeral nature of existence make POEM_A the more similar companion piece to POEM_MAIN."	"['I\'ll analyze the similarity of these poems across the specified criteria:\n\nANSWER:\n{\n""content"": ""POEM_B"",\n""style"": ""POEM_A"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}\n\nRationale for evaluation:\n\nContent:\n- POEM_MAIN and POEM_B both have a contemplative nature about time and impermanence\n- POEM_A more philosophically explores transience and perception of reality\n\nStyle:\n- POEM_A shares more poetic metaphysical qualities with POEM_MAIN\n- Similar contemplative, abstract approach to describing existence\n\nForm:\n- POEM_B matches POEM_MAIN\'s structure more closely (4-line stanzas, similar rhyme scheme)\n- Similar Germanic poetic construction\n\nEmotion:\n- POEM_A captures a similar melancholic, reflective tone to POEM_MAIN\n- Both explore themes of memory, transience, and subtle existential questioning\n\nOverall:\n- Despite structural similarities with POEM_B, the philosophical and emotional depth aligns more closely with POEM_A\n\nThe nuanced themes of perception, memory, and the ephemeral nature of existence make POEM_A the more similar companion piece to POEM_MAIN.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+82	l0010277	l0030018	l00100115	l0030018l0010277l00100115	"I'll analyze the poems carefully and provide a structured response:
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}
+
+Reasoning behind the evaluation:
+
+Content: POEM_MAIN and POEM_A both describe pastoral scenes with natural imagery (grassy meadows, landscapes), focusing on growth, peace, and harmony. POEM_B is about a competitive scenario with a rider/horse.
+
+Style: Both POEM_MAIN and POEM_A have a lyrical, contemplative tone. They use descriptive language and evoke a sense of tranquility. POEM_B is more narrative and action-oriented.
+
+Form: POEM_MAIN and POEM_B have stricter rhyme schemes and metrical structures. POEM_A is more free-flowing in its verse.
+
+Emotion: POEM_MAIN and POEM_A share a sense of serenity, hope, and connection with nature. POEM_B conveys tension and conflict.
+
+Overall: POEM_A most closely matches POEM_MAIN in multiple dimensions, particularly in its emotional landscape and content."	"['I\'ll analyze the poems carefully and provide a structured response:\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}\n\nReasoning behind the evaluation:\n\nContent: POEM_MAIN and POEM_A both describe pastoral scenes with natural imagery (grassy meadows, landscapes), focusing on growth, peace, and harmony. POEM_B is about a competitive scenario with a rider/horse.\n\nStyle: Both POEM_MAIN and POEM_A have a lyrical, contemplative tone. They use descriptive language and evoke a sense of tranquility. POEM_B is more narrative and action-oriented.\n\nForm: POEM_MAIN and POEM_B have stricter rhyme schemes and metrical structures. POEM_A is more free-flowing in its verse.\n\nEmotion: POEM_MAIN and POEM_A share a sense of serenity, hope, and connection with nature. POEM_B conveys tension and conflict.\n\nOverall: POEM_A most closely matches POEM_MAIN in multiple dimensions, particularly in its emotional landscape and content.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+83	l00270438	l0040333	l0040181	l0040333l00270438l0040181	"I'll analyze the similarities between POEM_MAIN and POEM_A and POEM_B across different dimensions:
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}
+
+Reasoning (though not part of the required output):
+- Content: Both POEM_MAIN and POEM_A have a contemplative, reflective tone about life and nature
+- Style: Both use a similar lyrical German poetic style with traditional rhyme schemes
+- Form: POEM_B has a more abstract, fragmented structure, while POEM_A matches POEM_MAIN's stanza layout
+- Emotion: POEM_A shares a sense of nostalgic longing and introspection with POEM_MAIN
+- Overall, POEM_A seems much closer to POEM_MAIN in most aspects compared to the more abstract POEM_B
+
+The key similarities are in the emotional landscape, poetic style, and contemplative approach to experience and memory."	"['I\'ll analyze the similarities between POEM_MAIN and POEM_A and POEM_B across different dimensions:\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}\n\nReasoning (though not part of the required output):\n- Content: Both POEM_MAIN and POEM_A have a contemplative, reflective tone about life and nature\n- Style: Both use a similar lyrical German poetic style with traditional rhyme schemes\n- Form: POEM_B has a more abstract, fragmented structure, while POEM_A matches POEM_MAIN\'s stanza layout\n- Emotion: POEM_A shares a sense of nostalgic longing and introspection with POEM_MAIN\n- Overall, POEM_A seems much closer to POEM_MAIN in most aspects compared to the more abstract POEM_B\n\nThe key similarities are in the emotional landscape, poetic style, and contemplative approach to experience and memory.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+84	l0020036	l00150030	l00170187	l00150030l0020036l00170187	"I'll systematically compare the poems and evaluate their similarities across the specified criteria.
+
+ANSWER:
+{
+""content"": ""POEM_B"",
+""style"": ""POEM_B"", 
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_B""
+}
+
+Rationale (not part of the required output):
+- Content: POEM_B shares more abstract, reflective qualities with POEM_MAIN
+- Style: Both POEM_MAIN and POEM_B have a lyrical, contemplative German Romantic style
+- Form: Both use similar structured verse with defined rhyme schemes and rhythmic patterns
+- Emotion: POEM_A better captures the emotional depth and introspective mood
+- Overall: POEM_B is slightly more similar in its abstract poetic approach and stylistic elements
+
+The algorithm prioritizes structural and stylistic similarities while also considering emotional resonance, ultimately finding POEM_B more closely aligned with POEM_MAIN."	"['I\'ll systematically compare the poems and evaluate their similarities across the specified criteria.\n\nANSWER:\n{\n""content"": ""POEM_B"",\n""style"": ""POEM_B"", \n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_B""\n}\n\nRationale (not part of the required output):\n- Content: POEM_B shares more abstract, reflective qualities with POEM_MAIN\n- Style: Both POEM_MAIN and POEM_B have a lyrical, contemplative German Romantic style\n- Form: Both use similar structured verse with defined rhyme schemes and rhythmic patterns\n- Emotion: POEM_A better captures the emotional depth and introspective mood\n- Overall: POEM_B is slightly more similar in its abstract poetic approach and stylistic elements\n\nThe algorithm prioritizes structural and stylistic similarities while also considering emotional resonance, ultimately finding POEM_B more closely aligned with POEM_MAIN.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+85	l0040301	l0040516	l0030428	l0040516l0040301l0030428	"I'll carefully analyze the poems, comparing their content, style, form, emotion, and overall similarity.
+
+Content: The main poem and POEM_A both have an introspective, deeply personal tone with emotional intensity. They explore inner landscapes and personal experiences. POEM_B has a more serene, contemplative nature scene. More aligned with POEM_A.
+
+Style: All three poems are in German and have a poetic, abstract language. POEM_MAIN and POEM_A use more intense, dramatic imagery, while POEM_B is more delicate. POEM_MAIN and POEM_A share a more similar stylistic approach. More aligned with POEM_A.
+
+Form: POEM_MAIN and POEM_A both use irregular line lengths and breaks, creating a sense of emotional turbulence. POEM_B has a more structured, regular stanza form. More aligned with POEM_A.
+
+Emotion: POEM_MAIN and POEM_A convey deep, complex emotions - a sense of struggle, transformation, and inner intensity. POEM_B is more calm and meditative. More aligned with POEM_A.
+
+Overall: Considering all aspects, POEM_MAIN is significantly more similar to POEM_A.
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}"	"['I\'ll carefully analyze the poems, comparing their content, style, form, emotion, and overall similarity.\n\nContent: The main poem and POEM_A both have an introspective, deeply personal tone with emotional intensity. They explore inner landscapes and personal experiences. POEM_B has a more serene, contemplative nature scene. More aligned with POEM_A.\n\nStyle: All three poems are in German and have a poetic, abstract language. POEM_MAIN and POEM_A use more intense, dramatic imagery, while POEM_B is more delicate. POEM_MAIN and POEM_A share a more similar stylistic approach. More aligned with POEM_A.\n\nForm: POEM_MAIN and POEM_A both use irregular line lengths and breaks, creating a sense of emotional turbulence. POEM_B has a more structured, regular stanza form. More aligned with POEM_A.\n\nEmotion: POEM_MAIN and POEM_A convey deep, complex emotions - a sense of struggle, transformation, and inner intensity. POEM_B is more calm and meditative. More aligned with POEM_A.\n\nOverall: Considering all aspects, POEM_MAIN is significantly more similar to POEM_A.\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+86	l00180133	l0040227	l00270102	l0040227l00180133l00270102	"I'll carefully evaluate the similarities between the poems based on the specified criteria.
+
+ANSWER:
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}
+
+Analysis rationale:
+- Content: POEM_MAIN and POEM_A share themes of transience, nostalgia, and melancholy reflection on life's journey and passage of time.
+- Style: Both use rich, contemplative language with a philosophical tone about existential experiences.
+- Form: POEM_B has a more structured rhyme scheme, while POEM_MAIN is closer to POEM_A's looser structure.
+- Emotion: Both POEM_MAIN and POEM_A express a deep sense of longing, melancholy, and existential uncertainty.
+- Overall similarity: POEM_A is more closely aligned with POEM_MAIN in its thematic and emotional depth.
+
+POEM_B, while beautifully written, has a more direct, romantic tone that differs significantly from POEM_MAIN's contemplative and existential approach."	"['I\'ll carefully evaluate the similarities between the poems based on the specified criteria.\n\nANSWER:\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}\n\nAnalysis rationale:\n- Content: POEM_MAIN and POEM_A share themes of transience, nostalgia, and melancholy reflection on life\'s journey and passage of time.\n- Style: Both use rich, contemplative language with a philosophical tone about existential experiences.\n- Form: POEM_B has a more structured rhyme scheme, while POEM_MAIN is closer to POEM_A\'s looser structure.\n- Emotion: Both POEM_MAIN and POEM_A express a deep sense of longing, melancholy, and existential uncertainty.\n- Overall similarity: POEM_A is more closely aligned with POEM_MAIN in its thematic and emotional depth.\n\nPOEM_B, while beautifully written, has a more direct, romantic tone that differs significantly from POEM_MAIN\'s contemplative and existential approach.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+87	l0020084	l0030143	l0040118	l0030143l0020084l0040118	"I'll analyze the poems carefully across the specified criteria:
+
+ANSWER:
+{
+""content"": ""POEM_B"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"", 
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}
+
+Reasoning:
+- Content: POEM_B is more thematically similar to POEM_MAIN, with both having contemplative, melancholic tones about life/death
+- Style: POEM_A's lyrical, personal narrative style is closer to POEM_MAIN
+- Form: POEM_A matches POEM_MAIN's structured stanza approach 
+- Emotion: POEM_A better captures the gentle, farewell-like sentiment 
+- Overall: Despite content similarity to POEM_B, the broader stylistic and emotional alignment makes POEM_A a closer match
+
+The key factors are the German language, structured stanzas, personal perspective, and bittersweet emotional tone, which POEM_A most closely represents."	"['I\'ll analyze the poems carefully across the specified criteria:\n\nANSWER:\n{\n""content"": ""POEM_B"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"", \n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}\n\nReasoning:\n- Content: POEM_B is more thematically similar to POEM_MAIN, with both having contemplative, melancholic tones about life/death\n- Style: POEM_A\'s lyrical, personal narrative style is closer to POEM_MAIN\n- Form: POEM_A matches POEM_MAIN\'s structured stanza approach \n- Emotion: POEM_A better captures the gentle, farewell-like sentiment \n- Overall: Despite content similarity to POEM_B, the broader stylistic and emotional alignment makes POEM_A a closer match\n\nThe key factors are the German language, structured stanzas, personal perspective, and bittersweet emotional tone, which POEM_A most closely represents.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+88	l00270798	l0030220	l00110076	l0030220l00270798l00110076	"I'll analyze the similarities between POEM_MAIN and the two alternative poems across the specified criteria:
+
+ANSWER:
+{
+""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""
+}
+
+Reasoning breakdown:
+1. Content: POEM_A is more similar, with themes of emotional pain, natural imagery, and introspective tone.
+2. Style: POEM_B has a more abstract, symbolic style, while POEM_MAIN and POEM_A share a more narrative, descriptive approach.
+3. Form: POEM_A matches POEM_MAIN's rhyming structure and stanza layout.
+4. Emotion: POEM_A conveys a similar sense of melancholy, transformation, and subtle pain.
+5. Overall: POEM_A appears most aligned with POEM_MAIN in multiple aspects - thematic depth, emotional resonance, and structural composition.
+
+The shared German language and poetic traditions further support the closer alignment with POEM_A."	"['I\'ll analyze the similarities between POEM_MAIN and the two alternative poems across the specified criteria:\n\nANSWER:\n{\n""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""\n}\n\nReasoning breakdown:\n1. Content: POEM_A is more similar, with themes of emotional pain, natural imagery, and introspective tone.\n2. Style: POEM_B has a more abstract, symbolic style, while POEM_MAIN and POEM_A share a more narrative, descriptive approach.\n3. Form: POEM_A matches POEM_MAIN\'s rhyming structure and stanza layout.\n4. Emotion: POEM_A conveys a similar sense of melancholy, transformation, and subtle pain.\n5. Overall: POEM_A appears most aligned with POEM_MAIN in multiple aspects - thematic depth, emotional resonance, and structural composition.\n\nThe shared German language and poetic traditions further support the closer alignment with POEM_A.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default
+89	l0040028	l0010299	l0030043	l0010299l0040028l0030043	"I'll evaluate the similarities between the poems based on the specified criteria.
+
+ANSWER:
+{
+""content"": ""POEM_B"",
+""style"": ""POEM_B"", 
+""form"": ""POEM_A"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_B""
+}
+
+Reasoning breakdown:
+- Content: POEM_B shares similar atmospheric, melancholic nocturnal themes with POEM_MAIN, featuring night scenes, emotional tension, and a sense of longing
+- Style: POEM_B has a similar contemplative, moody poetic voice and imagery of night/twilight
+- Form: POEM_A is more structurally similar with regular stanzas, while POEM_MAIN and POEM_B have more fluid, less structured forms
+- Emotion: POEM_B captures a similar sense of quiet melancholy, unease, and subtle dramatic tension
+- Overall similarity: POEM_B more closely matches the mood, imagery, and emotional landscape of POEM_MAIN
+
+The key similarities with POEM_B include the night setting, emotional undertones, descriptive landscape imagery, and a sense of something mysterious or unresolved."	"['I\'ll evaluate the similarities between the poems based on the specified criteria.\n\nANSWER:\n{\n""content"": ""POEM_B"",\n""style"": ""POEM_B"", \n""form"": ""POEM_A"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_B""\n}\n\nReasoning breakdown:\n- Content: POEM_B shares similar atmospheric, melancholic nocturnal themes with POEM_MAIN, featuring night scenes, emotional tension, and a sense of longing\n- Style: POEM_B has a similar contemplative, moody poetic voice and imagery of night/twilight\n- Form: POEM_A is more structurally similar with regular stanzas, while POEM_MAIN and POEM_B have more fluid, less structured forms\n- Emotion: POEM_B captures a similar sense of quiet melancholy, unease, and subtle dramatic tension\n- Overall similarity: POEM_B more closely matches the mood, imagery, and emotional landscape of POEM_MAIN\n\nThe key similarities with POEM_B include the night setting, emotional undertones, descriptive landscape imagery, and a sense of something mysterious or unresolved.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		konsens	default

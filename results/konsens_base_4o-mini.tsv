@@ -1,0 +1,624 @@
+	base_ID	left_ID	right_ID	triple_ID	answer	answer_log	promptscheme	model	flieds	dataset	sysprompt
+0	l00170161	l0010154	l00130457	l0010154l00170161l00130457	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+1	l00130138	l00180069	l0040554	l00180069l00130138l0040554	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+2	l00130210	l00140024	l00140150	l00140024l00130210l00140150	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+3	l0010082	l00130354	l0030174	l00130354l0010082l0030174	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+4	l00200135	l0080305	l00200223	l0080305l00200135l00200223	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+5	l0010172	l00200026	l00130042	l00200026l0010172l00130042	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+6	l0030323	l00200176	l00140156	l00200176l0030323l00140156	"ANSWER: 
+
+{""content"": ""POEM_B"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_B""}"	"['ANSWER: \n\n{""content"": ""POEM_B"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+7	l00200088	l00130102	l0080046	l00130102l00200088l0080046	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+8	l00200278	l00100009	l0080132	l00100009l00200278l0080132	"ANSWER:
+
+{""content"": ""POEM_B"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_B""}"	"['ANSWER:\n\n{""content"": ""POEM_B"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+9	l00130384	l0030323	l00160192	l0030323l00130384l00160192	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+10	l0040524	l0080448	l00110081	l0080448l0040524l00110081	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+11	l00130354	l0050031	l00160112	l0050031l00130354l00160112	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+12	l0040336	l0010238	l00170058	l0010238l0040336l00170058	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+13	l00130210	l00200254	l00140150	l00200254l00130210l00140150	"ANSWER: 
+
+{""content"": ""POEM_B"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_B""}"	"['ANSWER: \n\n{""content"": ""POEM_B"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+14	l0010218	l00130378	l0080311	l00130378l0010218l0080311	"ANSWER: 
+
+{""content"": ""POEM_B"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_MAIN"",
+""overall"": ""POEM_B""}"	"['ANSWER: \n\n{""content"": ""POEM_B"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_MAIN"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+15	l00170019	l0060062	l0080412	l0060062l00170019l0080412	"ANSWER: 
+
+{""content"": ""POEM_B"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_B""}"	"['ANSWER: \n\n{""content"": ""POEM_B"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+16	l0020029	l00160240	l0070146	l00160240l0020029l0070146	"ANSWER: 
+
+{""content"": ""POEM_B"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_B"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+17	l0010076	l0050031	l0010186	l0050031l0010076l0010186	"ANSWER:
+
+{""content"": ""POEM_B"",
+""style"": ""POEM_A"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_B"",\n""style"": ""POEM_A"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+18	l0030184	l00160212	l00130384	l00160212l0030184l00130384	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+19	l0030433	l0010238	l0020039	l0010238l0030433l0020039	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+20	l00130210	l0090086	l00140150	l0090086l00130210l00140150	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+21	l0020147	l00160172	l0030065	l00160172l0020147l0030065	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+22	l00130383	l00130059	l00200186	l00130059l00130383l00200186	"ANSWER:
+
+{""content"": ""POEM_B"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_B""}"	"['ANSWER:\n\n{""content"": ""POEM_B"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+23	l0090086	l0080554	l0060046	l0080554l0090086l0060046	"ANSWER: 
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+24	l00160211	l00130451	l00190039	l00130451l00160211l00190039	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+25	l0040554	l00130138	l0080055	l00130138l0040554l0080055	"ANSWER:
+
+{""content"": ""POEM_B"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_B""}"	"['ANSWER:\n\n{""content"": ""POEM_B"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+26	l0040304	l0080227	l00130361	l0080227l0040304l00130361	"ANSWER:
+
+{""content"": ""POEM_B"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_B""}"	"['ANSWER:\n\n{""content"": ""POEM_B"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+27	l0040053	l0060082	l00130449	l0060082l0040053l00130449	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+28	l0030183	l00140124	l00130451	l00140124l0030183l00130451	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+29	l00100088	l0080026	l0050040	l0080026l00100088l0050040	"ANSWER:
+
+{""content"": ""POEM_B"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_B""}"	"['ANSWER:\n\n{""content"": ""POEM_B"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+30	l0040509	l0060062	l0080369	l0060062l0040509l0080369	"ANSWER: 
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+31	l0020093	l0010132	l00180012	l0010132l0020093l00180012	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+32	l00140083	l00130042	l0030323	l00130042l00140083l0030323	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+33	l00140119	l00140141	l00130375	l00140141l00140119l00130375	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+34	l0080497	l00200064	l00200002	l00200064l0080497l00200002	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+35	l0060068	l0030031	l0080448	l0030031l0060068l0080448	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+36	l0030243	l00180017	l00130329	l00180017l0030243l00130329	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+37	l00140122	l00160042	l00200195	l00160042l00140122l00200195	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+38	l0080055	l0010079	l00130444	l0010079l0080055l00130444	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+39	l0080361	l0080077	l0010300	l0080077l0080361l0010300	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+40	l00140105	l0030305	l00170225	l0030305l00140105l00170225	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+41	l0080026	l00180026	l00130111	l00180026l0080026l00130111	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+42	l0030167	l0010173	l00160240	l0010173l0030167l00160240	"ANSWER:
+
+{""content"": ""POEM_B"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_B""}"	"['ANSWER:\n\n{""content"": ""POEM_B"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+43	l0010125	l0080554	l0010038	l0080554l0010125l0010038	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+44	l0080543	l0040304	l00180143	l0040304l0080543l00180143	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+45	l0080356	l0010261	l0080377	l0010261l0080356l0080377	"ANSWER: 
+
+{""content"": ""POEM_B"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_B""}"	"['ANSWER: \n\n{""content"": ""POEM_B"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+46	l0080616	l0060046	l00130398	l0060046l0080616l00130398	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+47	l0090083	l00130449	l0080466	l00130449l0090083l0080466	"ANSWER: 
+
+{""content"": ""POEM_B"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_B""}"	"['ANSWER: \n\n{""content"": ""POEM_B"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+48	l0030183	l0040217	l0080227	l0040217l0030183l0080227	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+49	l00140124	l00130062	l00180069	l00130062l00140124l00180069	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+50	l0010273	l00170195	l00180127	l00170195l0010273l00180127	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+51	l0060057	l0060056	l00140066	l0060056l0060057l00140066	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+52	l0090084	l00130348	l0030431	l00130348l0090084l0030431	"ANSWER:
+
+{""content"": ""POEM_B"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_B""}"	"['ANSWER:\n\n{""content"": ""POEM_B"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+53	l0020034	l00130056	l0010018	l00130056l0020034l0010018	"ANSWER: 
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+54	l00130451	l00110081	l00100008	l00110081l00130451l00100008	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+55	l0010038	l0030227	l0090065	l0030227l0010038l0090065	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+56	l0040509	l0010076	l0060019	l0010076l0040509l0060019	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+57	l0060082	l00170003	l00140029	l00170003l0060082l00140029	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+58	l00130384	l0010170	l00200340	l0010170l00130384l00200340	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+59	l00160240	l0010261	l0080251	l0010261l00160240l0080251	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+60	l0080046	l0010079	l0080344	l0010079l0080046l0080344	"ANSWER:
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+61	l00170125	l00180060	l0030305	l00180060l00170125l0030305	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+62	l00200135	l00140198	l0010170	l00140198l00200135l0010170	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+63	l00130042	l00160300	l0030167	l00160300l00130042l0030167	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+64	l00130111	l00130138	l00160282	l00130138l00130111l00160282	"ANSWER:
+
+{""content"": ""POEM_B"",
+""style"": ""POEM_A"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_B""}"	"['ANSWER:\n\n{""content"": ""POEM_B"",\n""style"": ""POEM_A"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+65	l0080077	l00180012	l00160004	l00180012l0080077l00160004	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+66	l00200064	l0010056	l00160117	l0010056l00200064l00160117	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+67	l00160212	l00190023	l0030184	l00190023l00160212l0030184	"ANSWER: 
+
+{""content"": ""POEM_B"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_B""}"	"['ANSWER: \n\n{""content"": ""POEM_B"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+68	l00180136	l0050040	l0020047	l0050040l00180136l0020047	"ANSWER:
+
+{""content"": ""POEM_B"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_B""}"	"['ANSWER:\n\n{""content"": ""POEM_B"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+69	l0080165	l0010208	l00140150	l0010208l0080165l00140150	"ANSWER:
+
+{""content"": ""POEM_B"",
+""style"": ""POEM_A"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_B""}"	"['ANSWER:\n\n{""content"": ""POEM_B"",\n""style"": ""POEM_A"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+70	l0020029	l0080208	l00160240	l0080208l0020029l00160240	"ANSWER: 
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+71	l0010186	l00130451	l00130354	l00130451l0010186l00130354	"ANSWER: 
+
+{""content"": ""POEM_B"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_B""}"	"['ANSWER: \n\n{""content"": ""POEM_B"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+72	l00130257	l00130375	l00130182	l00130375l00130257l00130182	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+73	l0080251	l0020029	l00160113	l0020029l0080251l00160113	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+74	l0080578	l00200179	l00130182	l00200179l0080578l00130182	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+75	l0030184	l00140028	l00160212	l00140028l0030184l00160212	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+76	l0010208	l0080165	l00130378	l0080165l0010208l00130378	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+77	l00130329	l00180143	l0080361	l00180143l00130329l0080361	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+78	l00170030	l0080419	l0030080	l0080419l00170030l0030080	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+79	l0040579	l00100094	l00170065	l00100094l0040579l00170065	"ANSWER:
+
+{""content"": ""POEM_B"",
+""style"": ""POEM_A"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_B""}"	"['ANSWER:\n\n{""content"": ""POEM_B"",\n""style"": ""POEM_A"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+80	l00270241	l0090070	l00270469	l0090070l00270241l00270469	"ANSWER: 
+
+{""content"": ""POEM_B"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_B""}"	"['ANSWER: \n\n{""content"": ""POEM_B"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+81	l0040512	l00270401	l0080405	l00270401l0040512l0080405	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+82	l0010277	l0030018	l00100115	l0030018l0010277l00100115	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+83	l00270438	l0040333	l0040181	l0040333l00270438l0040181	"ANSWER:
+
+{""content"": ""POEM_B"",
+""style"": ""POEM_A"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_B"",\n""style"": ""POEM_A"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+84	l0020036	l00150030	l00170187	l00150030l0020036l00170187	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+85	l0040301	l0040516	l0030428	l0040516l0040301l0030428	"ANSWER: 
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+86	l00180133	l0040227	l00270102	l0040227l00180133l00270102	"ANSWER: 
+{""content"": ""POEM_B"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_B""}"	"['ANSWER: \n{""content"": ""POEM_B"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_B""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+87	l0020084	l0030143	l0040118	l0030143l0020084l0040118	"ANSWER: 
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+88	l00270798	l0030220	l00110076	l0030220l00270798l00110076	"ANSWER: 
+
+{""content"": ""POEM_B"",
+""style"": ""POEM_A"",
+""form"": ""POEM_B"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER: \n\n{""content"": ""POEM_B"",\n""style"": ""POEM_A"",\n""form"": ""POEM_B"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default
+89	l0040028	l0010299	l0030043	l0010299l0040028l0030043	"ANSWER:
+
+{""content"": ""POEM_A"",
+""style"": ""POEM_B"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['ANSWER:\n\n{""content"": ""POEM_A"",\n""style"": ""POEM_B"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	gpt-4o-mini		konsens	default

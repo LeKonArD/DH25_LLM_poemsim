@@ -1,0 +1,69 @@
+	base_ID	left_ID	right_ID	triple_ID	answer	answer_log	promptscheme	model	flieds	dataset	sysprompt
+0	l0020119	l0090085	l00200112	l0090085l0020119l00200112	"I'll analyze the poems systematically:
+
+ANSWER:
+
+{
+""content"": ""POEM_B"",
+""style"": ""POEM_B"", 
+""form"": ""POEM_B"",
+""emotion"": ""POEM_B"",
+""overall"": ""POEM_B""
+}
+
+Reasoning:
+1. Content: Both POEM_MAIN and POEM_B are about spring/seasonal themes, nature's renewal, and emotional tension between hope and melancholy.
+
+2. Style: Both use traditional German lyrical poetry structures with consistent rhyme and meter, with contemplative, introspective tones.
+
+3. Form: Very similar - both have four-line stanzas with an ABAB rhyme scheme and similar metrical patterns.
+
+4. Emotion: Both express a complex emotional landscape - longing, subtle sadness despite natural beauty, a sense of unresolved inner conflict.
+
+5. Overall similarity: POEM_B is markedly more similar to POEM_MAIN in its thematic exploration of seasonal change, inner emotional state, and poetic structure.
+
+POEM_A, by contrast, has a more modernist, imagistic style with fragmented imagery and less structured form, making it less aligned with POEM_MAIN."	"['I\'ll analyze the poems systematically:\n\nANSWER:\n\n{\n""content"": ""POEM_B"",\n""style"": ""POEM_B"", \n""form"": ""POEM_B"",\n""emotion"": ""POEM_B"",\n""overall"": ""POEM_B""\n}\n\nReasoning:\n1. Content: Both POEM_MAIN and POEM_B are about spring/seasonal themes, nature\'s renewal, and emotional tension between hope and melancholy.\n\n2. Style: Both use traditional German lyrical poetry structures with consistent rhyme and meter, with contemplative, introspective tones.\n\n3. Form: Very similar - both have four-line stanzas with an ABAB rhyme scheme and similar metrical patterns.\n\n4. Emotion: Both express a complex emotional landscape - longing, subtle sadness despite natural beauty, a sense of unresolved inner conflict.\n\n5. Overall similarity: POEM_B is markedly more similar to POEM_MAIN in its thematic exploration of seasonal change, inner emotional state, and poetic structure.\n\nPOEM_A, by contrast, has a more modernist, imagistic style with fragmented imagery and less structured form, making it less aligned with POEM_MAIN.']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		dummy	default
+1	l00140028	l00140156	l00130138	l00140156l00140028l00130138	"Let me analyze the poems systematically:
+
+Content:
+- POEM_MAIN: Personal emotional struggle, sense of isolation, disconnection from family/home
+- POEM_A: Emotional intensity, metaphorical struggle, rising tension
+- POEM_B: Abstract reflection on art's transformative power
+
+Style:
+- POEM_MAIN: Introspective, melancholic, personal voice
+- POEM_A: Metaphorical, dramatic, intense emotional progression
+- POEM_B: Philosophical, elevated, contemplative
+
+Form:
+- POEM_MAIN: Structured rhyming quatrains (ABBA)
+- POEM_A: Similar rhyming structure, dynamic rhythm
+- POEM_B: Similar rhyming structure (AAAAAA)
+
+Emotion:
+- POEM_MAIN: Profound sense of isolation, existential pain
+- POEM_A: Raw emotional intensity, metaphorical suffering
+- POEM_B: Intellectual, removed from personal emotion
+
+Overall:
+Given the emotional depth, personal struggle, and stylistic similarities, POEM_MAIN feels most aligned with POEM_A.
+
+ANSWER: {""content"": ""POEM_A"", ""style"": ""POEM_A"", ""form"": ""POEM_A"", ""emotion"": ""POEM_A"", ""overall"": ""POEM_A""}"	"['Let me analyze the poems systematically:\n\nContent:\n- POEM_MAIN: Personal emotional struggle, sense of isolation, disconnection from family/home\n- POEM_A: Emotional intensity, metaphorical struggle, rising tension\n- POEM_B: Abstract reflection on art\'s transformative power\n\nStyle:\n- POEM_MAIN: Introspective, melancholic, personal voice\n- POEM_A: Metaphorical, dramatic, intense emotional progression\n- POEM_B: Philosophical, elevated, contemplative\n\nForm:\n- POEM_MAIN: Structured rhyming quatrains (ABBA)\n- POEM_A: Similar rhyming structure, dynamic rhythm\n- POEM_B: Similar rhyming structure (AAAAAA)\n\nEmotion:\n- POEM_MAIN: Profound sense of isolation, existential pain\n- POEM_A: Raw emotional intensity, metaphorical suffering\n- POEM_B: Intellectual, removed from personal emotion\n\nOverall:\nGiven the emotional depth, personal struggle, and stylistic similarities, POEM_MAIN feels most aligned with POEM_A.\n\nANSWER: {""content"": ""POEM_A"", ""style"": ""POEM_A"", ""form"": ""POEM_A"", ""emotion"": ""POEM_A"", ""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		dummy	default
+2	l00180091	l0080549	l00140066	l0080549l00180091l00140066	"Let me analyze the poems systematically:
+
+Content: Both POEM_MAIN and POEM_A have a lyrical, reflective tone about emotional connection and memory. POEM_B is more abstract and melancholic. More alignment with POEM_A.
+
+Style: POEM_MAIN and POEM_A use similar poetic language and structure, with more narrative flow. POEM_B has a more fragmented, sparse style. More alignment with POEM_A.
+
+Form: POEM_MAIN is a sonnet with structured rhyme. POEM_A has a similar structured rhyme scheme. POEM_B has a different, less structured form. More alignment with POEM_A.
+
+Emotion: POEM_MAIN and POEM_A express a sense of tender remembrance and connection. POEM_B feels more distant and melancholic. More alignment with POEM_A.
+
+Overall: Considering all factors, POEM_MAIN is significantly more similar to POEM_A.
+
+ANSWER:
+{""content"": ""POEM_A"",
+""style"": ""POEM_A"",
+""form"": ""POEM_A"",
+""emotion"": ""POEM_A"",
+""overall"": ""POEM_A""}"	"['Let me analyze the poems systematically:\n\nContent: Both POEM_MAIN and POEM_A have a lyrical, reflective tone about emotional connection and memory. POEM_B is more abstract and melancholic. More alignment with POEM_A.\n\nStyle: POEM_MAIN and POEM_A use similar poetic language and structure, with more narrative flow. POEM_B has a more fragmented, sparse style. More alignment with POEM_A.\n\nForm: POEM_MAIN is a sonnet with structured rhyme. POEM_A has a similar structured rhyme scheme. POEM_B has a different, less structured form. More alignment with POEM_A.\n\nEmotion: POEM_MAIN and POEM_A express a sense of tender remembrance and connection. POEM_B feels more distant and melancholic. More alignment with POEM_A.\n\nOverall: Considering all factors, POEM_MAIN is significantly more similar to POEM_A.\n\nANSWER:\n{""content"": ""POEM_A"",\n""style"": ""POEM_A"",\n""form"": ""POEM_A"",\n""emotion"": ""POEM_A"",\n""overall"": ""POEM_A""}']"	prompts/eng_base_multi_binary.txt	claude-3-5-haiku-20241022		dummy	default
