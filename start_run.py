@@ -101,8 +101,9 @@ def promptANTHROPIC(coreprompt, sysprompt, model):
     
 parser = argparse.ArgumentParser(description="Takes a dataset, a prompt form prompts/, a modelname, runs the experiment and stores results")
 
-parser.add_argument('-d', '--dataset', type=str, default="testset", choices=["testset","full","dummy"], help="""Dataset. Choose one of testset/full/dummy
-                                                                            testset: 100 Triples
+parser.add_argument('-d', '--dataset', type=str, default="testset", choices=["testset","konsens","full","dummy"], help="""Dataset. Choose one of testset/full/dummy
+                                                                            testset: 100 triples
+                                                                            konsens: 90 high quality triples
                                                                             full: complete dataset
                                                                             dummy: three triples (for code testing)""")
 
@@ -150,6 +151,9 @@ if dataset == "dummy":
     
 if dataset == "testset":
     data = pd.read_csv("testset.tsv", sep="\t")
+    
+if dataset == "konsens":
+    data = pd.read_csv("konsens_dataset.tsv", sep="\t")
     
 if dataset == "full":
     data = pd.read_csv("full_dataset.tsv", sep="\t")
