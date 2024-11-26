@@ -1,7 +1,6 @@
 import argparse
 import os
 import sys
-import openai
 import pandas as pd
 
 from pathlib import Path
@@ -12,7 +11,7 @@ load_dotenv()
 ## globals
 
 openai_models = ['gpt-4o', 'gpt-4o-mini', 'o1-preview']
-
+anthropic_models = ['claude-3-5-sonnet-20241022', 'claude-3-5-haiku-20241022', 'claude-3-opus-20240229']
 
 ## parse agruments
 
@@ -68,6 +67,38 @@ def promptOPENAI(coreprompt, sysprompt, model):
     
     return answer
         
+    
+def promptANTHROPIC(coreprompt, sysprompt, model):
+    
+    
+    if sysprompt == "default":
+        
+        message = client.messages.create(
+                            model=model,
+                            max_tokens=1024,
+                            messages=[
+                                {"role": "user", "content": coreprompt}
+                            ]
+                        )
+        
+        answer = message.content[0].text
+            
+    else:
+        
+        message = client.messages.create(
+                            model=model,
+                            max_tokens=1024,
+                            messages=[
+                                {"role": "system", "content": sysprompt},
+                                {"role": "user", "content": coreprompt}
+                            ]
+                        )
+
+
+        answer = message.content[0].text
+    
+    return answer
+    
 parser = argparse.ArgumentParser(description="Takes a dataset, a prompt form prompts/, a modelname, runs the experiment and stores results")
 
 parser.add_argument('-d', '--dataset', type=str, default="testset", choices=["testset","full","dummy"], help="""Dataset. Choose one of testset/full/dummy
@@ -75,7 +106,7 @@ parser.add_argument('-d', '--dataset', type=str, default="testset", choices=["te
                                                                             full: complete dataset
                                                                             dummy: three triples (for code testing)""")
 
-parser.add_argument('-m', '--model', type=str, choices=['gpt-4o', 'gpt-4o-mini', 'o1-preview','CohereForAI/aya-expanse-32b','VAGOsolutions/Llama-3-SauerkrautLM-70b-Instruct','meta-llama/Llama-3.1-70B-Instruct'], help="Name of LLM model")
+parser.add_argument('-m', '--model', type=str, choices=['gpt-4o', 'gpt-4o-mini', 'o1-preview','CohereForAI/aya-expanse-32b','VAGOsolutions/Llama-3-SauerkrautLM-70b-Instruct','meta-llama/Llama-3.1-70B-Instruct','claude-3-5-sonnet-20241022', 'claude-3-5-haiku-20241022', 'claude-3-opus-20240229'], help="Name of LLM model")
 
 parser.add_argument('-p', '--promptfile', type=str, help='location of the prompt.txt')
 
@@ -127,9 +158,20 @@ if dataset == "full":
 
 if model in openai_models:
     
+    import openai
+    
     openai_key = os.getenv("OPENAI_KEY")
     client = openai.OpenAI(api_key=openai_key)
     
+### login to anthropic
+
+if model in anthropic_models:
+    
+    import anthropic
+    
+    anthropic_key = os.getenv("ANTHROPIC_KEY")
+    client = anthropic.Anthropic(api_key=anthropic_key)
+
 ### execute prompting
 
 result = []
@@ -155,6 +197,10 @@ for index, row in data.iterrows():
 
             
             answer = promptOPENAI(coreprompt, sysprompt, model)
+            
+        if model in anthropic_models:
+            
+            answer = promptANTHROPIC(coreprompt, sysprompt, model)
             
         repfields["{ANSWER_"+str(i)+"}"] = answer
         answer_logger.append(answer)
