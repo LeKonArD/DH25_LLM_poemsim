@@ -8,6 +8,12 @@ ANTHROPIC_KEY=InsertYourKeyHere <br>
 python >= 3.12 <br>
 openai==1.54.5 <br>
 pandas==2.2.2 <br>
+python-dotenv==1.0.1 <br>
+anthropic==0.39.0 <br>
+numpy==1.26.4 <br>
+scikit-learn==1.5.0 <br>
+scipy==1.13.1 <br>
+
 ## Usage
 
 The script start_run.py takes a datasets and and a prompt scheme from prompts/ formats
