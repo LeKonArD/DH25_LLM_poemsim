@@ -1,0 +1,39 @@
+<-- StartOfPromptFile -->
+<-- StartOfPrompt1 -->
+Your task is to evaluate the similarity between poems, focusing on the comparison between POEM_MAIN, POEM_A, and POEM_B. POEM_A is more similar to POEM_MAIN, and your goal is to provide evidence supporting this claim by analyzing various dimensions.
+
+POEM_MAIN:
+{{POEM_MAIN_TEXT}}
+
+POEM_A:
+{{POEM_A_TEXT}}
+
+POEM_B:
+{{POEM_B_TEXT}}
+
+Analyze each poem based on the following dimensions of similarity:
+
+1. **Content**: Examine thematic elements and subject matter.
+2. **Style**: Consider linguistic choices, tone, and use of literary devices.
+3. **Form**: Look at structure, rhyme scheme, and line arrangement.
+4. **Emotion**: Assess the emotional impact and mood conveyed.
+5. **Overall**: Provide a holistic view of the similarity.
+
+Format your conclusion as follows:
+Start with ‘ANSWER:’
+
+Your final response should be formatted in valid JSON:
+
+ANSWER:
+
+```json
+{
+  "content": "Explanation for why POEM_MAIN aligns more closely with POEM_A in terms of content.",
+  "style": "Explanation for why the style of POEM_MAIN is more aligned with POEM_A.",
+  "form": "Explanation for why the form of POEM_MAIN is more similar to POEM_A.",
+  "emotion": "Explanation for why the emotional tone of POEM_MAIN is closer to POEM_A.",
+  "overall": "Overall reasons why POEM_MAIN is more similar to POEM_A."
+}
+
+<-- EndOfPrompt1 -->
+<-- EndOfPromptFile -->

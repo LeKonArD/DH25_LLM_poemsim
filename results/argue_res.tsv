@@ -1,0 +1,901 @@
+	triple_ID	answer
+0	l00140119l00180079l00130204	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+1	l0010038l00140105l0060057	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""TIE"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""TIE""
+}
+```"
+2	l0010132l0020093l0090065	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+3	l0040304l0030127l0040520	"```json
+{
+  ""content"": ""POEM_B"",
+  ""style"": ""POEM_A"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_B""
+}
+```"
+4	l00180047l0010076l00160117	"```json
+{
+  ""content"": ""TIE"",
+  ""style"": ""POEM_A"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""TIE""
+}
+```"
+5	l00190039l00180017l0080377	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+6	l00170003l0080344l00100009	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+7	l0010012l0080549l0030174	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+8	l00160152l0080026l0080077	"```json
+{
+  ""content"": ""POEM_B"",
+  ""style"": ""POEM_B"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_B"",
+  ""overall"": ""POEM_B""
+}
+```"
+9	l00130210l0040336l00200340	"```json
+{
+  ""content"": ""POEM_B"",
+  ""style"": ""POEM_B"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_B"",
+  ""overall"": ""POEM_B""
+}
+```"
+10	l0050031l00130354l00160112	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_B"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""TIE""
+}
+```"
+11	l0040509l00130122l0030243	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+12	l0090084l00160119l0030052	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+13	l0060056l0030420l00170194	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+14	l00160112l0030305l00170003	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+15	l0030184l00180035l00180166	"```json
+{
+  ""content"": ""TIE"",
+  ""style"": ""TIE"",
+  ""form"": ""TIE"",
+  ""emotion"": ""TIE"",
+  ""overall"": ""TIE""
+}
+```"
+16	l0040505l0080132l00130457	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""TIE"",
+  ""form"": ""POEM_B"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+17	l0080132l00200278l0020167	"```json
+{
+  ""content"": ""POEM_B"",
+  ""style"": ""POEM_B"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_B"",
+  ""overall"": ""POEM_B""
+}
+```"
+18	l00130059l00130383l00200186	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_B"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""TIE"",
+  ""overall"": ""TIE""
+}
+```"
+19	l00130378l0010218l0080311	"```json
+{
+  ""content"": ""POEM_B"",
+  ""style"": ""TIE"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_B"",
+  ""overall"": ""POEM_B""
+}
+```"
+20	l00130102l00200088l0080046	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+21	l00130138l0040509l00130070	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""TIE"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+22	l0080026l00100088l0050040	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""TIE"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+23	l00140024l00130210l00140150	"```json
+{
+  ""content"": ""TIE"",
+  ""style"": ""TIE"",
+  ""form"": ""POEM_B"",
+  ""emotion"": ""POEM_B"",
+  ""overall"": ""TIE""
+}
+```"
+24	l0010154l0080055l0090086	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""TIE"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+25	l0050064l0010193l0030243	"```json
+{
+  ""content"": ""POEM_B"",
+  ""style"": ""POEM_B"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_B"",
+  ""overall"": ""POEM_B""
+}
+```"
+26	l00100009l0080503l0040505	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+27	l00180069l00130138l0040554	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+28	l0010193l00160041l00160172	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""TIE"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+29	l0060062l00170019l0080412	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+30	l00180047l0030218l00130204	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_B"",
+  ""form"": ""POEM_B"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""TIE""
+}
+```"
+31	l00170225l0010056l0010184	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""TIE"",
+  ""form"": ""POEM_B"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""TIE""
+}
+```"
+32	l0090085l0020119l00200112	"```json
+{
+  ""content"": ""POEM_B"",
+  ""style"": ""TIE"",
+  ""form"": ""POEM_B"",
+  ""emotion"": ""POEM_B"",
+  ""overall"": ""POEM_B""
+}
+```"
+33	l0080549l00180091l00140066	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""TIE"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+34	l00200253l00180136l0050040	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+35	l00200026l0010172l00130042	"```json
+{
+  ""content"": ""TIE"",
+  ""style"": ""POEM_B"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_B"",
+  ""overall"": ""TIE""
+}
+```"
+36	l0030167l0080132l0080493	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+37	l00130354l00130111l00200301	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_B"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""TIE""
+}
+```"
+38	l0080497l0010300l0080333	"```json
+{
+  ""content"": ""POEM_B"",
+  ""style"": ""POEM_B"",
+  ""form"": ""POEM_B"",
+  ""emotion"": ""POEM_B"",
+  ""overall"": ""POEM_B""
+}
+```"
+39	l0030373l0010038l00140105	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+40	l00160262l00180166l0060019	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""TIE"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""TIE""
+}
+```"
+41	l00180168l0010154l00200278	"```json
+{
+  ""content"": ""POEM_B"",
+  ""style"": ""POEM_B"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_B"",
+  ""overall"": ""POEM_B""
+}
+```"
+42	l0040554l00130138l0030431	"```json
+{
+  ""content"": ""TIE"",
+  ""style"": ""POEM_B"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""TIE"",
+  ""overall"": ""TIE""
+}
+```"
+43	l0090086l00130210l00140150	"```json
+{
+  ""content"": ""POEM_B"",
+  ""style"": ""POEM_B"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_B"",
+  ""overall"": ""POEM_B""
+}
+```"
+44	l00200179l0080412l00130138	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_B"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""TIE""
+}
+```"
+45	l0080311l00190023l00170195	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""TIE"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_B"",
+  ""overall"": ""TIE""
+}
+```"
+46	l00180062l0020161l00160041	"```json
+{
+  ""content"": ""TIE"",
+  ""style"": ""POEM_B"",
+  ""form"": ""TIE"",
+  ""emotion"": ""TIE"",
+  ""overall"": ""TIE""
+}
+```"
+47	l0080129l0030084l00200184	"```json
+{
+  ""content"": ""TIE"",
+  ""style"": ""TIE"",
+  ""form"": ""POEM_B"",
+  ""emotion"": ""TIE"",
+  ""overall"": ""TIE""
+}
+```"
+48	l00130182l00130257l0080543	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""TIE"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""TIE""
+}
+```"
+49	l00170003l00200088l0080361	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_B"",
+  ""form"": ""POEM_B"",
+  ""emotion"": ""POEM_B"",
+  ""overall"": ""POEM_B""
+}
+```"
+50	l0080554l0090086l0060046	"```json
+{
+  ""content"": ""POEM_B"",
+  ""style"": ""TIE"",
+  ""form"": ""TIE"",
+  ""emotion"": ""TIE"",
+  ""overall"": ""TIE""
+}
+```"
+51	l00170061l00170200l0080134	"```json
+{
+  ""content"": ""POEM_B"",
+  ""style"": ""POEM_B"",
+  ""form"": ""POEM_B"",
+  ""emotion"": ""POEM_B"",
+  ""overall"": ""POEM_B""
+}
+```"
+52	l00140078l00140084l00190035	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+53	l00140124l0030183l00130451	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_B"",
+  ""form"": ""POEM_B"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""TIE""
+}
+```"
+54	l0030323l0010018l0050016	"```json
+{
+  ""content"": ""TIE"",
+  ""style"": ""POEM_A"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""TIE""
+}
+```"
+55	l00170112l0080044l0080333	"```json
+{
+  ""content"": ""TIE"",
+  ""style"": ""TIE"",
+  ""form"": ""TIE"",
+  ""emotion"": ""TIE"",
+  ""overall"": ""TIE""
+}
+```"
+56	l0010154l00170161l00130457	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+57	l0020147l0080132l00130383	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_B"",
+  ""form"": ""POEM_B"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""TIE""
+}
+```"
+58	l0010261l00140078l00160211	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_B"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""TIE""
+}
+```"
+59	l0040336l0080361l0010239	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+60	l00200135l00180060l0080412	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+61	l0060056l0080026l00180026	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_B"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""TIE""
+}
+```"
+62	l0010012l0080616l0080361	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""TIE"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+63	l0060082l00140029l0040554	"```json
+{
+  ""content"": ""TIE"",
+  ""style"": ""POEM_B"",
+  ""form"": ""TIE"",
+  ""emotion"": ""TIE"",
+  ""overall"": ""POEM_B""
+}
+```"
+64	l00130210l00140150l0080587	"```json
+{
+  ""content"": ""POEM_B"",
+  ""style"": ""POEM_B"",
+  ""form"": ""POEM_B"",
+  ""emotion"": ""POEM_B"",
+  ""overall"": ""POEM_B""
+}
+```"
+65	l0030433l0030218l00200188	"```json
+{
+  ""content"": ""POEM_B"",
+  ""style"": ""POEM_B"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_B"",
+  ""overall"": ""TIE""
+}
+```"
+66	l0030066l0080165l00160262	"```json
+{
+  ""content"": ""TIE"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_B"",
+  ""emotion"": ""POEM_B"",
+  ""overall"": ""TIE""
+}
+```"
+67	l00200088l00130102l00200135	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""TIE"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+68	l00170125l0030115l00100088	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+69	l00130138l0040554l0080055	"```json
+{
+  ""content"": ""POEM_B"",
+  ""style"": ""POEM_B"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_B"",
+  ""overall"": ""POEM_B""
+}
+```"
+70	l00130398l00130359l0080305	"```json
+{
+  ""content"": ""POEM_B"",
+  ""style"": ""POEM_B"",
+  ""form"": ""POEM_B"",
+  ""emotion"": ""POEM_B"",
+  ""overall"": ""POEM_B""
+}
+```"
+71	l00160172l0020147l0030065	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_B"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+72	l00140198l00130384l0030174	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+73	l00160004l0060057l00140103	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+74	l0010132l00200021l0040216	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_B"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""TIE""
+}
+```"
+75	l0030031l0040217l0090083	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}  
+```"
+76	l00140150l00130210l0010202	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_B"",
+  ""form"": ""POEM_B"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""TIE""
+}
+```"
+77	l0010079l0010125l00200301	"```json
+{
+  ""content"": ""POEM_B"",
+  ""style"": ""POEM_B"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_B"",
+  ""overall"": ""POEM_B""
+}
+```"
+78	l00200176l0030323l00140156	"```json
+{
+  ""content"": ""POEM_B"",
+  ""style"": ""TIE"",
+  ""form"": ""TIE"",
+  ""emotion"": ""TIE"",
+  ""overall"": ""TIE""
+}
+```"
+79	l0060068l0080369l00180012	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+80	l0030305l0060082l0040053	"```json
+{
+  ""content"": ""POEM_B"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""TIE"",
+  ""overall"": ""TIE""
+}
+```"
+81	l0010238l0030433l0020039	"```json
+{
+  ""content"": ""TIE"",
+  ""style"": ""POEM_B"",
+  ""form"": ""POEM_B"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""TIE""
+}
+```"
+82	l0020047l00160262l0030112	"```json
+{
+  ""content"": ""POEM_B"",
+  ""style"": ""POEM_B"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_B"",
+  ""overall"": ""POEM_B""
+}
+```"
+83	l00130162l00100111l00130138	"```json
+{
+  ""content"": ""POEM_B"",
+  ""style"": ""POEM_B"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_B""
+}
+```"
+84	l0010238l0040336l00170058	"```json
+{
+  ""content"": ""POEM_B"",
+  ""style"": ""POEM_B"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_B"",
+  ""overall"": ""POEM_B""
+}
+```"
+85	l0010042l00180051l0060062	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""TIE"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""TIE""
+}
+```"
+86	l0080448l0040524l00110081	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+87	l00200254l00130210l00140150	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_B"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""TIE""
+}
+```"
+88	l0080493l00200002l00180143	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+89	l00170058l0010239l0080356	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""POEM_B"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""TIE""
+}
+```"
+90	l0080377l00200202l0080208	"```json
+{
+  ""content"": ""POEM_B"",
+  ""style"": ""POEM_B"",
+  ""form"": ""POEM_B"",
+  ""emotion"": ""TIE"",
+  ""overall"": ""TIE""
+}
+```"
+91	l00130407l0040216l00140029	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+92	l00130451l00160211l00190039	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""TIE"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_B"",
+  ""overall"": ""TIE""
+}
+```"
+93	l00200340l00100106l00140177	"```json
+{
+  ""content"": ""POEM_B"",
+  ""style"": ""POEM_B"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_B"",
+  ""overall"": ""POEM_B""
+}
+```"
+94	l0010217l0010170l00200135	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_B"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""TIE""
+}
+```"
+95	l00140156l00140028l00130138	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_A"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""POEM_A""
+}
+```"
+96	l0080553l00160192l00160300	"```json
+{
+  ""content"": ""TIE"",
+  ""style"": ""POEM_B"",
+  ""form"": ""TIE"",
+  ""emotion"": ""TIE"",
+  ""overall"": ""TIE""
+}
+```"
+97	l00200179l0080578l0070146	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""POEM_B"",
+  ""form"": ""TIE"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""TIE""
+}
+```"
+98	l0050031l0010076l0010186	"```json
+{
+  ""content"": ""POEM_A"",
+  ""style"": ""TIE"",
+  ""form"": ""POEM_B"",
+  ""emotion"": ""POEM_A"",
+  ""overall"": ""TIE""
+}
+```"
+99	l00130354l0010082l0030174	"```json
+{
+  ""content"": ""POEM_B"",
+  ""style"": ""TIE"",
+  ""form"": ""POEM_A"",
+  ""emotion"": ""POEM_B"",
+  ""overall"": ""TIE""
+}
+```"
