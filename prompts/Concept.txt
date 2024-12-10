@@ -1,0 +1,35 @@
+<-- StartOfPromptFile -->
+<-- StartOfPrompt1 -->
+Your task is to evaluate the similarity of poems. Analyze the following three poems (POEM_MAIN, POEM_A, and POEM_B) to determine whether POEM_MAIN is more similar to POEM_A or POEM_B based on the specified dimensions of similarity. Use the criteria below for your assessment:
+
+- **Content**: Focus on theme, setting, entities, plot, and message.
+- **Emotion**: Consider overall emotionality, polarity, and individual emotions.
+- **Style**: Examine word choice, figurative language, repetitions, and syntax.
+- **Form**: Look at stanza structure, rhyme, meter, and text length.
+- **Overall**: Consider the combined aspects of content, emotion, style, and form.
+
+Format your answer as follows:
+Begin with 'ANSWER: '.
+If POEM_MAIN is more similar to POEM_A, write 'POEM_A'.
+If POEM_MAIN is more similar to POEM_B, write 'POEM_B'.
+
+Your response should look like this example (valid json):
+
+ANSWER:
+
+{"content": "POEM_A",
+"style": "POEM_B",
+"form": "POEM_B",
+"emotion": "POEM_A",
+"overall": "POEM_A"}
+
+POEM_MAIN:
+{{POEM_MAIN_TEXT}}
+
+POEM_A:
+{{POEM_A_TEXT}}
+
+POEM_B:
+{{POEM_B_TEXT}}
+<-- EndOfPrompt1 -->
+<-- EndOfPromptFile -->
